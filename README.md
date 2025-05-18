@@ -60,7 +60,7 @@ This project uses **VitePress** to generate a static site from Markdown files.
 | `docs/.vitepress/config.js` | Navigation, sidebar, title, etc.                 |
 | `docs/.vitepress/theme/`    | Custom Vue theme and components                  |
 | `docs/public/`              | Static assets (images, JSON, etc.)               |
-| `scripts/`                  | Any helper or data scraping scripts              |
+| `scripts/`                  | Helper scripts                                   |
 | `package.json`              | Project dependencies and commands                |
 
 ---
