@@ -79,7 +79,7 @@ This project uses **VitePress** to generate a static site from Markdown files.
 pnpm install
 
 # Start local dev server
-pnpm run docs:dev
+pnpm dev
 ```
 
 Then visit [http://localhost:5173](http://localhost:5173) in your browser.
