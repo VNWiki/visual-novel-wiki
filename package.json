@@ -28,7 +28,13 @@
       "ignoreMissing": [
         "@algolia/client-search"
       ]
-    }
+    },
+    "overrides": {
+      "esbuild": ">=0.25.0"
+    },
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   },
   "dependencies": {
     "@primevue/core": "^4.3.4",
