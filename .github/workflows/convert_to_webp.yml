@@ -1,0 +1,44 @@
+name: Convert images to WebP
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/public/img/**'
+  pull_request:
+    paths:
+      - 'docs/public/img/**'
+
+jobs:
+  convert-to-webp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install WebP tools
+        run: |
+          sudo apt-get update --no-install-recommends
+          sudo apt-get install -y webp
+
+      - name: Convert PNG/JPG/JPEG to WebP
+        run: |
+          find docs/public/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0 | while IFS= read -r -d '' img; do
+            webp_img="${img%.*}.webp"
+            # Skip if WebP version already exists
+            if [ ! -f "$webp_img" ]; then
+              echo "Converting $img to WebP"
+              cwebp -q 80 "$img" -o "$webp_img"
+            else
+              echo "Skipping $img, WebP version already exists"
+            fi
+          done
+
+      - name: Commit and push converted WebP images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/public/img/*.webp
+          git diff --cached --quiet || (git commit -m "chore: convert images to WebP [skip ci]" && git push)
