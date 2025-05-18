@@ -241,6 +241,8 @@ onMounted(async () => {
     :value="items"
     :filters="filters"
     :globalFilterFields="columns.map(c => c.field)"
+    :scrollable="true"
+    :scrollHeight="'700px'"
     :paginator="true"
     :first="first"
     :sortField="sortField"
