@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'docs/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      - 'scripts/gen-sidebar.mjs'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 permissions:
