@@ -91,7 +91,13 @@ function highlightNotes(noteReference) {
 
 </script>
 
-<DataTable jsonPath="vn_bottles_list.json" :columns="vnBottlesColumns" :onHighlight="highlightNotes"/>
+<DataTable 
+  jsonPath="vn_bottles_list.json" 
+  :columns="vnBottlesColumns" 
+  :onHighlight="highlightNotes"
+  sortField="game"
+  :sortOrder="1"
+/>
 
 ## Tweaks
 
