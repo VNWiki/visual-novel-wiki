@@ -29,9 +29,11 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+        working-directory: docs
 
       - name: Build VitePress site
         run: pnpm build
+        working-directory: docs
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

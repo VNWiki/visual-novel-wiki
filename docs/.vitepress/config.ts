@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
   lang: 'en-US', // Optional: Set the language
+  base: '/visual-novel-wiki/',
   title: "Visual Novel Wiki",
   description: "Get your Visual Novels running!",
   head: [
