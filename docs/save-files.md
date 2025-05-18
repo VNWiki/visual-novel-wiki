@@ -29,11 +29,11 @@ To use the website:
 4. Search using the **first letter** of the visual novel’s Japanese name.
 
 
-![sagaoz preview](/img/save_files/sagaoz_1.png)
+![sagaoz preview](/img/save_files/sagaoz_1.webp)
 
 5. After clicking the correct first character link, you'll see a list of game files. Search for your visual novel, then click on the link to download the save.
 
-![sagaoz save files](/img/save_files/sagaoz_2.png)
+![sagaoz save files](/img/save_files/sagaoz_2.webp)
 
 Most visual novels have a dedicated save folder. Usually drag and drop / replace files.
 
