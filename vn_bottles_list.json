@@ -1,0 +1,578 @@
+[
+  {
+    "Game": "Taimanin Asagi ZERO",
+    "Game Link": "https://vndb.org/r61125",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Flowers -Le volume sur printemps-",
+    "Game Link": null,
+    "State": "⚠️",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 2 and note 1"
+  },
+  {
+    "Game": "Choukou Tenshi Escalayer",
+    "Game Link": "https://vndb.org/r58562",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Game": "Sharin no Kuni",
+    "Game Link": "https://vndb.org/r2263",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3, 4"
+  },
+  {
+    "Game": "Taimanin Asagi 3",
+    "Game Link": "https://vndb.org/r45821",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 4, 5 and workaround 6"
+  },
+  {
+    "Game": "Yotsunoha",
+    "Game Link": "https://vndb.org/r56441",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "School Days",
+    "Game Link": "https://vndb.org/r21174",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 6"
+  },
+  {
+    "Game": "World End Economica Episode 1",
+    "Game Link": "https://vndb.org/r55944",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "World End Economica Episode 2",
+    "Game Link": "https://vndb.org/r55945",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "World End Economica Episode 3",
+    "Game Link": "https://vndb.org/r55946",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "Fate/Stay Night [Realta Nua]",
+    "Game Link": "https://vndb.org/r34896",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 4, 5"
+  },
+  {
+    "Game": "Coμ",
+    "Game Link": "https://vndb.org/r24672",
+    "State": "✅",
+    "Configuration": "lavfilters-j-32",
+    "Configuration Link": "./bottles-configurations/lavfilters-j-32",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 4, 5"
+  },
+  {
+    "Game": "Hanachirasu",
+    "Game Link": "https://vndb.org/r15330",
+    "State": "✅",
+    "Configuration": "lavfilters-quartz-l",
+    "Configuration Link": "./bottles-configurations/lavfilters-quartz-l",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 5, 24 and workaround 21"
+  },
+  {
+    "Game": "Mahoutsukai no Yoru",
+    "Game Link": "https://vndb.org/r43395",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 4"
+  },
+  {
+    "Game": "ef - a fairy tale of the two",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "Baldr Sky",
+    "Game Link": "https://vndb.org/r46946",
+    "State": "✅",
+    "Configuration": "lavfilters-micro-gdi",
+    "Configuration Link": "./bottles-configurations/lavfilters-micro-gdi",
+    "Runner": "Wine 5.5",
+    "Notes": "Tweak 2 or workaround 4"
+  },
+  {
+    "Game": "Ourai no Gahkthun",
+    "Game Link": "https://vndb.org/r34979",
+    "State": "⚠️",
+    "Configuration": "vanilla",
+    "Configuration Link": "./bottles-configurations/vanilla",
+    "Runner": "Caffe 7.7",
+    "Notes": "Note 1"
+  },
+  {
+    "Game": "Starless",
+    "Game Link": "https://vndb.org/r37542",
+    "State": "✅",
+    "Configuration": "lavfilters-new",
+    "Configuration Link": "./bottles-configurations/lavfilters-new",
+    "Runner": "Wine 8.15",
+    "Notes": "Tweak 3, 4, 13 or workaround 14"
+  },
+  {
+    "Game": "Tomoyo After",
+    "Game Link": "https://vndb.org/r1476",
+    "State": "✅",
+    "Configuration": "lavfilters-j-t",
+    "Configuration Link": "./bottles-configurations/lavfilters-j-t",
+    "Runner": "Wine 8.15",
+    "Notes": "Tweak 1, 10 and workaround 18"
+  },
+  {
+    "Game": "Subarashiki Hibi",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Game": "Koutetsu no Majo Annerose",
+    "Game Link": "https://vndb.org/r67010",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 4, 5"
+  },
+  {
+    "Game": "Shuffle",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Game": "Planetarian",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Kara no Shoujo",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 4, 5"
+  },
+  {
+    "Game": "G-senjou no Maou",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "Taimanin Asagi",
+    "Game Link": "https://vndb.org/r64644",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 4, 5"
+  },
+  {
+    "Game": "Dra+koi",
+    "Game Link": "https://vndb.org/r5127",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Ever17",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3"
+  },
+  {
+    "Game": "DISCIPLINE -The record of a Crusade-",
+    "Game Link": "https://vndb.org/r96",
+    "State": "⚠️",
+    "Configuration": "directmusic",
+    "Configuration Link": "./bottles-configurations/directmusic",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3, 11, 12 and workaround 3"
+  },
+  {
+    "Game": "Bible Black -La noche de walpurgis-",
+    "Game Link": "https://vndb.org/r183",
+    "State": "⚠️",
+    "Configuration": "directmusic",
+    "Configuration Link": "./bottles-configurations/directmusic",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3, 11, 12 and workaround 3"
+  },
+  {
+    "Game": "Cartagra ~Tsuki Kurui no Yamai~",
+    "Game Link": "https://vndb.org/r1518",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Game": "Sengoku Rance",
+    "Game Link": null,
+    "State": "⚠️",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3 and note 1"
+  },
+  {
+    "Game": "Rewrite",
+    "Game Link": "https://vndb.org/r46419",
+    "State": "⚠️",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1 and note 1"
+  },
+  {
+    "Game": "Saya no Uta",
+    "Game Link": "https://vndb.org/r26763",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Game": "Saya no Uta",
+    "Game Link": "https://vndb.org/r65398",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 26"
+  },
+  {
+    "Game": "Higanbana no Saku Yoru ni - Dai Ichi Ya",
+    "Game Link": "https://vndb.org/r15597",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Higanbana no Saku Yoru ni - Dai Ni Ya",
+    "Game Link": "https://vndb.org/r21291",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Tenioha! ~Onna no Ko Datte Honto wa Ecchi da yo?~",
+    "Game Link": "https://vndb.org/r54685",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 5"
+  },
+  {
+    "Game": "BUNNYBLACK",
+    "Game Link": "https://vndb.org/r38810",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Sono Hanabira ni Kuchizuke o",
+    "Game Link": "https://vndb.org/r1844",
+    "State": "✅",
+    "Configuration": "vanilla",
+    "Configuration Link": "./bottles-configurations/vanilla",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3 and workaround 5"
+  },
+  {
+    "Game": "Sono Hanabira ni Kuchizuke o: Watashi no Ouji-sama",
+    "Game Link": "https://vndb.org/r11737",
+    "State": "✅",
+    "Configuration": "vanilla",
+    "Configuration Link": "./bottles-configurations/vanilla",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3 and workaround 5"
+  },
+  {
+    "Game": "Little Busters",
+    "Game Link": null,
+    "State": "✅",
+    "Configuration": "lavfilters-j-new",
+    "Configuration Link": "./bottles-configurations/lavfilters-j-new",
+    "Runner": "Wine 8.15",
+    "Notes": "Tweak 1, 3, 10 or workaround 14"
+  },
+  {
+    "Game": "Clannad",
+    "Game Link": "https://vndb.org/r430",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1 and note 1"
+  },
+  {
+    "Game": "Fata Morgana no Yakata",
+    "Game Link": "https://vndb.org/r74566",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 5"
+  },
+  {
+    "Game": "Deus Machina Demonbane",
+    "Game Link": "https://vndb.org/r12976",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Game": "Imouto Paradise!",
+    "Game Link": "https://vndb.org/r25016",
+    "State": "⚠️",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3, 10, 15"
+  },
+  {
+    "Game": "Imouto Paradise! 2",
+    "Game Link": "https://vndb.org/r45596",
+    "State": "⚠️",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3, 10, 15"
+  },
+  {
+    "Game": "Imouto Paradise! 3",
+    "Game Link": "https://vndb.org/r63781",
+    "State": "⚠️",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3, 10, 15 and note 3"
+  },
+  {
+    "Game": "eden* They were only two, on the planet.",
+    "Game Link": "https://vndb.org/r35710",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "Baldr Force",
+    "Game Link": "https://vndb.org/r59591",
+    "State": "⚠️",
+    "Configuration": "lavfilters-quartz-p",
+    "Configuration Link": "./bottles-configurations/lavfilters-quartz-p",
+    "Runner": "Wine 10.0",
+    "Notes": "Tweak 1, 3, 13, 16, 17, 25, 28 and note 2"
+  },
+  {
+    "Game": "Higurashi no Naku Koro ni Hou - Onikakushi Hen",
+    "Game Link": "https://vndb.org/r62475",
+    "State": "✅",
+    "Configuration": "lavfilters-vcredist",
+    "Configuration Link": "./bottles-configurations/lavfilters-vcredist",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Dies irae ~Acta est Fabula~",
+    "Game Link": "https://vndb.org/r50485",
+    "State": "✅",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3, 5"
+  },
+  {
+    "Game": "Grisaia no Kajitsu",
+    "Game Link": null,
+    "State": "⚠️",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 8, 14, 15 and note 1"
+  },
+  {
+    "Game": "Shabura Rental",
+    "Game Link": "https://vndb.org/r103346",
+    "State": "✅",
+    "Configuration": "lavfilters-lite-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 15, 27 and workaround 20"
+  },
+  {
+    "Game": "Duel Savior",
+    "Game Link": "https://vndb.org/r23026",
+    "State": "✅",
+    "Configuration": "lavfilters-quartz-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-quartz-j",
+    "Runner": "Wine 5.5",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Cosmos no Sora ni",
+    "Game Link": "https://vndb.org/r116459",
+    "State": "✅",
+    "Configuration": "vanilla",
+    "Configuration Link": "./bottles-configurations/vanilla",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 3, 17 and workaround 7"
+  },
+  {
+    "Game": "Kanon",
+    "Game Link": "https://vndb.org/r86553",
+    "State": "✅",
+    "Configuration": "lavfilters-j",
+    "Configuration Link": "./bottles-configurations/lavfilters-j",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Maitetsu",
+    "Game Link": "https://vndb.org/r45598",
+    "State": "✅",
+    "Configuration": "lavfilters",
+    "Configuration Link": "./bottles-configurations/lavfilters",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1"
+  },
+  {
+    "Game": "Kana ~Imouto~",
+    "Game Link": "https://vndb.org/r37526",
+    "State": "⚠️",
+    "Configuration": "lavfilters-xlite",
+    "Configuration Link": "./bottles-configurations/lavfilters-xlite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "Kana ~Imouto~",
+    "Game Link": "https://vndb.org/r34990",
+    "State": "⚠️",
+    "Configuration": "lavfilters-xlite",
+    "Configuration Link": "./bottles-configurations/lavfilters-xlite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 3"
+  },
+  {
+    "Game": "Rance VI - Zeth Houkai -",
+    "Game Link": "https://vndb.org/r47520",
+    "State": "⚠️",
+    "Configuration": "lavfilters-lite",
+    "Configuration Link": "./bottles-configurations/lavfilters-lite",
+    "Runner": "Caffe 7.7",
+    "Notes": "Workaround 13 and note 1"
+  },
+  {
+    "Game": "ONE ~Kagayaku Kisetsu e~",
+    "Game Link": "https://vndb.org/r133",
+    "State": "✅",
+    "Configuration": "vanilla",
+    "Configuration Link": "./bottles-configurations/vanilla",
+    "Runner": "Caffe 7.7",
+    "Notes": "Tweak 1, 17"
+  },
+  {
+    "Game": "AIR",
+    "Game Link": "https://vndb.org/r28238",
+    "State": "✅",
+    "Configuration": "vanilla-new",
+    "Configuration Link": "./bottles-configurations/vanilla-new",
+    "Runner": "Wine 10.0",
+    "Notes": "Tweak 1, 17 and workaround 15, 16, 17, 18"
+  },
+  {
+    "Game": "I/O",
+    "Game Link": "https://vndb.org/r22481",
+    "State": "✅",
+    "Configuration": "quartz-lite-j",
+    "Configuration Link": "./bottles-configurations/quartz-lite-j",
+    "Runner": "Wine 10.0",
+    "Notes": "Tweak 1, 17, 28 or 29 and workaround 19"
+  }
+]
