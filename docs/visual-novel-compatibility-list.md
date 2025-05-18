@@ -89,7 +89,7 @@ function highlightNotes(noteReference) {
 
 </script>
 
-<MyDataTable jsonPath="/vn_list.json" :columns="vnColumns" :onHighlight="highlightNotes" />
+<MyDataTable jsonPath="vn_list.json" :columns="vnColumns" :onHighlight="highlightNotes" />
 
 ---
 

@@ -57,15 +57,13 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
 import { FilterMatchMode } from '@primevue/core/api'
-
-// PrimeVue components used by this component
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import Button from 'primevue/button'
 import InputText from 'primevue/inputtext'
 
 const props = defineProps({
-  jsonPath: {
+  jsonPath: { // This prop will now expect a path RELATIVE to the public directory, e.g., "vn_list.json"
     type: String,
     required: true
   },
@@ -75,8 +73,6 @@ const props = defineProps({
   },
   onHighlight: Function
 })
-
-const { jsonPath, columns, onHighlight } = props
 
 // Reactive state
 const items = ref([])
@@ -96,9 +92,9 @@ function keysToLowerCase(obj) {
 
 // Custom highlight logic called on row click
 function onRowClick(event) {
-  if (onHighlight && event.data) {
+  if (props.onHighlight && event.data) { // Use props.onHighlight
     const noteReference = event.data.notes || ''
-    onHighlight(noteReference)
+    props.onHighlight(noteReference)      // Use props.onHighlight
     selectedRow.value = event.data
   }
 }
@@ -116,21 +112,31 @@ watch(
 
 // Load JSON data from public folder, with keys lowercased
 onMounted(async () => {
+  // Construct the full path using import.meta.env.BASE_URL
+  // props.jsonPath should be like "vn_list.json" or "data/my_data.json" (relative to public)
+  const fullPath = `${import.meta.env.BASE_URL}${props.jsonPath.startsWith('/') ? props.jsonPath.substring(1) : props.jsonPath}`;
+  
+  console.log('Fetching from constructed fullPath:', fullPath);
+
   try {
-    const res = await fetch(jsonPath)
-    if (!res.ok) throw new Error(`Failed to load JSON: ${res.status}`)
-    const data = await res.json()
+    const res = await fetch(fullPath); // Use the constructed fullPath
+    if (!res.ok) {
+      console.error('Fetch response status:', res.status, 'for URL:', res.url);
+      throw new Error(`Failed to load JSON: ${res.status}`);
+    }
+    const data = await res.json();
     items.value = data.map((item, index) => ({
       ...keysToLowerCase(item),
       id: index
-    }))
+    }));
   } catch (err) {
-    console.error('Error loading JSON:', err)
+    console.error('Error loading JSON:', err);
   }
-})
+});
 </script>
 
 <template>
+  <!-- ... your template remains the same ... -->
   <div class="mb-2 flex items-center gap-3">
     <Button
       icon="pi pi-filter-slash"
@@ -197,7 +203,7 @@ onMounted(async () => {
   </DataTable>
 </template>
 
-
+<!-- ... your style remains the same ... -->
 <style scoped>
 /* Fix icon inside input */
 .p-input-icon-left {
