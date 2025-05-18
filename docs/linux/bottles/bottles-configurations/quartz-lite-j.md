@@ -8,8 +8,6 @@ title: quartz-lite-j.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/quartz-lite-j.yml"
-/>
+<DownloadButton filePath="texts/quartz-lite-j.yml" />
 
-<<< @//public/texts/quartz-lite-j.yml
+<<< @/public/texts/quartz-lite-j.yml

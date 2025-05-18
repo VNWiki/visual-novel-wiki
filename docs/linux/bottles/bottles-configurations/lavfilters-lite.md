@@ -8,8 +8,6 @@ title: lavfilters-lite.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/lavfilters-lite.yml"
-/>
+<DownloadButton filePath="texts/lavfilters-lite.yml" />
 
-<<< @//public/texts/lavfilters-lite.yml
+<<< @/public/texts/lavfilters-lite.yml

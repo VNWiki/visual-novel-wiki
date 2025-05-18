@@ -8,8 +8,6 @@ title: dxvk.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/dxvk.yml"
-/>
+<DownloadButton filePath="texts/dxvk.yml" />
 
-<<< @//public/texts/dxvk.yml
+<<< @/public/texts/dxvk.yml

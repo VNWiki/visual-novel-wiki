@@ -8,8 +8,6 @@ title: lavfilters-quartz-j-bfse.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/lavfilters-quartz-j-bfse.yml"
-/>
+<DownloadButton filePath="texts/lavfilters-quartz-j-bfse.yml" />
 
-<<< @//public/texts/lavfilters-quartz-j-bfse.yml
+<<< @/public/texts/lavfilters-quartz-j-bfse.yml

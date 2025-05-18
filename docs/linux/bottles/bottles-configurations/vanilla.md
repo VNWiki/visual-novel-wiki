@@ -8,8 +8,6 @@ title: vanilla.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/vanilla.yml"
-/>
+<DownloadButton filePath="texts/vanilla.yml" />
 
-<<< @//public/texts/vanilla.yml
+<<< @/public/texts/vanilla.yml

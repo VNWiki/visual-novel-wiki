@@ -8,8 +8,6 @@ title: d3dx9.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/d3dx9.yml"
-/>
+<DownloadButton filePath="texts/d3dx9.yml" />
 
-<<< @//public/texts/d3dx9.yml
+<<< @/public/texts/d3dx9.yml

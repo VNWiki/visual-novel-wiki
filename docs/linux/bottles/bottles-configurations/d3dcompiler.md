@@ -8,8 +8,6 @@ title: d3dcompiler.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/d3dcompiler.yml"
-/>
+<DownloadButton filePath="texts/d3dcompiler.yml" />
 
-<<< @//public/texts/d3dcompiler.yml
+<<< @/public/texts/d3dcompiler.yml

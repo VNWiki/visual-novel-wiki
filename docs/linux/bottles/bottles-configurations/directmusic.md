@@ -8,8 +8,6 @@ title: directmusic.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/directmusic.yml"
-/>
+<DownloadButton filePath="texts/directmusic.yml" />
 
-<<< @//public/texts/directmusic.yml
+<<< @/public/texts/directmusic.yml

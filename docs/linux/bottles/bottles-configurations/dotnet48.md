@@ -8,8 +8,6 @@ title: dotnet48.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/dotnet48.yml"
-/>
+<DownloadButton filePath="texts/dotnet48.yml" />
 
-<<< @//public/texts/dotnet48.yml
+<<< @/public/texts/dotnet48.yml

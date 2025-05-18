@@ -8,8 +8,6 @@ title: lavfilters-micro-gdi.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/lavfilters-micro-gdi.yml"
-/>
+<DownloadButton filePath="texts/lavfilters-micro-gdi.yml" />
 
-<<< @//public/texts/lavfilters-micro-gdi.yml
+<<< @/public/texts/lavfilters-micro-gdi.yml

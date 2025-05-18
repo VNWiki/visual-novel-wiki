@@ -8,8 +8,6 @@ title: directmusic-quartz-j.yml
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-<DownloadButton
-  filePath="texts/directmusic-quartz-j.yml"
-/>
+<DownloadButton filePath="texts/directmusic-quartz-j.yml" />
 
-<<< @//public/texts/directmusic-quartz-j.yml
+<<< @/public/texts/directmusic-quartz-j.yml

@@ -11,7 +11,7 @@
 import { ref, onMounted, watch, computed } from 'vue'
 
 const props = defineProps({
-  filePath: {
+  filePath: { // e.g., "texts/d3dcompiler.yml" (relative to public)
     type: String,
     required: true,
   },
@@ -21,40 +21,53 @@ const checksums = ref({})
 const error = ref(null)
 const loading = ref(true)
 
-const CHECKSUMS_URL = '/checksums/checksums.json'
+// Path to checksums.json RELATIVE TO THE PUBLIC FOLDER
+const CHECKSUMS_RELATIVE_PATH = 'checksums/checksums.json'; 
 
 async function loadChecksums() {
   loading.value = true
   error.value = null
   try {
-    // Cache busting query param to avoid stale fetches
-    const res = await fetch(`${CHECKSUMS_URL}?t=${Date.now()}`)
-    if (!res.ok) throw new Error(`Failed to load checksums`)
-    checksums.value = await res.json()
+    // Construct the full path using import.meta.env.BASE_URL
+    const fullChecksumsPath = `${import.meta.env.BASE_URL}${CHECKSUMS_RELATIVE_PATH}?t=${Date.now()}`;
+    console.log('Fetching checksums from:', fullChecksumsPath);
+
+    const res = await fetch(fullChecksumsPath);
+    if (!res.ok) {
+      console.error('Checksum fetch response status:', res.status, 'for URL:', res.url);
+      throw new Error(`Failed to load checksums: ${res.status}`);
+    }
+    checksums.value = await res.json();
   } catch (e) {
-    error.value = e.message
+    console.error('Error in loadChecksums:', e);
+    error.value = e.message || 'Unknown error during checksum load';
   } finally {
-    loading.value = false
+    loading.value = false;
   }
 }
 
-onMounted(loadChecksums)
-watch(() => props.filePath, loadChecksums)
+onMounted(loadChecksums);
 
 const checksum = computed(() => {
-  return checksums.value[props.filePath] || null
-})
+  // props.filePath is like "texts/d3dcompiler.yml"
+  // checksums.value keys should also be like "texts/d3dcompiler.yml"
+  return checksums.value[props.filePath] || null;
+});
 
 const downloadUrl = computed(() => {
-  // Ensure no double slashes by trimming leading slash from filePath
-  const path = props.filePath.startsWith('/') ? props.filePath.slice(1) : props.filePath
-  return `/${path}`
-})
+  // This part should work correctly with the <base> tag for <a> hrefs
+  // props.filePath e.g. "texts/d3dcompiler.yml"
+  // VitePress/Vite will ensure paths starting with / in <a> hrefs are base-prefixed
+  // So, if props.filePath is "texts/foo.yml", this becomes "/texts/foo.yml"
+  // which then becomes "/visual-novel-wiki/texts/foo.yml"
+  const path = props.filePath.startsWith('/') ? props.filePath.slice(1) : props.filePath;
+  return `${import.meta.env.BASE_URL}${path}`; // Make it fully explicit for robustness
+});
 
 const filename = computed(() => {
-  const parts = props.filePath.split('/')
-  return parts[parts.length - 1] || props.filePath
-})
+  const parts = props.filePath.split('/');
+  return parts[parts.length - 1] || props.filePath;
+});
 </script>
 
 <template>
@@ -62,7 +75,7 @@ const filename = computed(() => {
 
     <a
       v-if="!loading && !error && checksum"
-      :href="downloadUrl"
+      :href="downloadUrl" 
       :download="filename"
       class="download-button"
       :aria-label="`Download file ${filename}`"
