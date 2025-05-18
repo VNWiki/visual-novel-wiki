@@ -1,0 +1,42 @@
+name: Optimize images
+
+on:
+  pull_request:
+    paths:
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+      - '**/*.webp'
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install image tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y oxipng jpegoptim webp
+
+      - name: Optimize PNGs
+        run: |
+          find . -type f -name '*.png' -print0 | xargs -0 oxipng --strip safe --opt max
+
+      - name: Optimize JPGs
+        run: |
+          find . -type f \( -name '*.jpg' -o -name '*.jpeg' \) -print0 | xargs -0 jpegoptim --strip-all --max=85
+
+      - name: Optimize WebP
+        run: |
+          find . -type f -name '*.webp' -print0 | xargs -0 -I{} sh -c 'cwebp -q 80 "$1" -o "$1"' _ {}
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git diff --cached --quiet || git commit -m "chore: optimize images"
+          git push

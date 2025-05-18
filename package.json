@@ -1,0 +1,39 @@
+{
+  "name": "visual-novel-wiki",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen:checksums": "node scripts/gen-checksums.mjs",
+    "gen:file-previews": "node scripts/gen-file-previews.mjs",
+    "docs:gen-sidebar": "node scripts/gen-sidebar.mjs",
+    "clean": "rimraf docs/.vitepress/dist docs/.vitepress/cache docs/.vitepress/sidebar.js docs/public/checksums/checksums.json build",
+    "predev": "concurrently \"pnpm gen:checksums\" \"pnpm docs:gen-sidebar\"",
+    "dev": "pnpm predev && vitepress dev docs",
+    "prebuild": "concurrently \"pnpm gen:checksums\" \"pnpm docs:gen-sidebar\"",
+    "build": "pnpm clean && pnpm prebuild && vitepress build docs",
+    "preview": "vitepress preview docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "gray-matter": "^4.0.3",
+    "rimraf": "^6.0.1",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-tabs": "^0.7.1",
+    "vue": "^3.5.14"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "dependencies": {
+    "@primevue/core": "^4.3.4",
+    "@primevue/themes": "^4.3.4",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.3.4"
+  },
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
+}
