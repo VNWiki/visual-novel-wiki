@@ -442,7 +442,7 @@ export const sidebar = [
       },
       {
         "text": "Sickly Sister",
-        "link": "/visual-novels/Sickly Sister"
+        "link": "/visual-novels/sickly-sister"
       },
       {
         "text": "Startrain",
