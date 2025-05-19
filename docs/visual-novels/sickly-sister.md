@@ -9,7 +9,7 @@ title = 'Sickly Sister - Koshikiyukashii Byoujaku Imouto'
 
 > [!IMPORTANT] Wine 10.8+ Support  
 > As of **Wine 10.8**, you no longer need `d2d1.dll` (see [Wine bug #58185](https://bugs.winehq.org/show_bug.cgi?id=58185)).  
-> Just run the game with **Wine version ≥ 10.8** or a recent Proton build.  
+> Just run the game with **Wine version ≥ 10.8**.
 
 > [!NOTE] Deprecated Workaround
 > ~~The game previously required a custom [d2d1 wrapper](https://github.com/b-fission/vn_winestuff/raw/refs/heads/main/custom-fixes/krkr-d2d1/d2d1.dll) due to broken Direct2D in Wine.~~  
