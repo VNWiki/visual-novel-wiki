@@ -18,6 +18,8 @@ Clicking on a VN with a Note, highlights the note(s) in the section below.
 
 <script setup>
 import DataTable from '@components/DataTable.vue'
+import ExpandableDataTable from '@components/ExpandableDataTable.vue'
+
 
 const vnBottlesColumns = [
   { field: 'game', header: 'Game', sortable: true },
@@ -90,6 +92,13 @@ function highlightNotes(noteReference) {
 }
 
 </script>
+
+<ExpandableDataTable 
+  jsonPath="vn_bottles_list.json" 
+  :columns="vnBottlesColumns" 
+  sortField="game"
+  :sortOrder="1"
+/>
 
 <DataTable 
   jsonPath="vn_bottles_list.json" 

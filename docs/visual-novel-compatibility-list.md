@@ -20,7 +20,9 @@ Clicking on a VN with a Note, highlights the note(s) in the section below.
 :::
 
 <script setup>
-import MyDataTable from '@components/DataTable.vue'
+import DataTable from '@components/DataTable.vue'
+import ExpandableDataTable from '@components/ExpandableDataTable.vue'
+
 
 const vnColumns = [
   { field: 'visual novel', header: 'Visual Novel', sortable: true },
@@ -89,7 +91,14 @@ function highlightNotes(noteReference) {
 
 </script>
 
-<MyDataTable
+<ExpandableDataTable
+  jsonPath="vn_list.json"
+  :columns="vnColumns"
+  sortField="visual novel"
+  :sortOrder="1"
+/>
+
+<DataTable
   jsonPath="vn_list.json"
   :columns="vnColumns"
   :onHighlight="highlightNotes"
