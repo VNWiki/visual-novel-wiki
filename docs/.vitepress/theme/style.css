@@ -141,3 +141,11 @@ kbd {
   font-size: 0.85em;
   font-family: var(--vp-font-family-mono);
 }
+
+/* PrimeVue override */
+
+/* Fix sticky header on scroll */
+.vp-doc table.p-datatable-table {
+    display: table !important; /* Crucial: Restore table display context */
+    overflow-x: unset !important;        /* PrimeVue's .p-datatable-table-container handles scrolling */
+}
