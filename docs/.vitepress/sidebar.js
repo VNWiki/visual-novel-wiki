@@ -23,6 +23,24 @@ export const sidebar = [
     "link": "/visual-novel-compatibility-list"
   },
   {
+    "text": "Tools",
+    "items": [
+      {
+        "text": "Japanese",
+        "items": [
+          {
+            "text": "Textractor",
+            "link": "/tools/japanese/textractor"
+          }
+        ],
+        "collapsible": true,
+        "collapsed": true
+      }
+    ],
+    "collapsible": true,
+    "collapsed": false
+  },
+  {
     "text": "All Platforms",
     "link": "/all-platforms/",
     "items": [
@@ -43,15 +61,15 @@ export const sidebar = [
         "link": "/all-platforms/mkxp"
       },
       {
-        "text": "Onscripter En",
+        "text": "ONScripter-EN",
         "link": "/all-platforms/onscripter-en"
       },
       {
-        "text": "Retroarch",
+        "text": "RetroArch",
         "link": "/all-platforms/retroarch"
       },
       {
-        "text": "Rpg Maker",
+        "text": "RPG Maker",
         "link": "/all-platforms/rpg-maker"
       },
       {
@@ -59,11 +77,7 @@ export const sidebar = [
         "link": "/all-platforms/steam"
       },
       {
-        "text": "Textractor",
-        "link": "/all-platforms/textractor"
-      },
-      {
-        "text": "Wolf Rpg Editor",
+        "text": "WOLF RPG Editor",
         "link": "/all-platforms/wolf-rpg-editor"
       }
     ],
@@ -75,7 +89,7 @@ export const sidebar = [
     "link": "/linux/",
     "items": [
       {
-        "text": "Adding Icons On Gnome",
+        "text": "Adding icons on GNOME",
         "link": "/linux/adding-icons-on-gnome"
       },
       {
@@ -83,7 +97,7 @@ export const sidebar = [
         "link": "/linux/adding-wine-versions"
       },
       {
-        "text": "Cdemu",
+        "text": "CDEmu",
         "link": "/linux/cdemu"
       },
       {
@@ -95,15 +109,15 @@ export const sidebar = [
         "link": "/linux/lutris"
       },
       {
-        "text": "Protonup",
+        "text": "ProtonUp",
         "link": "/linux/protonup"
       },
       {
-        "text": "Rlvm",
+        "text": "RLVM",
         "link": "/linux/rlvm"
       },
       {
-        "text": "Rpgmakermlinux Cicpoffs",
+        "text": "rpgmakermlinux-cicpoffs",
         "link": "/linux/rpgmakermlinux-cicpoffs"
       },
       {
@@ -111,11 +125,11 @@ export const sidebar = [
         "link": "/linux/special-codecs"
       },
       {
-        "text": "Umu Launcher",
+        "text": "UMU Launcher",
         "link": "/linux/umu-launcher"
       },
       {
-        "text": "Wem",
+        "text": "Wine Environment Manager",
         "link": "/linux/wem"
       },
       {
@@ -127,7 +141,7 @@ export const sidebar = [
         "link": "/linux/bottles/",
         "items": [
           {
-            "text": "Bottles Compatibility List",
+            "text": "Bottles compatibility list",
             "link": "/linux/bottles/bottles-compatibility-list"
           },
           {
@@ -282,7 +296,7 @@ export const sidebar = [
     "link": "/steam-deck/",
     "items": [
       {
-        "text": "Amd Fsr",
+        "text": "AMD FSR",
         "link": "/steam-deck/amd-fsr"
       }
     ],
@@ -345,19 +359,19 @@ export const sidebar = [
         "link": "/visual-novels/ayakashibito"
       },
       {
-        "text": "Baldr Heart",
+        "text": "BALDR Heart + EXE",
         "link": "/visual-novels/baldr-heart"
       },
       {
-        "text": "Bible Black",
+        "text": "Bible Black -La noche de walpurgis-",
         "link": "/visual-novels/bible-black"
       },
       {
-        "text": "Bishoujo Mangekyou Norowareshi Densetsu No Shoujo",
+        "text": "Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-",
         "link": "/visual-novels/bishoujo-mangekyou-norowareshi-densetsu-no-shoujo"
       },
       {
-        "text": "Dead End Aegis",
+        "text": "DeadΩAegis",
         "link": "/visual-novels/dead-end-aegis"
       },
       {
@@ -365,19 +379,19 @@ export const sidebar = [
         "link": "/visual-novels/deus-machina-demonbane"
       },
       {
-        "text": "Erovoice Sexy Voices Lead To A Successful Love Life",
+        "text": "Erovoice! Sexy Voices Lead to a Successful Love Life♪",
         "link": "/visual-novels/erovoice-sexy-voices-lead-to-a-successful-love-life"
       },
       {
-        "text": "Fate Stay Night",
+        "text": "Fate/stay night",
         "link": "/visual-novels/fate-stay-night"
       },
       {
-        "text": "Full Metal Daemon Muramasa",
+        "text": "Full Metal Daemon: Muramasa",
         "link": "/visual-novels/full-metal-daemon-muramasa"
       },
       {
-        "text": "Gahkthun",
+        "text": "Gahkthun of the Golden Lightning -What a Radiant Brave-",
         "link": "/visual-novels/gahkthun"
       },
       {
@@ -385,7 +399,7 @@ export const sidebar = [
         "link": "/visual-novels/gore-screaming-show"
       },
       {
-        "text": "Hatsukoi 1 1",
+        "text": "Hatsukoi 1/1",
         "link": "/visual-novels/hatsukoi-1-1"
       },
       {
@@ -393,7 +407,7 @@ export const sidebar = [
         "link": "/visual-novels/hoshi-ori-yume-mirai"
       },
       {
-        "text": "Ima Sugu Onii Chan Ni Imouto Da Tte Iitai",
+        "text": "Ima Sugu Onii-chan ni Imouto da tte Iitai!",
         "link": "/visual-novels/ima-sugu-onii-chan-ni-imouto-da-tte-iitai"
       },
       {
@@ -401,31 +415,31 @@ export const sidebar = [
         "link": "/visual-novels/kanon"
       },
       {
-        "text": "Kyokou Eiyuu Gingaia",
+        "text": "Kyokou Eiyuu GinGaia",
         "link": "/visual-novels/kyokou-eiyuu-gingaia"
       },
       {
-        "text": "Muv Luv Alternative",
+        "text": "Muv-Luv Alternative",
         "link": "/visual-novels/muv-luv-alternative"
       },
       {
-        "text": "Muv Luv",
+        "text": "Muv-Luv",
         "link": "/visual-novels/muv-luv"
       },
       {
-        "text": "Never7",
+        "text": "Never7 -the end of infinity-",
         "link": "/visual-novels/never7"
       },
       {
-        "text": "Rance 02",
+        "text": "Rance 02 -The Rebellious Maidens-",
         "link": "/visual-novels/rance-02"
       },
       {
-        "text": "Root Double",
+        "text": "Root Double -Before Crime * After Days",
         "link": "/visual-novels/root-double"
       },
       {
-        "text": "Sakura No Toki",
+        "text": "Sakura no Toki",
         "link": "/visual-novels/sakura-no-toki"
       },
       {
@@ -433,43 +447,43 @@ export const sidebar = [
         "link": "/visual-novels/sakuranomori-dreamers"
       },
       {
-        "text": "Same To Ikiru Nanokakan",
+        "text": "Same to Ikiru Nanokakan",
         "link": "/visual-novels/same-to-ikiru-nanokakan"
       },
       {
-        "text": "Senren Banka",
+        "text": "Senren＊Banka",
         "link": "/visual-novels/senren-banka"
       },
       {
-        "text": "Sickly Sister",
+        "text": "Sickly Sister - Koshikiyukashii Byoujaku Imouto",
         "link": "/visual-novels/sickly-sister"
       },
       {
-        "text": "Startrain",
+        "text": "StarTRain",
         "link": "/visual-novels/startrain"
       },
       {
-        "text": "Steins Gate",
+        "text": "Steins;Gate",
         "link": "/visual-novels/steins-gate"
       },
       {
-        "text": "Subarashiki Hibi",
+        "text": "Subarashiki Hibi ~Furenzoku Sonzai~",
         "link": "/visual-novels/subarashiki-hibi"
       },
       {
-        "text": "Sweet Home My Sexy Roommates",
+        "text": "Sweet Home: My Sexy Roommates",
         "link": "/visual-novels/sweet-home-my-sexy-roommates"
       },
       {
-        "text": "Tsui No Stella",
+        "text": "Tsui no Stella",
         "link": "/visual-novels/tsui-no-stella"
       },
       {
-        "text": "Uchikano Living With My Girlfriend",
+        "text": "Uchikano: Living with my Girlfriend",
         "link": "/visual-novels/uchikano-living-with-my-girlfriend"
       },
       {
-        "text": "Uchikano Living With My Sister",
+        "text": "Uchikano: Living with my Sister",
         "link": "/visual-novels/uchikano-living-with-my-sister"
       },
       {
