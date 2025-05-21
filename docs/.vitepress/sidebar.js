@@ -65,8 +65,8 @@ export const sidebar = [
         "link": "/all-platforms/onscripter-en"
       },
       {
-        "text": "RetroArch",
-        "link": "/all-platforms/retroarch"
+        "text": "PC-98 (RetroArch)",
+        "link": "/all-platforms/pc-98"
       },
       {
         "text": "RPG Maker",
