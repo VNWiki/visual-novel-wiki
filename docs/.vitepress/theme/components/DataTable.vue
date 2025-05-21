@@ -249,7 +249,7 @@ onMounted(async () => {
     :sortOrder="sortOrder"
     v-model:rows="rows"
     :rowsPerPageOptions="rowsPerPageOptions"
-    @page="e => (first = e.first)" 
+    @page="e => (first = e.first)"
     responsiveLayout="scroll"
     dataKey="id"
     selectionMode="single"
@@ -267,7 +267,34 @@ onMounted(async () => {
       :sortable="col.sortable ?? false"
     >
       <template #body="slotProps">
-        <template v-if="col.isLink">
+        <!-- 1. Check for col.withLink (new feature) -->
+        <template v-if="col.withLink">
+          <template v-if="slotProps.data[col.withLink]">
+            <!-- URL exists, render the link -->
+            <a
+              :href="slotProps.data[col.withLink]"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-600 hover:underline"
+            >
+              {{ slotProps.data[col.field] }}
+            </a>
+          </template>
+          <template v-else>
+            <!-- URL from col.withLink is missing or falsy. Render as plain text or code. -->
+            <template v-if="col.isCode">
+              <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded text-sm">
+                {{ slotProps.data[col.field] }}
+              </code>
+            </template>
+            <template v-else>
+              {{ slotProps.data[col.field] }}
+            </template>
+          </template>
+        </template>
+
+        <!-- 2. Else, check for col.isLink (existing feature) -->
+        <template v-else-if="col.isLink">
           <a
             :href="slotProps.data[col.field]"
             target="_blank"
@@ -277,11 +304,15 @@ onMounted(async () => {
             {{ slotProps.data[col.field] }}
           </a>
         </template>
+
+        <!-- 3. Else, check for col.isCode (existing feature) -->
         <template v-else-if="col.isCode">
           <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded text-sm">
             {{ slotProps.data[col.field] }}
           </code>
         </template>
+
+        <!-- 4. Else, render as plain text (default) -->
         <template v-else>
           {{ slotProps.data[col.field] }}
         </template>

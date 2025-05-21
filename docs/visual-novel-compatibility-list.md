@@ -25,7 +25,7 @@ import ExpandableDataTable from '@components/ExpandableDataTable.vue'
 
 
 const vnColumns = [
-  { field: 'visual novel', header: 'Visual Novel', sortable: true },
+  { field: 'visual novel', header: 'Visual Novel', sortable: true, withLink: 'visual novel link' },
   { field: 'windows', header: 'Windows', sortable: true },
   { field: 'mac', header: 'Mac', sortable: true },
   { field: 'linux', header: 'Linux', sortable: true },

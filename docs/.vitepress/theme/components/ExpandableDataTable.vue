@@ -161,28 +161,65 @@ const globalFilterFields = computed(() => {
         style="min-width: 150px; whiteSpace:nowrap"
       >
         <template #body="slotProps">
-          <template v-if="slotProps.data && slotProps.data[col.field.toLowerCase()] !== undefined">
-            <template v-if="col.isLink">
+          <!-- START MODIFIED SECTION FOR col.withLink -->
+          <template v-if="col.withLink">
+            <template v-if="slotProps.data && slotProps.data[col.withLink]">
+              <!-- URL from col.withLink exists, render the link -->
               <a
-                :href="slotProps.data[col.field.toLowerCase()]"
+                :href="slotProps.data[col.withLink]"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-blue-600 hover:underline"
               >
-                {{ slotProps.data[col.field.toLowerCase()] }}
+                <!-- Link text: main field's value, or column header as fallback -->
+                {{ slotProps.data[col.field.toLowerCase()] !== undefined ? slotProps.data[col.field.toLowerCase()] : col.header }}
               </a>
             </template>
-            <template v-else-if="col.isCode">
-              <code class="bg-gray-200 dark:bg-gray-700 px-1.5 py-1 rounded text-xs">
-                {{ slotProps.data[col.field.toLowerCase()] }}
-              </code>
-            </template>
             <template v-else>
-              {{ slotProps.data[col.field.toLowerCase()] }}
+              <!-- col.withLink is defined, but the URL (slotProps.data[col.withLink]) is missing or falsy. -->
+              <!-- Fallback to displaying the main field's content (col.field) as text/code, or N/A if that's also undefined. -->
+              <template v-if="slotProps.data && slotProps.data[col.field.toLowerCase()] !== undefined">
+                <template v-if="col.isCode">
+                  <code class="bg-gray-200 dark:bg-gray-700 px-1.5 py-1 rounded text-xs">
+                    {{ slotProps.data[col.field.toLowerCase()] }}
+                  </code>
+                </template>
+                <template v-else>
+                  {{ slotProps.data[col.field.toLowerCase()] }}
+                </template>
+              </template>
+              <template v-else>
+                N/A
+              </template>
             </template>
           </template>
+          <!-- END MODIFIED SECTION FOR col.withLink -->
+
+          <!-- ELSE (col.withLink is NOT defined), use existing logic of this component -->
           <template v-else>
-            N/A
+            <template v-if="slotProps.data && slotProps.data[col.field.toLowerCase()] !== undefined">
+              <template v-if="col.isLink">
+                <a
+                  :href="slotProps.data[col.field.toLowerCase()]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-blue-600 hover:underline"
+                >
+                  {{ slotProps.data[col.field.toLowerCase()] }}
+                </a>
+              </template>
+              <template v-else-if="col.isCode">
+                <code class="bg-gray-200 dark:bg-gray-700 px-1.5 py-1 rounded text-xs">
+                  {{ slotProps.data[col.field.toLowerCase()] }}
+                </code>
+              </template>
+              <template v-else>
+                {{ slotProps.data[col.field.toLowerCase()] }}
+              </template>
+            </template>
+            <template v-else>
+              N/A
+            </template>
           </template>
         </template>
       </Column>
