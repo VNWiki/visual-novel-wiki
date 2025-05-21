@@ -5,6 +5,7 @@ import footnote from 'markdown-it-footnote'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { sidebar } from './sidebar.js' // Import the auto-generated sidebar
 import { fileURLToPath } from 'node:url';
+import { GitChangelog, GitChangelogMarkdownSection } from "@nolebase/vitepress-plugin-git-changelog"
 
 export default defineConfig({
   lang: 'en-US', // Optional: Set the language
@@ -33,7 +34,18 @@ export default defineConfig({
         '@components': fileURLToPath(new URL('./theme/components', import.meta.url)),
         '@public' : fileURLToPath(new URL('../public', import.meta.url)),
       }
-    }
+    },
+    plugins: [
+      GitChangelog({
+        repoURL: () => "https://github.com/VNWiki/visual-novel-wiki",
+      }),
+
+      GitChangelogMarkdownSection({
+        sections: {
+          disableContributors: false,
+        },
+      }),
+    ],
   },
 
   themeConfig: {
@@ -94,5 +106,7 @@ export default defineConfig({
 
     // Optional: Customize the "Last Updated" text (default is 'Last updated')
     // lastUpdatedText: 'Content Last Updated On:'
+
+    
   }
 })

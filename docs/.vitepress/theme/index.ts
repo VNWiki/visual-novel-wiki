@@ -12,6 +12,8 @@ import InputText from 'primevue/inputtext';
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client';
 import CustomCard from './components/CustomCard.vue';
 import CardGrid from './components/CardGrid.vue';
+import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
+import "@nolebase/vitepress-plugin-git-changelog/client/style.css";
 
 
 // PrimeIcons are usually automatically available with the PrimeVue plugin
@@ -39,5 +41,6 @@ export default {
     app.component('InputText', InputText);
     app.component('CustomCard', CustomCard);
     app.component('CardGrid', CardGrid);
+    app.use(NolebaseGitChangelogPlugin);
   }
 } satisfies Theme
