@@ -1,6 +1,7 @@
 // docs/.vitepress/config.ts
 
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { sidebar } from './sidebar.js' // Import the auto-generated sidebar
 import { fileURLToPath } from 'node:url';
@@ -20,6 +21,7 @@ export default defineConfig({
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
+      md.use(footnote)
     }
   },
   
