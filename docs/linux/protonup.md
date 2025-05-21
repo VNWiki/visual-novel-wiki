@@ -4,7 +4,7 @@ title = 'ProtonUp'
 
 # ProtonUp
 
-[ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) is a helper tool based on [protonup](https://github.com/AUNaseef/protonup) to install Wine versions, such as [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom) and [Wine-GE](https://github.com/GloriousEggroll/wine-ge-custom). [Protonup-rs](https://github.com/auyer/Protonup-rs) is another similar program but use a text-based user interface instead of a GUI.
+[ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) is a helper tool based on [protonup](https://github.com/AUNaseef/protonup) to install Wine versions for [Steam](../all-platforms/steam) and [Lutris](lutris), such as [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom) and [Wine-GE](https://github.com/GloriousEggroll/wine-ge-custom). [Protonup-rs](https://github.com/auyer/Protonup-rs) is another similar program but use a text-based user interface instead of a GUI.
 
 In the Steam Deck it can be installed from the Discover Store.
 
