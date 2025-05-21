@@ -24,11 +24,11 @@ import ExpandableDataTable from '@components/ExpandableDataTable.vue'
 const vnBottlesColumns = [
   { field: 'game', header: 'Game', sortable: true },
   { field: 'state', header: 'State', sortable: true },
-  { field: 'configuration', header: 'Configuration', sortable: true },
+  { field: 'configuration', header: 'Configuration', sortable: true, isCode: true },
   { field: 'runner', header: 'Runner', sortable: true },
   { field: 'notes', header: 'Notes', sortable: false },
-  { field: 'game link', header: 'Game Link', sortable: false, isLink: true },
   { field: 'configuration link', header: 'Configuration Link', sortable: false, isLink: true },
+  { field: 'game link', header: 'Game Link', sortable: false, isLink: true },
 ]
 
 function highlightNotes(noteReference) {
