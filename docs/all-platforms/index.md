@@ -10,4 +10,4 @@ title: 'All Platforms'
 * [OnScripter](/all-platforms/onscripter-en)
 * [Retroarch](/all-platforms/retroarch)
 * [Steam](/all-platforms/steam)
-* [Textractor](/all-platforms/textractor)
+* [Textractor](../tools/japanese/textractor)
