@@ -1,5 +1,5 @@
 ---
-title = 'Albatross Koukairoku'
+title : 'Albatross Koukairoku'
 ---
 
 # Albatross Koukairoku

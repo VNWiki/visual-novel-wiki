@@ -1,5 +1,5 @@
 ---
-title = 'Steam'
+title : 'Steam'
 ---
 
 # Steam

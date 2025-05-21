@@ -1,5 +1,5 @@
 ---
-title = 'Senren＊Banka'
+title : 'Senren＊Banka'
 ---
 
 # Senren＊Banka

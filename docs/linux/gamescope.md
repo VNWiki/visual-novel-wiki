@@ -1,5 +1,5 @@
 ---
-title = 'Gamescope'
+title : 'Gamescope'
 ---
 
 # Gamescope

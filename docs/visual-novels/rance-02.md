@@ -1,5 +1,5 @@
 ---
-title = 'Rance 02 -The Rebellious Maidens-'
+title : 'Rance 02 -The Rebellious Maidens-'
 ---
 
 # Rance 02 -The Rebellious Maidens-

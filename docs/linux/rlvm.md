@@ -1,5 +1,5 @@
 ---
-title = 'RLVM'
+title : 'RLVM'
 ---
 
 # RVLM

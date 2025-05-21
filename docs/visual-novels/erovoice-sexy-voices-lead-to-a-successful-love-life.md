@@ -1,5 +1,5 @@
 ---
-title = 'Erovoice! Sexy Voices Lead to a Successful Love Life♪'
+title : 'Erovoice! Sexy Voices Lead to a Successful Love Life♪'
 ---
 
 # Erovoice! Sexy Voices Lead to a Successful Love Life♪

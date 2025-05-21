@@ -1,5 +1,5 @@
 ---
-title = 'Lossless Scaling'
+title : 'Lossless Scaling'
 ---
 
 # Lossless Scaling

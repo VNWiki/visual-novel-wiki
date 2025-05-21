@@ -1,5 +1,5 @@
 ---
-title = 'WOLF RPG Editor'
+title : 'WOLF RPG Editor'
 ---
 
 # WOLF RPG Editor

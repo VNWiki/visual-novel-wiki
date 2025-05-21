@@ -1,5 +1,5 @@
 ---
-title = 'Deus Machina Demonbane'
+title : 'Deus Machina Demonbane'
 ---
 
 # Deus Machina Demonbane

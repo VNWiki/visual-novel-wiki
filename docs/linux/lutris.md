@@ -1,5 +1,5 @@
 ---
-title = 'Lutris'
+title : 'Lutris'
 ---
 
 # Lutris

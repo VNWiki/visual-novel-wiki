@@ -1,5 +1,5 @@
 ---
-title = 'Ima Sugu Onii-chan ni Imouto da tte Iitai!'
+title : 'Ima Sugu Onii-chan ni Imouto da tte Iitai!'
 ---
 
 # Ima Sugu Onii-chan ni Imouto da tte Iitai!

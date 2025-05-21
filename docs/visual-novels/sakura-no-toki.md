@@ -1,5 +1,5 @@
 ---
-title = 'Sakura no Toki'
+title : 'Sakura no Toki'
 ---
 
 # Sakura no Toki

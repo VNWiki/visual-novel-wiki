@@ -1,5 +1,5 @@
 ---
-title = 'Muv-Luv'
+title : 'Muv-Luv'
 ---
 
 # Muv-Luv

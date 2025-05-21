@@ -1,5 +1,5 @@
 ---
-title = 'Borderless Gaming'
+title : 'Borderless Gaming'
 ---
 
 # Borderless Gaming

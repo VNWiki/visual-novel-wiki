@@ -1,5 +1,5 @@
 ---
-title = 'Subarashiki Hibi ~Furenzoku Sonzai~'
+title : 'Subarashiki Hibi ~Furenzoku Sonzai~'
 ---
 
 # Subarashiki Hibi ~Furenzoku Sonzai~

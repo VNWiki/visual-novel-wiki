@@ -1,5 +1,5 @@
 ---
-title = 'Hatsukoi 1/1'
+title : 'Hatsukoi 1/1'
 ---
 
 # Hatsukoi 1/1

@@ -1,5 +1,5 @@
 ---
-title = 'RPG Maker'
+title : 'RPG Maker'
 ---
 
 # RPG Maker

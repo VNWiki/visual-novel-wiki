@@ -1,5 +1,5 @@
 ---
-title = 'CDEmu'
+title : 'CDEmu'
 ---
 
 # CDEmu

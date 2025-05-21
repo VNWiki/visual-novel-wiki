@@ -1,5 +1,5 @@
 ---
-title = 'Never7 -the end of infinity-'
+title : 'Never7 -the end of infinity-'
 ---
 
 # Never7 -the end of infinity-

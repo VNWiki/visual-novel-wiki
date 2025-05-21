@@ -1,5 +1,5 @@
 ---
-title = 'Bottles compatibility list'
+title : 'Bottles compatibility list'
 ---
 
 # Bottles Compatibility List

@@ -1,5 +1,5 @@
 ---
-title = 'Kirikiroid2'
+title : 'Kirikiroid2'
 ---
 
 # Kirikiroid2

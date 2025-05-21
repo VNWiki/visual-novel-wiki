@@ -1,5 +1,5 @@
 ---
-title = 'Sickly Sister - Koshikiyukashii Byoujaku Imouto'
+title : 'Sickly Sister - Koshikiyukashii Byoujaku Imouto'
 ---
 
 <script setup> 

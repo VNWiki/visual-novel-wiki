@@ -1,5 +1,5 @@
 ---
-title = 'BALDR Heart + EXE'
+title : 'BALDR Heart + EXE'
 ---
 
 # BALDR Heart + EXE

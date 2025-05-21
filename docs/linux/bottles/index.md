@@ -1,5 +1,5 @@
 ---
-title = 'Bottles'
+title : 'Bottles'
 ---
 
 # Bottles

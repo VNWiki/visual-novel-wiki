@@ -1,5 +1,5 @@
 ---
-title = 'Fate/stay night'
+title : 'Fate/stay night'
 ---
 
 # Fate/stay night

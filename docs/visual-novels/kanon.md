@@ -1,5 +1,5 @@
 ---
-title = 'Kanon'
+title : 'Kanon'
 ---
 
 # Kanon

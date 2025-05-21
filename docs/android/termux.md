@@ -1,5 +1,5 @@
 ---
-title = 'Termux'
+title : 'Termux'
 ---
 
 # Termux

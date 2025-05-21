@@ -1,5 +1,5 @@
 ---
-title = 'UMU Launcher'
+title : 'UMU Launcher'
 ---
 
 # UMU Launcher

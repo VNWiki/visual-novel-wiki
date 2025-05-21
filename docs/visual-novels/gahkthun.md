@@ -1,5 +1,5 @@
 ---
-title = 'Gahkthun of the Golden Lightning -What a Radiant Brave-'
+title : 'Gahkthun of the Golden Lightning -What a Radiant Brave-'
 ---
 
 # Gahkthun of the Golden Lightning -What a Radiant Brave-

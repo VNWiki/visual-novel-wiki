@@ -1,5 +1,5 @@
 ---
-title = 'ProtonUp'
+title : 'ProtonUp'
 ---
 
 # ProtonUp

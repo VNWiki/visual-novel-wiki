@@ -1,5 +1,5 @@
 ---
-title = 'AMD FSR'
+title : 'AMD FSR'
 ---
 
 # AMD FSR

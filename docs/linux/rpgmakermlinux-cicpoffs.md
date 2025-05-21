@@ -1,5 +1,5 @@
 ---
-title = 'rpgmakermlinux-cicpoffs'
+title : 'rpgmakermlinux-cicpoffs'
 ---
 
 # rpgmakermlinux-cicpoffs

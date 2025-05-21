@@ -1,5 +1,5 @@
 ---
-title = 'Uchikano: Living with my Girlfriend'
+title : 'Uchikano: Living with my Girlfriend'
 ---
 
 # Uchikano: Living with my Girlfriend

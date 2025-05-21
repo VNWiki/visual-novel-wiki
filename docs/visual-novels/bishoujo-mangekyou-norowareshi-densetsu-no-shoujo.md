@@ -1,5 +1,5 @@
 ---
-title = 'Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-'
+title : 'Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-'
 ---
 
 # Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-

@@ -1,5 +1,5 @@
 ---
-title = 'Winlator'
+title : 'Winlator'
 ---
 
 # Winlator

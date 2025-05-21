@@ -1,5 +1,5 @@
 ---
-title = 'Adding icons on GNOME'
+title : 'Adding icons on GNOME'
 ---
 
 # Adding icons on GNOME

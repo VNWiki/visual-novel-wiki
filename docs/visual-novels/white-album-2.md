@@ -1,5 +1,5 @@
 ---
-title = 'White Album 2'
+title : 'White Album 2'
 ---
 
 # White Album 2

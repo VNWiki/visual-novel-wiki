@@ -1,5 +1,5 @@
 ---
-title = 'Bible Black -La noche de walpurgis-'
+title : 'Bible Black -La noche de walpurgis-'
 ---
 
 # Bible Black -La noche de walpurgis-

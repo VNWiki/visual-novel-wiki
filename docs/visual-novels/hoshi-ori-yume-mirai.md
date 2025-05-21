@@ -1,5 +1,5 @@
 ---
-title = 'Hoshi Ori Yume Mirai'
+title : 'Hoshi Ori Yume Mirai'
 ---
 
 # Hoshi Ori Yume Mirai

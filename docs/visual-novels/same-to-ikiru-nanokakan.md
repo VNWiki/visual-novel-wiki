@@ -1,5 +1,5 @@
 ---
-title = 'Same to Ikiru Nanokakan'
+title : 'Same to Ikiru Nanokakan'
 ---
 
 # Same to Ikiru Nanokakan

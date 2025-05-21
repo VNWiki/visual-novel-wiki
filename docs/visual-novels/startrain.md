@@ -1,5 +1,5 @@
 ---
-title = 'StarTRain'
+title : 'StarTRain'
 ---
 
 # StarTRain

@@ -1,5 +1,5 @@
 ---
-title = 'Steins;Gate'
+title : 'Steins;Gate'
 ---
 
 # Steins;Gate

@@ -1,5 +1,5 @@
 ---
-title = 'RetroArch'
+title : 'RetroArch'
 ---
 
 # RetroArch

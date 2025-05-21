@@ -1,5 +1,5 @@
 ---
-title = 'Kyokou Eiyuu GinGaia'
+title : 'Kyokou Eiyuu GinGaia'
 ---
 
 # Kyokou Eiyuu GinGaia

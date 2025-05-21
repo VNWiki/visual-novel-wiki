@@ -1,5 +1,5 @@
 ---
-title = 'Magpie'
+title : 'Magpie'
 ---
 
 # Magpie

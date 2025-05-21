@@ -1,5 +1,5 @@
 ---
-title = 'DeadΩAegis'
+title : 'DeadΩAegis'
 ---
 
 # DeadΩAegis

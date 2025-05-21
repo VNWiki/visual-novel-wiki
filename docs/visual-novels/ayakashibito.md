@@ -1,5 +1,5 @@
 ---
-title = 'Ayakashibito'
+title : 'Ayakashibito'
 ---
 
 # Ayakashibito

@@ -1,5 +1,5 @@
 ---
-title = 'Full Metal Daemon: Muramasa'
+title : 'Full Metal Daemon: Muramasa'
 ---
 
 # Full Metal Daemon: Muramasa

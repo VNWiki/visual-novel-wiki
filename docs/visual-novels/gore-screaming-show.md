@@ -1,5 +1,5 @@
 ---
-title = 'Gore Screaming Show'
+title : 'Gore Screaming Show'
 ---
 
 # Gore Screaming Show

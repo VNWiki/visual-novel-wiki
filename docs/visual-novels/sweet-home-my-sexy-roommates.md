@@ -1,5 +1,5 @@
 ---
-title = 'Sweet Home: My Sexy Roommates'
+title : 'Sweet Home: My Sexy Roommates'
 ---
 
 # Sweet Home: My Sexy Roommates

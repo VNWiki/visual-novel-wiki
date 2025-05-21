@@ -1,5 +1,5 @@
 ---
-title = 'Linux'
+title : 'Linux'
 ---
 
 # Linux & Steam Deck

@@ -1,5 +1,5 @@
 ---
-title = 'Wine Environment Manager'
+title : 'Wine Environment Manager'
 ---
 
 # Wine Environment Manager

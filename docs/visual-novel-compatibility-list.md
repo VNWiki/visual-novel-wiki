@@ -1,5 +1,5 @@
 ---
-title = 'Visual Novel Compatibility List'
+title : 'Visual Novel Compatibility List'
 ---
 
 

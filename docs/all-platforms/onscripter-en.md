@@ -1,5 +1,5 @@
 ---
-title = 'ONScripter-EN'
+title : 'ONScripter-EN'
 ---
 
 # ONScripter-EN

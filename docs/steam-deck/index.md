@@ -1,5 +1,5 @@
 ---
-title = 'Steam Deck'
+title : 'Steam Deck'
 ---
 
 ## Tools for your Steam Deck

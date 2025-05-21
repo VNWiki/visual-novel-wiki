@@ -1,5 +1,5 @@
 ---
-title = 'Sakuranomori Dreamers'
+title : 'Sakuranomori Dreamers'
 ---
 
 # Sakuranomori Dreamers

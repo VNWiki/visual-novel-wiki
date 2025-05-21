@@ -1,5 +1,5 @@
 ---
-title = 'Tsui no Stella'
+title : 'Tsui no Stella'
 ---
 
 # Tsui no Stella
