@@ -8,6 +8,6 @@ title: 'All Platforms'
 * [JP Locale](/all-platforms/jp-locale)
 * [MKXP](/all-platforms/mkxp)
 * [OnScripter](/all-platforms/onscripter-en)
-* [Retroarch](/all-platforms/retroarch)
+* [Retroarch](/all-platforms/pc-98)
 * [Steam](/all-platforms/steam)
 * [Textractor](../tools/japanese/textractor)
