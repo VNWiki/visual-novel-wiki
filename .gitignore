@@ -25,6 +25,7 @@ dist-ssr
 
 # Builds
 build/
+docs/.vitepress/sidebar.js
 
 # Local cache
 docs/.vitepress/cache/
