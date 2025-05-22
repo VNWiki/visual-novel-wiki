@@ -1,104 +1,123 @@
 ---
-title : 'Special Codecs'
+title: 'Special Codecs'
 ---
 
 # Special Codecs
 
-Special thanks to @fission for writing this modular script. This is an alternative way to installing individual codecs in our wineprefixes when we need them.\
-When you see special: (codec) on the Visual Novel compatibility page, then you’re currently on the right page to check how to make that special wineprefix.
+Special thanks to [@fission](https://github.com/b-fission) for writing this modular script. This provides an alternative way to install individual codecs in wineprefixes when needed.
 
-> [!info] Info
-> At the moment, these are the currently supported special codecs:
-> wmp11, lavfilters, xaudio29, quartz2, mf, mciqtz32, quartz_dx
+When you see `special: (codec)` on the Visual Novel compatibility page, use this guide to create the appropriate wineprefix.
 
-Using the script is simple, and it isn’t any different to how we did things in with the Wineprefixes in Lutris.\
-This assumes you already made a Wineprefix folder and already set it to a random game entry you want to get working. Name the Wineprefix whatever you want, like wmp11 if it has only wmp11 inside of it.\
-If you don’t know how to generally make a wineprefix, please click [here](/linux/wineprefixes)
+## Supported Codecs
 
-To start, download the zip wherever you want (normally Downloads folder) from [this Github repo](https://github.com/b-fission/vn_winestuff/).
+| Codec | Description |
+|-------|-------------|
+| `wmp11` | Windows Media Player 11 |
+| `lavfilters` | LAV Filters |
+| `xaudio29` | XAudio 2.9 |
+| `quartz2` | DirectShow Quartz |
+| `mf` | Media Foundation |
+| `mciqtz32` | MCI QuickTime |
+| `quartz_dx` | DirectShow Quartz DirectX |
 
-## Lutris
+## Prerequisites
 
-1. Click the🍷Wine Bottle, and click **Bash Terminal**.
-2. Enter this command so we’re in the script folder.
+> [!IMPORTANT]
+> Before using this script, ensure you have:
+> 1. **Downloaded the script**: Get the zip file from the [GitHub repository](https://github.com/b-fission/vn_winestuff/)
+> 2. **Extracted the files** to a folder (typically Downloads)
+> 3. **Created a wineprefix** if you haven't already ([guide here](/linux/wineprefixes))
 
-> [!info] Info
-> You can also right click a folder and select Copy Location, which will give you the right path for the cd command.
+## Installation Methods
 
-```
-cd <path-to-the-script-folder-you-just-extracted>
-# could be like this if in Downloads folder: cd ~/Downloads/vn_winestuff
-```
+### Lutris
 
-3. Finally, enter in any of the combinations of codecs depending on what you need!
+1. **Open Wine terminal**
+   - Click the 🍷 Wine Bottle
+   - Select **Bash Terminal**
 
-```
-sh codec.sh <write-your-codecs-here-with-spaces-between-other-codecs>
-```
+2. **Navigate to script folder**
+   ```bash
+   cd <path-to-script-folder>
+   # Example: cd ~/Downloads/vn_winestuff
+   ```
+   > **Tip**: Right-click folder → "Copy Location" to get the correct path
 
-## Bottles
+3. **Install codecs**
+   ```bash
+   sh codec.sh <codec1> <codec2> <codec3>
+   ```
 
-1. Open the Terminal where the script files are, or manually do it:
+### Bottles
 
-```
-cd <path-to-the-script-folder-you-just-extracted>
-# could be like this if in Downloads folder: cd ~/Downloads/vn_winestuff
-```
+1. **Open terminal in script directory**
+   ```bash
+   cd <path-to-script-folder>
+   # Example: cd ~/Downloads/vn_winestuff
+   ```
 
-2. Generate a standalone script for your bottle, like explained [here](https://docs.usebottles.com/advanced/cli)
+2. **Generate standalone script**
+   ```bash
+   bottles-cli standalone -b BOTTLE_NAME
+   ```
+   See [Bottles CLI documentation](https://docs.usebottles.com/advanced/cli) for details.
 
-```
-bottles-cli standalone -b BOTTLE
-```
+3. **Move standalone script** to the codec script folder
 
-3. Move the generated standalone script inside to the script folder (drag and drop, or whatever you prefer)
-4. Run the script using this command:
+4. **Run installation**
+   ```bash
+   ./standalone ./codec.sh <codec1> <codec2>
+   ```
 
-```
-./standalone ./codec.sh wmp11 quartz2
-```
+### Steam (Proton)
 
-## Steam
+1. **Install protontricks**
+   - Desktop: Install via package manager
+   - Steam Deck: Available in Discover store
 
-1. Install and open [protontricks](https://github.com/Matoking/protontricks). On the Steam Deck it can be found in the Discover store
-2. Select your game. \
-    For non-steam games you will see the name of the .exe and a random id: WA2.exe: 2648131855
-3. Select the default wineprefix
-4. Run a commandline shell (for debugging)
-5. Run the codec normally. example: 
+2. **Select your game** in protontricks
+   - Non-Steam games show as: `GameName.exe: RandomID`
 
-```
-sh /home/deck/Downloads/vn_winestuff-main/codec.sh wmp11 quartz2
-```
+3. **Choose default wineprefix**
 
-## Codec Install Examples
+4. **Run commandline shell** (for debugging)
 
-1. Installing the codecs for wmp + quartz2 (leyline series, various kirikiri VNs)
+5. **Install codecs**
+   ```bash
+   sh /path/to/vn_winestuff/codec.sh <codec1> <codec2>
+   ```
 
-```
+## Common Codec Combinations
+
+### Leyline Series + Kirikiri VNs
+```bash
 sh codec.sh wmp11 quartz2
 ```
 
-2. Installing the codecs for Full Metal Daemon: Muramasa (jast)
-
-```
+### Full Metal Daemon: Muramasa (JAST)
+```bash
 sh codec.sh mf xaudio29
 ```
 
-3. Installing mf + quartz2 + lavfilters (artemis engine VNs like SakuToki and MWA:Badge&Dagger)
-
-```
+### Artemis Engine VNs (SakuToki, MWA: Badge&Dagger)
+```bash
 sh codec.sh mf quartz2 lavfilters
 ```
 
-4. Installing mciqtz32 (rail-soft / liar-soft games)
-
-```
+### Rail-soft / Liar-soft Games
+```bash
 sh codec.sh mciqtz32
 ```
 
+## Troubleshooting
 
-# Thank you
+- **Path issues**: Use absolute paths if relative paths don't work
+- **Permissions**: Ensure the script has execute permissions (`chmod +x codec.sh`)
+- **Multiple codecs**: Separate codec names with spaces, not commas
+
+---
+
+## Credits
 
 <script setup> 
 import { VPTeamMembers } from 'vitepress/theme'
@@ -110,8 +129,7 @@ const developers = [{
   links: [
     { icon: "github", link: "https://github.com/b-fission" }
   ]
-},]
-
+}]
 </script>
 
 <VPTeamMembers size="small" :members="developers" />
