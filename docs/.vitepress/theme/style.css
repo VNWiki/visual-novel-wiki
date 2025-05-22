@@ -53,23 +53,6 @@
   --vp-c-brand-2: #34a76e;   /* Brighter hover green */
   --vp-c-brand-3: #2e8c5a;   /* Solid button green */
   --vp-c-brand-soft: #2ecc714d; /* ~30% opacity */
-
-  /* Warning: Peach/Orange */
-  --vp-c-yellow-1: #a04e00;  /* Higher contrast peach text */
-  --vp-c-yellow-2: #e89f2f;  /* Deeper orange hover */
-  --vp-c-yellow-3: #db7c1f;  /* Warmer orange */
-  --vp-c-yellow-soft: #f5b0414d; /* ~30% opacity */
-
-  /* Danger: Muted Crimson */
-  --vp-c-red-1: #812e24;    /* More legible deep red */
-  --vp-c-red-2: #d84333;    /* Adjusted hover */
-  --vp-c-red-3: #c0392b;    /* Main red */
-  --vp-c-red-soft: #e74c3c4d; /* ~30% opacity */
-
-  /* Text */
-  --vp-c-text-1: #222222;  /* Deep black-gray */
-  --vp-c-text-2: rgba(34, 34, 34, 0.75);
-  --vp-c-text-3: rgba(34, 34, 34, 0.55);
 }
 
 
@@ -79,34 +62,6 @@
   --vp-c-brand-2: #2ecc71;  /* Medium Bright Green */
   --vp-c-brand-3: #27ae60;  /* Solid Green */
   --vp-c-brand-soft: #2ecc7126;
-
-  /* Warning: Gentle Peach/Orange (Adjusted) */
-  --vp-c-yellow-1: #f8c471; /* Lighter Peach for text */
-  --vp-c-yellow-2: #f5b041; /* Peach */
-  --vp-c-yellow-3: #e67e22; /* Solid Orange */
-  --vp-c-yellow-soft: #f8c47126;
-
-  /* Danger: Muted Crimson (Adjusted) */
-  --vp-c-red-1: #ec7063;    /* Lighter Red for text */
-  --vp-c-red-2: #e74c3c;    /* Bright Red */
-  --vp-c-red-3: #cb4335;    /* Solid Muted Red */
-  --vp-c-red-soft: #e74c3c26;
-
-  /* Grays (Neutrals for Dark Mode) */
-  --vp-c-gray-1: #cccccc;
-  --vp-c-gray-2: #aaaaaa;
-  --vp-c-gray-3: #4f4f4f;
-  --vp-c-gray-soft: #6666664d;
-
-  /* Text */
-  --vp-c-text-1: rgba(250, 250, 240, 0.87);
-  --vp-c-text-2: rgba(230, 230, 240, 0.62);
-  --vp-c-text-3: rgba(230, 230, 240, 0.40);
-
-  /* Backgrounds */
-  --vp-c-bg: #22272e; /* GitHub Dark Dimmed like */
-  --vp-c-bg-soft: #2d333b;
-  --vp-c-bg-mute: #373e47;
 }
 
 /* Alias definitions (should be consistent) */
@@ -115,21 +70,6 @@
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
-
-  --vp-c-tip-1: var(--vp-c-brand-1);
-  --vp-c-tip-2: var(--vp-c-brand-2);
-  --vp-c-tip-3: var(--vp-c-brand-3);
-  --vp-c-tip-soft: var(--vp-c-brand-soft);
-
-  --vp-c-warning-1: var(--vp-c-yellow-1);
-  --vp-c-warning-2: var(--vp-c-yellow-2);
-  --vp-c-warning-3: var(--vp-c-yellow-3);
-  --vp-c-warning-soft: var(--vp-c-yellow-soft);
-
-  --vp-c-danger-1: var(--vp-c-red-1);
-  --vp-c-danger-2: var(--vp-c-red-2);
-  --vp-c-danger-3: var(--vp-c-red-3);
-  --vp-c-danger-soft: var(--vp-c-red-soft);
 }
 
 kbd {
