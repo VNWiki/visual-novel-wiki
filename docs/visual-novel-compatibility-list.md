@@ -5,6 +5,8 @@ title : 'Visual Novel Compatibility List'
 
 # Visual Novel Compatibility List
 
+If the game you want to play isn't listed, you can open a [discussion](https://github.com/VNWiki/visual-novel-wiki/discussions).
+
 
 | Symbol | Meaning                   |
 |--------|---------------------------|
