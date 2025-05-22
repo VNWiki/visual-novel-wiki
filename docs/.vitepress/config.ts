@@ -6,6 +6,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { sidebar } from './sidebar.js' // Import the auto-generated sidebar
 import { fileURLToPath } from 'node:url';
 import { GitChangelog, GitChangelogMarkdownSection } from "@nolebase/vitepress-plugin-git-changelog"
+import gitAuthors from './gitAuthors.json'
 
 export default defineConfig({
   lang: 'en-US', // Optional: Set the language
@@ -51,6 +52,7 @@ export default defineConfig({
     plugins: [
       GitChangelog({
         repoURL: () => "https://github.com/VNWiki/visual-novel-wiki",
+        mapAuthors: gitAuthors // By default, commits don't show your github Username. Visit gitAuthors.json to bind your commit name to your username.
       }),
       
       GitChangelogMarkdownSection({
