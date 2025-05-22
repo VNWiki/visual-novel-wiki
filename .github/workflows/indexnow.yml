@@ -1,0 +1,17 @@
+name: "IndexNow"
+on:
+  schedule: # Run workflow automatically
+  ‐ cron: "0 11 * * *"  
+  workflow_dispatch:
+
+jobs:
+  check-and-submit:
+    runs-on: ubuntu-latest
+    steps:
+      ‐ name: indexnow-action
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-location: "https://www.vnwiki.xyz/sitemap.xml"
+          since: 1
+          since-unit: "week"
+          key: ${{ secrets.INDEXNOW_KEY }}
