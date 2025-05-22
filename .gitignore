@@ -28,3 +28,8 @@ build/
 
 # Local cache
 docs/.vitepress/cache/
+
+# Ignore non-webp image formats in docs/public/img
+docs/public/img/**/*.png
+docs/public/img/**/*.jpg
+docs/public/img/**/*.jpeg
