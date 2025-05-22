@@ -11,6 +11,9 @@ import gitAuthors from './gitAuthors.json'
 export default defineConfig({
   lang: 'en-US', // Optional: Set the language
   base: '/',
+  sitemap: {
+    hostname: 'https://vnwiki.xyz/'
+  }
   title: "Visual Novel Wiki",
   description: "Get your Visual Novels running!",
   head: [
