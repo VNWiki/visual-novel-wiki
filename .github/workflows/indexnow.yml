@@ -14,7 +14,7 @@ jobs:
       - name: indexnow-action
         uses: bojieyang/indexnow-action@v2
         with:
-          sitemap-location: "https://vnwiki.xyz/sitemap.xml"
+          sitemap-location: "https://www.vnwiki.xyz/sitemap.xml"
           since: 1
           since-unit: "day"
           key: ${{ secrets.INDEXNOW_KEY }}
