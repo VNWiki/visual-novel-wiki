@@ -40,5 +40,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/public/img/*.webp
+          git add docs/public/img/**/*.webp
           git diff --cached --quiet || (git commit -m "chore: convert images to WebP [skip ci]" && git push)
