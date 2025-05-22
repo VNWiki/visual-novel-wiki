@@ -108,7 +108,7 @@ export default defineConfig({
 
      socialLinks: [
       // Example: Add your actual social links here
-      { icon: 'github', link: 'https://github.com/VNWiki/vnwiki.github.io' },
+      { icon: 'github', link: 'https://github.com/VNWiki/visual-novel-wiki' },
       { icon: 'discord', link: 'https://discord.gg/dejvpMhWaH' },
       // { icon: 'bluesky', link: 'https://bsky.app/your-handle' }
     ],     
