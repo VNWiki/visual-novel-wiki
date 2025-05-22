@@ -63,6 +63,11 @@ For games with specific codec or component requirements:
 > [!NOTE]
 > This assumes you're using [Lutris](lutris), but ignoring this, you can use the command line just as easily to run your applications.
 
+> [!TIP] Recommended wineprefixes
+> If starting out, setup the basic wineprefixes only.
+>
+> If you have any issues, visit the [Visual Novel Compatibility](../visual-novel-compatibility-list) page. Specific details about other wineprefixes are in [this section](#types-of-wineprefixes).
+
 > [!WARNING]
 > You only need to make the prefix one time. Do not modify the prefix once created.
 
