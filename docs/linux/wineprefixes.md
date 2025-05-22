@@ -144,8 +144,10 @@ No extra components needed; should work out of the box.
 
 > [!IMPORTANT] Special Codecs
 > We use a special helper script to install extra codecs, which have additional patches.
-> Download [Special Codecs](special-codecs.md) to a folder like `~/Documents`.
+> Download [Special Codecs](https://github.com/b-fission/vn_winestuff/) to a folder like `~/Documents`.
 > Update paths in the commands below to where you downloaded them (example, `~/Documents/vn_winestuff-main/codec.sh`).
+>
+> For more detailed information about the script, see the [Special Codecs](special-codecs.md) page.
 
 
 #### wmp11quartz (64bit)
