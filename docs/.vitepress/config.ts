@@ -35,11 +35,24 @@ export default defineConfig({
         '@public' : fileURLToPath(new URL('../public', import.meta.url)),
       }
     },
+  optimizeDeps: {
+    exclude: [
+      '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+      'vitepress',
+      '@nolebase/ui',
+    ],
+  },
+  ssr: {
+    noExternal: [
+      '@nolebase/vitepress-plugin-enhanced-readabilities',
+      '@nolebase/ui',
+    ],
+  },
     plugins: [
       GitChangelog({
         repoURL: () => "https://github.com/VNWiki/visual-novel-wiki",
       }),
-
+      
       GitChangelogMarkdownSection({
         sections: {
           disableContributors: false,
