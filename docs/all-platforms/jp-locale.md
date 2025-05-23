@@ -2,108 +2,283 @@
 title: 'JP Locale'
 ---
 
-# JP Locale
+# Japanese Locale (JP Locale)
 
-In order to play some visual novels, you need to enable Japanese (JP) locale on your computer.
+Setting up Japanese locale is recommended for running visual novels and other Japanese software on your computer.
 
-> [!NOTE] Why do I need a Japanese locale setting?
-> Most visual novels are developed in Japan and originally designed to run on Japanese versions of Windows or Linux. Even if the game has been translated into English, the underlying files often use Japanese character encoding (such as Shift-JIS or EUC-JP).
+## Why Japanese Locale is Required
+
+::: info Background
+Most visual novels are developed in Japan using Japanese character encoding (Shift-JIS or EUC-JP). Without proper locale settings, your system may:
+- Display garbled text
+- Crash during gameplay
+- Fail to install properly
+- Be unable to read Japanese filenames
+:::
+
+::: tip Cost-Effective Translation Approach
+Many official English translations still require JP locale because it's more cost-efficient to:
+- Keep the original Japanese encoding
+- Include tools like Locale Emulator
+- Avoid expensive re-programming work
+:::
+
+## Windows Setup
+
+### Method 1: System-Wide Locale (Recommended)
+
+::: warning Important
+This is the most reliable method for Japanese games.
+:::
+
+1. **Change System Locale**
+
+   ::: tabs
+
+   == Windows 10/11
+   1. Open **Control Panel**  
+   2. Click **Region**  
+   3. Go to the **Administrative** tab  
+   4. Click **Change System Locale...**  
+   5. Select **Japanese (Japan)** from the dropdown  
+   6. Restart your computer
+
+   == Windows 8
+   1. Open **Control Panel**  
+   2. Click **Clock, Language and Region → Region**  
+   3. Go to the **Administrative** tab  
+   4. Click **Change System Locale...**  
+   5. Select **Japanese (Japan)** from the dropdown  
+   6. Restart your computer
+
+   == Windows 7
+   1. Open **Control Panel**  
+   2. Click **Clock, Language and Region**  
+   3. Go to the **Administrative** tab  
+   4. Under **Language for non-Unicode programs**, click **Change System Locale...**  
+   5. Select **Japanese (Japan)** from the dropdown  
+   6. Click **OK** and restart when prompted
+
+   == Windows XP
+   1. Open **Control Panel** (have your Windows CD ready)  
+   2. Click **Regional and Language Options**  
+   3. Go to the **Advanced** tab  
+   4. Under **Language for non-Unicode programs**, select **Japanese**  
+   5. Click **OK** and follow any installation prompts  
+   6. Restart your computer
+
+   :::
+
+
+2. **Optional: Japanese Language Pack**
+   - Open **Settings** → **Time & Language** → **Language**
+   - Click **Add a language**
+   - Select **日本語 (Japanese)**
+   - Check only **Language Pack** (uncheck Text-to-speech, Speech Recognition, Handwriting)
+   - Click **Install**
+
+### Method 2: Locale Emulator
+
+::: tip Alternative Solution
+Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/) if you can't change system locale.
+Note: May not work with all applications.
+:::
+
+## Linux Setup
+
+> [!NOTE]
+> [For Steam Deck, see section after Linux.](#steam-deck-setup)
+
+To run Japanese software correctly, your system needs to support Japanese characters — including filenames, UI, and input. Most systems **do not require a full system-wide Japanese locale**, but you should ensure the following:
+
+- Japanese locale (`ja_JP.UTF-8`) is **generated** and available
+- Japanese fonts are installed
+- Flatpak apps are configured to include Japanese language support
+- Optional: Japanese input method (IM) if needed
+
+::: danger Common Issues Without JP Locale
+Without Japanese locale support, you may experience:
+- Game crashes (especially older or Wine-based titles)
+- Garbled or unreadable text
+- Inability to delete files with Japanese names
+- Compatibility issues with Steam or Lutris
+:::
+
+> [!IMPORTANT]
+> Flatpak and containerized apps (like Lutris, Steam, or Bottles) usually do **not automatically inherit** your system locale.
 >
-> Without setting your system's locale to Japanese, your computer may misinterpret the encoding. This can cause issues like garbled text, crashes, or failed installations. Setting the locale simply tells your computer how to correctly read and run Japanese programs.
-
-
-> [!TIP] Did you know?
-> Some official translations actually do require JP locale or include 'Locale Emulator', free open-source software, because of the programming work required to change from JP encoding to English encoding.
+> You must manually enable language support by setting:
+> ```bash
+> flatpak config --user --set languages 'en;ja'
+> flatpak update
+> ```
 >
-> It’s more cost-efficient to stay with JP encoding and include a program like Locale Emulator to emulate the ability to see JP (or English-translated) characters.
+> This ensures Japanese fonts and locale files are available inside the container. Without this, games may crash or show garbled text.
 
 
-## Setting up system-wide JP Locale
-
-### Windows
-
-[Changing system Locale](https://forums.fuwanovel.moe/topic/1704-how-do-i-change-my-computer-to-japanese-system-locale/) is the recommended way to run Japanese games. [Locale Emulator](https://xupefei.github.io/Locale-Emulator/) might work with some applications though.
-
-Optionally, you can also download the JP Language Pack from the Windows System Settings:
-
-1.  Go to "System Settings", "Languages" and click "Add a language".
-2.  Select "日本語" and check "Language Pack".
-3.  Uncheck "Text-to-speech", "Speech Recognition" and "Handwriting" then click "Install".
-
-### Linux
-
-For Unix systems, you need JP Locale if you want to use any JP files.
-If you don’t do this, your games won’t work, and you can have issues deleting JP files because your system can’t read those language files-- this includes Steam Deck.
-Follow these steps depending on your OS.
-After you’ve finished running these commands, proceed to the Lutris step.
 
 
 :::tabs
-== Arch Linux
-Run these commands in the Terminal:
-```sh
-sudo pacman-key --init
-sudo pacman-key --populate archlinux
-sudo pacman -S glibc
-sudo sed -i "s%#ja_JP.UTF-8 UTF-8%ja_JP.UTF-8 UTF-8%" /etc/locale.gen
+== Arch Linux and similar
+On Arch Linux and its derivatives, you'll uncomment the Japanese locale in the configuration file and then generate it.
+
+```bash{7-13}
+# Optional: Ensure glibc (which provides locale tools) is up-to-date
+# and package signing keys are initialized.
+# sudo pacman-key --init
+# sudo pacman-key --populate archlinux
+# sudo pacman -S glibc
+
+# 1. Uncomment the ja_JP.UTF-8 line in the locale generation file
+# This tells the system you want this locale to be available.
+sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+
+# 2. Generate the locales
+# This creates the necessary locale archive files.
 sudo locale-gen
 ```
-== Steam Deck
-::: warning Warning
-After the SteamOS 3.5 update the Japanese locale is installed on the Steam Deck by default, making the following instructions no longer necessary.
 
-Run these commands in the Terminal:
+== Fedora
+Fedora and related distributions (like RHEL, CentOS Stream) typically use language packs. Installing the Japanese language pack is usually sufficient.
 
-```sh
+```bash
+# 1. Install the Japanese language pack
+sudo dnf install glibc-langpack-ja
+```
+*In most cases, this is all you need. If, after this, the locale isn't available (see "Verifying Locale Availability" below), you might need to ensure `glibc-common` is installed and manually generate the locale:*
+```bash
+# sudo dnf install glibc-common # If locale-gen or /etc/locale.gen is missing
+# sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+# sudo locale-gen
+```
+
+== Debian, Ubuntu, Linux Mint
+For Debian, Ubuntu, Linux Mint, and other derivatives, you first ensure the `locales` package is installed, then uncomment `ja_JP.UTF-8` in `/etc/locale.gen`, and finally run `locale-gen`.
+
+```bash
+# 1. Ensure the 'locales' package is installed
+sudo apt update
+sudo apt install locales -y
+
+# 2. Uncomment the ja_JP.UTF-8 line in the locale generation file
+sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+
+# 3. Generate the locales
+sudo locale-gen
+```
+**Alternative: `dpkg-reconfigure locales`**
+
+You can also use `sudo dpkg-reconfigure locales`. This opens a text-based interface:
+1. Scroll through the list and find `ja_JP.UTF-8 UTF-8`. Select it by pressing `Spacebar`.
+2. **Crucially, ensure your current system locale (e.g., `en_US.UTF-8`) also remains selected.**
+3. Press `Tab` to highlight `<Ok>` and press `Enter`.
+4. On the next screen, you'll be asked to choose the **default locale for the system environment**. **Select your current system locale (e.g., `en_US.UTF-8`), NOT `ja_JP.UTF-8`**, to avoid changing your system's main language.
+5. Press `Tab` to highlight `<Ok>` and press `Enter`.
+
+This method achieves the same outcome of making `ja_JP.UTF-8` available.
+:::
+
+### Verifying Locale Availability
+
+After running the commands for your distribution, you can verify that the Japanese locale is now available on your system:
+```bash
+locale -a | grep ja_JP.UTF-8
+```
+This command should output `ja_JP.UTF-8` (or `ja_jp.utf8`) if it has been successfully generated and is available.
+
+
+> [!IMPORTANT]
+> You do not need to switch your whole system to Japanese; just ensure the locale is available and properly configured. These commands achieve that by making `ja_JP.UTF-8` available for applications to use.
+
+
+## Steam Deck Setup
+
+Steam Deck requires special handling due to its read-only filesystem:
+
+::: info SteamOS 3.5+ Update
+Recent SteamOS versions include Japanese locale by default. If you're on an older version or need to restore settings, follow the steps below.
+:::
+
+### Manual Setup
+
+```bash
 sudo steamos-readonly disable
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -S glibc
 sudo sed -i "s%#ja_JP.UTF-8 UTF-8%ja_JP.UTF-8 UTF-8%" /etc/locale.gen
 sudo locale-gen
-```
-and if you don’t plan on modifying your Steam Deck anymore than this, run this as well:
 
-```sh
+# Re-enable read-only mode (recommended)
 sudo steamos-readonly enable
 ```
+
+### Automated Script Option
+
+::: details Alternative: Automation Script
+For Steam Deck users who prefer automation or need to restore settings after system updates:
+
+1. Download [XargonWan's script](https://gist.github.com/XargonWan/cc660daf92c224b7241cbf5a2bf12c47)
+2. Place in desired folder
+3. Run in terminal:
+   ```bash
+   sh ./japanese_locale_enabler.sh
+   ```
+
+This script performs the same steps as the manual setup above.
 :::
 
-#### Automatic Script for Steam Deck
+## Lutris Configuration
 
-Sometimes your JP Locale settings can get reset because of a major Steam Deck update or because you needed to reimage your OS.
-You can download [this script](https://gist.github.com/XargonWan/cc660daf92c224b7241cbf5a2bf12c47) from **XargonWan** to automate things.
-To run it, open the Terminal in the location of the script, then run this command:
+### Step 2: Application-Specific Locale
 
-```sh
-sh ./japanese_locale_enabler.sh
-```
-
-This script does the same thing as the above system-wide commands for the Steam Deck.
-
-
-## Lutris JP Locale
-
-### Flatpak
-
-::: tip Info
-For all platforms that use the flatpak version (including Steam Deck):
-Run these commands in the Terminal:
+::: info Why This Extra Step?
+Lutris (especially Flatpak versions) runs in a sandboxed environment and doesn't inherit system locales by default. Flatpak only includes explicitly configured languages to keep download sizes manageable.
 :::
 
-After enabling system-wide JP locale (see above), we’ll also need to setup the [Lutris](../linux/lutris.md) program so it can read JP files & play them.
-Thankfully, Lutris has a new locale option! Although, you need to enable it manually.
-Type the following commands in the Terminal.
 
-```sh
-flatpak config  --system --set languages 'en;ja'
-flatpak config  --user --set languages 'en;ja'
+
+For Steam Deck and other flatpak installations:
+
+```bash
+flatpak config --system --set languages 'en;ja'
+flatpak config --user --set languages 'en;ja'
 flatpak update
 ```
 
-After, you will see a new Locale Drop Down Menu in the System Options tab in the Lutris game config permanently.
-Select `ja_JP.utf8` for all games that require it.
+**Result:** A new "Locale" dropdown will appear in Lutris game configurations.
 
-::: warning Warning
-This only tells your VN to use JP Locale. If you don’t have system-wide JP Locale enabled, you can’t read/copy/delete files that have JP characters in them, meaning your VN. Please follow the above section first!
+### Per-Game Configuration
+
+1. Open your visual novel in Lutris
+2. Go to **System Options** tab
+3. Set **Locale** to `ja_JP.utf8`
+
+::: warning Remember
+This only affects the game's locale. You still need system-wide JP locale to handle Japanese filenames and folders!
+:::
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Garbled text in game | Enable system-wide JP locale |
+| Can't delete JP files | Install system JP locale |
+| Game won't start | Try Locale Emulator (Windows) |
+| Lutris no locale option | Run flatpak commands above |
+| Steam Deck issues | Use automation script |
+
+## Summary
+
+1. **Windows Users:** Change system locale or use Locale Emulator
+2. **Linux Users:** Enable JP locale via terminal commands
+3. **Lutris Users:** Configure flatpak languages and set per-game locale
+4. **Steam Deck Users:** Out of the box enabled (3.5+) or enable manually or with script
+
+::: tip Success Check
+After setup, you should be able to:
+- Run Japanese visual novels without crashes
+- See proper Japanese text rendering
+- Handle files with Japanese names
+- Use Lutris locale dropdown (Linux)
 :::
