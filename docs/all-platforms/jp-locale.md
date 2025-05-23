@@ -206,7 +206,7 @@ sudo steamos-readonly disable
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -S glibc
-sudo sed -i "s%#ja_JP.UTF-8 UTF-8%ja_JP.UTF-8 UTF-8%" /etc/locale.gen
+sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
 sudo locale-gen
 
 # Re-enable read-only mode (recommended)
