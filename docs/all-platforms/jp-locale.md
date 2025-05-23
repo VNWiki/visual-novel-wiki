@@ -249,7 +249,7 @@ flatpak update
 
 ### Per-Game Configuration
 
-1. Open your visual novel in Lutris
+1. In Lutris, **right-click your visual novel** and select **Configure**
 2. Go to **System Options** tab
 3. Set **Locale** to `ja_JP.utf8`
 
