@@ -195,9 +195,10 @@ This command should output `ja_JP.UTF-8` (or `ja_jp.utf8`) if it has been succes
 
 Steam Deck requires special handling due to its read-only filesystem:
 
-::: info SteamOS 3.5+ Update
-Recent SteamOS versions include Japanese locale by default. If you're on an older version or need to restore settings, follow the steps below.
-:::
+> [!IMPORTANT] SteamOS 3.5+ Update
+> Skip this step if your Steam Deck is updated, and head over to [Step 2](#lutris-configuration). 
+>
+> Recent SteamOS versions include Japanese locale by default. If you're on an older version or need to restore settings, follow the steps below.
 
 ### Manual Setup
 
@@ -238,7 +239,7 @@ Lutris (especially Flatpak versions) runs in a sandboxed environment and doesn't
 
 
 
-For Steam Deck and other flatpak installations:
+Run these commands in the **Konsole** (Terminal application).
 
 ```bash
 flatpak config --system --set languages 'en;ja'
