@@ -1522,5 +1522,17 @@
     "Wineprefix": "Vanilla",
     "Wine version": "Wine 10",
     "Notes": "[18]"
+  },
+  {
+    "Visual Novel": "Sakura Musubi",
+    "Visual Novel Link": "/visual-novels/sakuramusubi",
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "Vanilla",
+    "Wine version": "Wine 10",
+    "Notes": ""
   }
 ]
