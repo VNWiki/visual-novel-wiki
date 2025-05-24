@@ -41,7 +41,7 @@ const topLevelExcludedFiles = ['index.md']; // Files to ignore at the root of /d
 // 'visual-novels' can be placed anywhere in this list or omitted.
 
 const TOP_LEVEL_SECTION_ORDER = [
-  'tools',
+  'japanese-tools',
   'all-platforms',
   'linux',
   'steam-deck',
