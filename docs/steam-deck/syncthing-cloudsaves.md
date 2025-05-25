@@ -2,63 +2,118 @@
 title : 'Syncthing - Cloud Saves'
 ---
 
-Sync your non-Steam Visual Novel saves seamlessly between your Steam Deck and PC using Syncthing.
-
 # Syncthing
-Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time.
+[Syncthing](https://syncthing.net/) syncs your non-Steam Visual Novel save files between your **Steam Deck** and **PC**.
 
-## Installation
+> [!IMPORTANT] Setup Overview
+> We are setting up Syncthing on:
+> 1. Your Steam Deck
+> 2. Your PC
 
-### Steam Deck
+## Steam Deck Setup
 
-1. Install [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) in the Steam Deck.
-2. Install [Syncthing Plugin](https://github.com/theCapypara/steamdeck-decky-syncthing). Follow Github for the recommended install instructions up to date.
-3. Access the Syncthing Web UI
-    - Set a port for the Syncthing UI, e.g., 8081.
-    - In Desktop Mode, open a browser and navigate to http://127.0.0.1:8081/ to confirm it’s working.
-4. Create a Sync Folder
-    - Example: **~/Documents/game_savedata**
-    - This folder will hold all synced save files.
-5. Add the Folder in Syncthing
-    - Click + Add Folder in the Syncthing UI and select your **game_savedata** folder. ![](https://i.imgur.com/IbU415M.png)
-    - Recommended: Under the Advanced tab, change **Full Rescan Interval (s)** to 10 for faster syncing (you don't risk to not sync it if you close the game and the Steam Deck fast enough.).
-6. Organize Game Saves
-    - Inside **game_savedata**, create a folder for each game (e.g., **SakuraMusubi**).
-7. Locate Save File Location for Each Game, usually:
-    - Same folder than the game.
-    - Inside the prefix in AppData roaming: **~/wine_prefixes/protonge/drive_c/users/steamuser/AppData/Roaming/**
-    - Documents folder inside the prefix: **~/wine_prefixes/protonge/drive_c/users/steamuser/Documents**
-8. Syncthing does not sync symlinks, but games can load save files from them. Do the following:
-    - Move or copy the game’s save folder into the new sync folder **~/Documents/game_savedata/SakuraMusubi/save**
-    - Delete the original save folder.
-    - Create a symlink back to the original location. Open Konsole:
-        > ```bash
-        > ln -s "/home/deck/Documents/game_savedata/SakuraMusubi/save" "/run/media/deck/a0b71cee-7ab4-4859-9352-a377528e4ca2/games/SakuraMusubi/さくらむすび/"
-        > ```
-    where the first path is the folder in step 5 and the second path is the game folder where the save was located originally. ![](https://i.imgur.com/AL3FWNv.png)
-9. Launch the game to ensure it still reads the save correctly.
+### 1. **Install Decky Loader**  
+   Decky Loader lets you install custom plugins on the Steam Deck.  
+   Get it here: [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader)
 
-> [!info] Decky interface 
-> From the Decky interface you can check the state of your syncs folder.
+### 2. **Install the Syncthing Plugin**  
+   Install the [Syncthing Plugin](https://github.com/theCapypara/steamdeck-decky-syncthing) via Decky Loader.  
+   Follow the GitHub page for the latest installation steps.
 
-> [!info] Add more games
-> You only need to repeat Steps 6–9 to add and sync more games.
+### 3. **Open Syncthing Web UI**  
+   - Set the Syncthing UI port (for example, `8081`).  
+   - In Desktop Mode, open a browser and visit `http://127.0.0.1:8081` to access the interface.
 
+### 4. **Create a Sync Folder**  
+   Create a folder to hold all your save files, e.g., `~/Documents/game_savedata`.
 
-### PC
-Next we will need to do about the same thing in your PC:
+### 5. **Add the Folder to Syncthing**  
+   - In the Syncthing UI, click **+ Add Folder** and select your sync folder.  
+   - ![adding_save_folder_to_syncthing_UI](https://i.imgur.com/IbU415M.png)  
+   - (Recommended) Under **Advanced**, set **Full Rescan Interval** to 10 seconds for faster syncing.
 
-1. Install [Syncthing](https://syncthing.net/downloads/) in your PC
-2. Open the GUI, if by default: http://127.0.0.1:8384/
-3. Pair With Steam Deck
-    - Add your Steam Deck as a Remote Device.
-    - Share the **game_savedata** folder with it.
-4. Repeat Save Sync Setup (Steps 7–9)
-    - Locate the save file, move it into the synced folder, and create a symlink (On Windows you can try to use **mklink** to create symlinks)
+### 6. **Organize Your Saves**  
+   Inside `game_savedata`, create one folder per game, e.g., `SakuraMusubi`.
 
-> [!info] Optional: Cloud Server as Middleman
-> You can also use some sort of VPS or cloud server where you can run Syncthing as a middleman between the Steam Deck and your PC that will help to make sure your saves are always updated more reliably, otherwise your PC will always have to be turned in and reachable from your Steam Deck.
-> Add the Steam Deck as a remote device on the server. And then add the PC as another remote device on the server. Share the **game_savedata** folder between all three devices.
+### 7. **Find Your Game’s Save Location**  
+Typical locations include:  
+   - The game’s own folder  
+   - Proton prefix roaming directory:  
+     `~/wine_prefixes/protonge/drive_c/users/steamuser/AppData/Roaming/`  
+   - Documents folder inside prefix:  
+     `~/wine_prefixes/protonge/drive_c/users/steamuser/Documents`
+> [!TIP]
+> Generally, saves are within the `drive_c` folder of the wineprefix you used to run the game.
 
-> [!warning] Wait to Sync before shutting down
-> Make sure the Steam Deck and PC always sync the save to the other device before opening the game in the other device to avoid possible save corruption and losing progress. (this is why middleman is good)
+### 8.  **Replace Original Saves with Symlinks**
+This step makes your game use the save files from your new Syncthing folder. 
+
+We'll move the actual save files to the new Savething folder, then create a "smart shortcut" (a symbolic link) so the game can still find them.
+
+1.  **Move Save Files to Syncthing Folder:**
+    *   Locate your game's original save file/folder (from Step 7).
+    *   Move this entire save file/folder into the corresponding subfolder within your main `game_savedata` directory.
+        *   *Example:* If saves are in `.../AppData/Roaming/GameName/Saves/`, move the `Saves` folder to `~/Documents/game_savedata/GameName/Saves/`.
+2.  **Delete the Original Save Folder (Now Empty or Redundant):**
+    *   Go back to the game's original save location.
+    *   Delete the folder you just moved the contents from. **Double-check your files were successfully moved to the `game_savedata` folder first!**
+3.  **Create the Symbolic Link ("Smart Shortcut"):**
+    *   Open **Konsole** (the terminal application in Desktop Mode).
+    *   Use the `ln -s` command. This command creates a link at the game's *original* save location that points to the *new* location of your saves (inside the Syncthing folder).
+        ```bash
+        # Command structure:
+        # ln -s "SYNC_SAVE_PATH" "ORIG_SAVE_PATH"
+        # Example:
+        ln -s "/home/deck/Documents/game_savedata/SakuraMusubi/save_data" "/path/to/original/game/save_location/SakuraMusubi/save_data"
+        ```
+    *   **SYNC_SAVE_PATH**: The full path to where your save files *now actually live* (e.g., `"/home/deck/Documents/game_savedata/SakuraMusubi/save_data"`).
+    *   **ORIG_SAVE_PATH**: The full, exact path where the game *used to* keep its saves, and where the link will now be placed (e.g., `"/home/deck/.steam/steam/steamapps/compatdata/12345/pfx/drive_c/users/steamuser/AppData/Roaming/SakuraMusubi/save_data"`).
+
+![Symbolic link in file manager or terminal output](https://i.imgur.com/AL3FWNv.png)
+
+> [!NOTE]
+>  Syncthing does not sync symbolic links.
+
+### 9. **Test Your Game**  
+Launch the game to make sure it reads your saves correctly.
+
+> [!info] Decky Plugin  
+> You can monitor your sync status directly from Decky’s interface.
+
+> [!tip] Add More Games  
+> Repeat steps 6 to 9 for any additional games.
+
+---
+
+## PC Setup
+
+1. **Install Syncthing**  
+   Download and install Syncthing from [syncthing.net](https://syncthing.net/downloads/) on your PC.
+
+2. **Open Syncthing GUI**  
+   Usually available at: `http://127.0.0.1:8384/`.
+
+3. **Connect Your PC to Steam Deck**  
+   - Add your Steam Deck as a remote device.  
+   - Share the `game_savedata` folder with it.
+
+4. **Setup Save Sync on PC**  
+   Like on the Steam Deck, move your save files into the synced folder and create symlinks back to their original locations. On Windows, use `mklink` to create symlinks.
+
+::: tip Optional: Use a Cloud Server (VPS, NAS...)
+For more robust syncing, especially if your PC and Steam Deck aren't always on at the same time, you can set up Syncthing on an "always-on" device like a Virtual Private Server (VPS), a Raspberry Pi, or a Network Attached Storage (NAS) device.
+
+1.  Install Syncthing on this central server.
+2.  Add your Steam Deck and PC as remote devices to this server (and vice-versa).
+3.  Share the `game_savedata` folder from one device (e.g., Steam Deck) to the central server.
+4.  Then, share the same folder from the central server to your other device (e.g., PC).
+
+This configuration allows devices to sync through the central server even if they can't see each other directly online at the same moment.
+:::
+
+::: warning Always Wait for Sync!
+Before switching between your Steam Deck and PC, or before shutting down either device:
+
+*   **Always ensure Syncthing has finished syncing all changes.** Check the Syncthing Web UI on both devices (or the Decky Plugin on the Steam Deck). The folder status should show "Up to Date" and there should be no pending transfers.
+*   Failure to wait can lead to sync conflicts (where Syncthing doesn't know which version of a file is correct), data loss, or corrupted save files.
+:::
