@@ -153,6 +153,11 @@ Once you have your game running properly in Desktop Mode:
 3. Right-click the new entry and select **Create desktop shortcut**
 4. Restart Steam and return to Gaming Mode
 
+::: tip
+Use the [SteamGridDB](https://github.com/SteamGridDB/decky-steamgriddb) Decky Loader plugin to conveniently add artwork for your Visual Novel while in Steam Gaming Mode.
+:::
+
+
 ::: info Additional Resources
 - Check the [compatibility list](/visual-novel-compatibility-list) to search for your games or similar engines/developers
 - Review the [wineprefix guide](/linux/wineprefixes) to create more specific prefixes for individual games
