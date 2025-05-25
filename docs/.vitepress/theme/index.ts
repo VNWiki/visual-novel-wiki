@@ -38,9 +38,6 @@ import { InjectionKey, SpotlightStyle } from '@nolebase/vitepress-plugin-enhance
 // but importing the CSS ensures styles are loaded if not already by the preset.
 import 'primeicons/primeicons.css';
 
-// Before-after Image comparison slider
-import VueCompareImage from 'vue3-compare-image'
-
 export default {
   extends: DefaultTheme,
 
