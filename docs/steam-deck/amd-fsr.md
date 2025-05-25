@@ -1,39 +1,128 @@
 ---
-title : 'AMD FSR'
+title: 'AMD FSR'
+description: 'Learn how to use AMD FidelityFX Super Resolution to improve visual quality in Visual Novels on Steam Deck'
 ---
 
 # AMD FSR
 
-## What’s FSR?
+**AMD FidelityFX™ Super Resolution** (FSR) is a built-in upscaling technology that comes with every Steam Deck. We can leverage this powerful upscaling feature for Visual Novels to improve image quality and reduce font blurriness.
 
-**AMD FidelityFX™ Super Resolution** (FSR) is a built-in upscaling software that comes with every Steam Deck.\
-And so, we’re going to use this upscaling for Visual Novels to improve image quality & blurry fonts.
+::: info Why Use FSR on Steam Deck?
+While some advise against upscaling software on larger displays, this doesn't apply to the Steam Deck. We're working with a compact 7-inch screen at 1280×800 resolution, so upscaling artifacts aren't blown out of proportion.
 
-> [!info] Info
-> While some advise against some upscaling software, this isn’t true for the Steam Deck. 
-> We’re working with a very small screen (1280x800), so upscaling isn’t blown out of proportion here.
-> Therefore, we recommend its usage because it almost always looks better than standard definition.
+**We recommend using FSR because it almost always produces better visual quality than native low resolution rendering.**
+:::
 
-## How to Upscale VNs with FSR
+## Setting Up FSR for Visual Novels
 
-1. To start, press the **… button** quick menu and head over to the **Performance** tab
-2. You’ll want to set **Performance Overlay Level** to **5**, and turn on **Use per-game** profile
+### Step 1: Access Performance Settings
 
-You’ll see a FSR indicator at **3**. This indicates if FSR is on or off.
+1. Press the **Steam button (…)** to open the quick menu
+2. Navigate to the **Performance** tab
+3. Configure the following settings:
+   - Set **Performance Overlay Level** to **5**
+   - Enable **Use per-game profile**
 
-3. Head down and set **Scaling Filter** to **FSR**, and **FSR Sharpness** to **5**.
+::: tip Performance Overlay
+The performance overlay will show an FSR indicator at position **3**, which tells you whether FSR is currently active or inactive.
+:::
 
-FSR will still show OFF, and that’s normal.\
-FSR only turns **on when your resolution is lower than the native resolution** of the Steam Deck, which is 1280x800.\
-And so, you will need to **lower the in-game resolution** until it shows FSR ON.\
-Here, FSR turns on starting at 800x600 resolution.
+![FSR Performance Menu Setup](/img/tutorials/fsr/fsr_menu_1_resize.webp)
 
-## Forcing a Game Resolution
+### Step 2: Configure FSR Settings
 
-If your VN doesn’t offer an in-game resolution changer-- you can force a resolution to be used in Steam Game Mode.\
-To do so, please follow the below steps.
+1. Scroll down in the Performance menu
+2. Set **Scaling Filter** to **FSR**
+3. Set **FSR Sharpness** to **5** (maximum sharpness)
 
-1. Press the **… button** on the VN you’d like to change its resolution.
-2. Select Properties, then scroll down. Change the **Game Resolution** to something lower than **1280x800**; the Steam Deck’s native resolution.
+![FSR Configuration](/img/tutorials/fsr/fsr_menu_2_resize.webp)
 
-You may need to fiddle around with the resolution until the Steam Deck automatically upscales the image.
+::: warning FSR Activation Requirements
+After configuring these settings, FSR can still show as **OFF** in the overlay. This is normal behavior.
+
+**FSR only activates when your game resolution is lower than the Steam Deck's native resolution (1280×800).** You'll need to reduce the in-game resolution to trigger FSR upscaling.
+:::
+
+### Step 3: Set Lower Resolution
+
+To activate FSR, you need to run your Visual Novel at a resolution below 1280×800. In most cases, FSR will activate starting at **800×600** resolution.
+
+<ClientOnly>
+  <ImageCompare class="shadow-lg rounded-2xl">
+    <template v-slot:left>
+      <img src="/img/tutorials/fsr/fsr_off.webp" alt="FSR Off" />
+    </template>
+    <template v-slot:right>
+      <img src="/img/tutorials/fsr/fsr_on.webp" alt="FSR On" />
+    </template>
+  </ImageCompare>
+</ClientOnly>
+
+<div class="image-compare-wrapper" style="max-width:600px; margin: auto;">
+  <div class="image-compare-captions" aria-label="Image compare captions" role="note">
+    <span class="caption-left">Left: FSR Off</span>
+    <span class="caption-right">Right: FSR On</span>
+  </div>
+</div>
+
+
+
+*Hover or drag the slider to see FSR changes to image quality and text clarity.*
+
+## Forcing Resolution for Games Without Options
+
+Some Visual Novels don't include built-in resolution settings. For these titles, you can force a specific resolution through Steam's game properties.
+
+### Method: Steam Game Properties
+
+1. In Game Mode, highlight the Visual Novel you want to configure
+2. Press the **Steam button (…)** to open the context menu
+3. Select **Properties**
+4. Scroll down to find **Game Resolution**
+5. Choose a resolution lower than **1280×800** (try 800×600 or 960×600)
+
+![Forcing Resolution via Steam Properties](/img/tutorials/fsr/fsr_resolution_change_steam.webp)
+
+::: tip Finding the Right Resolution
+You may need to experiment with different resolutions to find the sweet spot where:
+- FSR activates (shown in the performance overlay)
+- The game displays properly without UI scaling issues
+- Visual quality is optimized
+
+Common working resolutions: **800×600**, **960×600**, **1024×576**
+
+:::
+
+## Troubleshooting
+
+**FSR not activating?**
+- Ensure game resolution is below 1280×800
+- Check that Performance Overlay Level is set to 5
+- Verify Scaling Filter is set to FSR (not Linear or Nearest)
+
+**Game looks worse with FSR?**
+- Try adjusting FSR Sharpness (values 3-5 work best)
+- Some games may look better at different base resolutions
+- Very old or pixel-art games might benefit from Integer scaling instead
+
+**UI elements too small?**
+- Some games scale UI with resolution - try a higher base resolution like 960×600
+- Check if the game has separate UI scaling options
+
+<style>
+.image-compare-captions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.caption-left,
+.caption-right {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  user-select: none;
+}
+</style>
