@@ -12,6 +12,7 @@ import Aura from '@primevue/themes/aura'; // Import a preset like Aura
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import InputText from 'primevue/inputtext'
+import ImageCompare from 'primevue/imagecompare'
 
 // Tabs plugin
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
@@ -36,6 +37,9 @@ import { InjectionKey, SpotlightStyle } from '@nolebase/vitepress-plugin-enhance
 // PrimeIcons are usually automatically available with the PrimeVue plugin
 // but importing the CSS ensures styles are loaded if not already by the preset.
 import 'primeicons/primeicons.css';
+
+// Before-after Image comparison slider
+import VueCompareImage from 'vue3-compare-image'
 
 export default {
   extends: DefaultTheme,
@@ -72,7 +76,8 @@ export default {
     app.component('InputText', InputText);
     app.component('CustomCard', CustomCard);
     app.component('CardGrid', CardGrid);
-
+    app.component('ImageCompare', ImageCompare)
+    
     // Enable changelog plugin
     app.use(NolebaseGitChangelogPlugin);
 
