@@ -42,9 +42,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
         
-      - name: Setup IndexNow
-        run: echo ${{ secrets.INDEXNOW_KEY }} > ${{ secrets.INDEXNOW_KEY }}.txt
-        
       - name: Build VitePress site
         run: pnpm build
 
