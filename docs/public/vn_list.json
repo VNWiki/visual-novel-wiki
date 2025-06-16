@@ -1558,5 +1558,17 @@
     "Wineprefix": "any",
     "Wine version": "any",
     "Notes": "[5], [18]"
-  }
+  },
+  {
+    "Visual Novel": "Spiral Dystopia",
+    "Visual Novel Link": "/visual-novels/spiral-dystopia",
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "Any",
+    "Wine version": "Proton GE",
+    "Notes": "[62]"
+  },
 ]
