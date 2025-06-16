@@ -1546,5 +1546,17 @@
     "Wineprefix": "wmp9",
     "Wine version": "Wine 9.10",
     "Notes": "[18]"
+  },
+  {
+    "Visual Novel": "A Clockwork Ley-Line: The Borderline of Dusk",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "any",
+    "Wine version": "any",
+    "Notes": "[5], [18]"
   }
 ]
