@@ -11,4 +11,4 @@ Game needs dinput to work in English. Use `protontricks 1933680 dinput dinput8` 
 
 ## Links
 
-* [VNDB]([https://vndb.org/v5000](https://vndb.org/v15699))
+* [VNDB](https://vndb.org/v15699)
