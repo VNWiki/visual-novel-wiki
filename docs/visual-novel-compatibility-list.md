@@ -176,6 +176,7 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 59. Install `directshow` and `wmp9`: protontricks/winetricks -q directshow wmp9
 60. Some versions like lutris 7.2 and proton-ge 9.9 have audio crackling. 9.13 works fine and plays videos.
 61. Can increase font in engine: use [garbro](https://github.com/morkt/GARbro) in Windows, extract init.ini from cfg.pak, make cfg folder, place init.ini into cfg folder, change MsgFontSize
+62. Install `dinput` and `dinput8`
 
 ## Game-specific information
 
