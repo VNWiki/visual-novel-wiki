@@ -1543,7 +1543,7 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "ISM",
-    "Wineprefix": "wmp9 32bit",
+    "Wineprefix": "wmp9",
     "Wine version": "Wine 9.10",
     "Notes": "[18]"
   }
