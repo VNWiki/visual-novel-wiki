@@ -42,6 +42,7 @@ For games with specific codec or component requirements:
 | `xact` | DirectX Audio codecs |
 | `quartz_dx` | DirectX + Quartz |
 | `wmp10quartz` | Windows Media Player 10 + QuartzCore |
+| `wmp9` | Windows Media Player 9 |
 
 ### Choosing the Right Prefix
 
@@ -189,6 +190,11 @@ winetricks -q --force xact
 ```bash
 winetricks ffdshow
 ```
+#### wmp9 (32bit)
+```bash
+winetricks -q --force wmp9
+```
+
 > [!IMPORTANT]
 > Manually enable ALL codecs for ffdshow (including MPEG-1/2!) when the popup occurs at the end.
 
