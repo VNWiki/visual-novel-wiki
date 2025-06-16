@@ -7,7 +7,7 @@ title : 'Spiral Dystopia'
 
 ### Linux / Steam Deck
 
-Game needs dinput to work in English. Use 'protontricks 1933680 dinput dinput8" for Steam version.
+Game needs dinput to work in English. Use `protontricks 1933680 dinput dinput8` for Steam version.
 
 ## Links
 
