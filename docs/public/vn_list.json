@@ -1535,4 +1535,16 @@
     "Wine version": "Wine 10",
     "Notes": ""
   }
+  {
+    "Visual Novel": "Sisters: Last Day of Summer",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "ISM",
+    "Wineprefix": "wmp9 32bit",
+    "Wine version": "Wine 9.10",
+    "Notes": "[18]"
+  }
 ]
