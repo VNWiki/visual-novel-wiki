@@ -1570,5 +1570,29 @@
     "Wineprefix": "Any",
     "Wine version": "Proton GE",
     "Notes": "[62]"
+  },
+  {
+    "Visual Novel": "Free Friends",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "wmp11",
+    "Wine version": "Lutris 7.2.2",
+    "Notes": "[7]"
+  },
+  {
+    "Visual Novel": "Free Friends 2",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "wmp11",
+    "Wine version": "Lutris 7.2.2",
+    "Notes": "[7]"
   }
 ]
