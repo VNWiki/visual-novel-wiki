@@ -26,7 +26,9 @@ import DownloadButton from '@components/DownloadButton.vue'
 > - Opening video appears as a **white screen**, even with WMP11 installed  
 >  
 > To fix this, you **must still use the custom `d2d1.dll`** patch.
-
+>
+> [!WARNING] Known Issue
+> Even with wmp11 the opening won't play, please look at it on [YouTube](https://www.youtube.com/watch?v=doxEwC6NErM).
 #### Steps
 
 1. Download the custom [`d2d1.dll`](#d2d1-dll) below.  
@@ -53,6 +55,18 @@ You can also apply the override manually using `winecfg`:
 > [!info] DLL Compatibility Patch
 > This precompiled `d2d1.dll` is offered as-is for older Wine versions.  
 > Source code is included in the `.zip` archive below.
+
+## Steam Deck
+1. Download the [18+ patch](https://appendingpulse.jp/dl/dok7cefc0mv7?lang=en) & unpack it into the root folder of the game install. 
+
+2. Download the custom [`d2d1.dll`](#d2d1-dll) below.  
+   Place it in the same folder as the game `.exe`.
+
+3. In Steam add to the launch options `WINEDLLOVERRIDES="d2d1.dll=n,b" %command%`
+
+4. Install wmp11 with the following command `protontricks 3682050 wmp11`
+
+5. Proton Version: Proton Hotfix or any recent Proton version-
 
 ## d2d1.dll
 <DownloadButton filePath="dlls/d2d1.dll" />
