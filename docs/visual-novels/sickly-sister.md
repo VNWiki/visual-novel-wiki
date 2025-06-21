@@ -27,8 +27,6 @@ import DownloadButton from '@components/DownloadButton.vue'
 >  
 > To fix this, you **must still use the custom `d2d1.dll`** patch.
 
-> [!WARNING] Known Issue
-> Even with wmp11 the opening won't play, please look at it on [YouTube](https://www.youtube.com/watch?v=doxEwC6NErM).
 #### Steps
 
 1. Download the custom [`d2d1.dll`](#d2d1-dll) below.  
