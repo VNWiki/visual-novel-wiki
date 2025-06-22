@@ -9,15 +9,20 @@ Over the years, video games have gone through many different hardware and softwa
 
 Assets for Lutris are available [here](https://www.steamgriddb.com/game/5267809).
 
+
 ## Installation
 
 ### Linux
 
 Visit Lutris’s website ([Downloads Section](https://lutris.net/downloads)) for OS-specific installation.
 
-### Steam Deck
+Runners for Lutris are located at `~/.local/share/lutris/runners/`
+
+### Steam Deck or Flatpak
 
 Get the `flatpak` from the **Discover Store** (pre-installed App Store) or run the command below in the terminal:
+
+Runners for Lutris are located at `~/.var/app/net.lutris.Lutris/data/lutris/runners/`
 
 ```sh
 flatpak install flathub net.lutris.Lutris

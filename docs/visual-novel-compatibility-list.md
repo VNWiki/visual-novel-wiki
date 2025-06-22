@@ -172,7 +172,7 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 55. Having certain fonts seem to work but the fakejapanese winetricks package seems to work fine without anything. In case of performance issue delete the content of the font folder of your prefix and try with fewer fonts.
 56. Install mf with the special codecs. [Steam thread](https://steamcommunity.com/app/2052410/discussions/0/4034726433726697483/)
 57. Run with PULSE_LATENCY_MSEC=120 environment variable if audio crackling
-58. Game freezes in auto read scenes in linux; need to read those scenes in windows transfering saves back and forth. Only 1 scene per route has autoread so other than that it works perfectly fine.
+58. Game freezes in auto read scenes in linux.
 59. Install `directshow` and `wmp9`: protontricks/winetricks -q directshow wmp9
 60. Some versions like lutris 7.2 and proton-ge 9.9 have audio crackling. 9.13 works fine and plays videos.
 61. Can increase font in engine: use [garbro](https://github.com/morkt/GARbro) in Windows, extract init.ini from cfg.pak, make cfg folder, place init.ini into cfg folder, change MsgFontSize

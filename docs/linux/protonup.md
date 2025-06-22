@@ -22,11 +22,11 @@ Vanilla Builds for Lutris are distributed by Kron4ek ([github](https://github.co
 ### Proton-GE
 Now you can Use Proton-GE in both Lutris or Steam. The install process is the same:
 
-* Select Steam
+* Select Lutris
 * Add Version
 * Select GE-Proton
 
-![](https://i.imgur.com/cgOM6m5.png)
+![](https://i.imgur.com/x6YNsdg.png)
 
 > [!warning] Warning
 > Need to restart Lutris or Steam after installing a new runner.

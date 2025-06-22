@@ -31,7 +31,7 @@ Wine is open-source software that translates Windows code to Linux-readable code
 ### Method 1: ProtonUP-QT (Recommended)
 
 > [!IMPORTANT]
-> ProtonUP-QT is the easiest way to manage Wine versions across different launchers.
+> [ProtonUP-QT](protonup) is the easiest way to manage Wine versions across different launchers.
 
 **Installation:**
 1. **Install via Flatpak** (platform-agnostic)
@@ -50,13 +50,19 @@ Wine is open-source software that translates Windows code to Linux-readable code
 
 ### Method 2: Manual Installation
 
-**Vanilla Wine:**
-- Download from [WineHQ](https://wiki.winehq.org/Download)
-- Follow distribution-specific installation instructions
+**Kron4ek Builds:**
+- Download from [Github releases](https://github.com/Kron4ek/Wine-Builds/releases)
+- Extract to appropriate directory based on your launcher
+- Has a lot of useful Wine builds precompiled
 
 **Proton GE:**
 - Download from [GitHub releases](https://github.com/GloriousEggroll/proton-ge-custom/releases)
 - Extract to appropriate directory based on your launcher
+
+**Vanilla Wine:**
+- Download from [WineHQ](https://wiki.winehq.org/Download)
+- Follow distribution-specific installation instructions
+
 
 ## Launcher-Specific Setup
 
@@ -67,6 +73,7 @@ Wine is open-source software that translates Windows code to Linux-readable code
 ### Lutris
 - Wine versions appear in: **Preferences > Runners > Wine**
 - Select version when creating new game configurations
+- Runners are located at: `~/.local/share/lutris/runners/` or `~/.var/app/net.lutris.Lutris/data/lutris/runners/`
 
 ### Bottles
 - Wine versions appear in bottle creation/settings
