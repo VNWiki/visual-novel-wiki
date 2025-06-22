@@ -26,8 +26,8 @@ These are recommended for most visual novels:
 
 | Prefix | Purpose | When to Use |
 |--------|---------|-------------|
-| `proton_ge` | General compatibility | First choice for most VNs |
-| `vanilla` | Clean Wine setup | When proton_ge has issues |
+| `proton_ge` | General compatibility | First choice for newer VNs |
+| `vanilla` | Clean Wine setup | For VNs using older engines like kirikiri or BGI |
 
 ### Special-Purpose Wineprefixes
 For games with specific codec or component requirements:
@@ -102,8 +102,8 @@ Based on the prefix type, select the appropriate Wine runner:
 
 | Prefix Type | Recommended Runner | Installation Source | Notes |
 |-------------|-------------------|---------------------|-------|
-| **vanilla** | Wine 10 | [protonUp-qt](protonup) Kron4ek Builds | - |
-| **proton_ge** | Proton-GE 9.13+ | [protonUp-qt](protonup) | Or newer versions |
+| **vanilla** | Wine 10 | [protonUp-qt](protonup) Kron4ek Builds | It has fullscreen issues with some VNs, can use gamescope as a workaround |
+| **proton_ge** | Proton-GE 9.27 | [protonUp-qt](protonup) | - |
 | **Others** | Lutris 7.2 | Default | Do NOT use Lutris 7.2.2 (video playback issues)<br>Disable DXVK for these prefixes |
 
 ### 4. Install components (optional)
@@ -145,6 +145,7 @@ No extra components needed; should work out of the box.
 
 * If using outside Steam (like Lutris), install `umu-launcher`.
 * Flatpak Lutris bundles `umu-launcher`.
+* Can also try Proton-GE 10+ versions if you have issues with 9.27. Make a different prefix for it.
 
 ### Media Prefixes
 
@@ -239,7 +240,8 @@ ln -s "~/Desktop/Fonts/" <your-wineprefix-path>/drive_c/windows/
 ### Common Issues
 
 #### Video Playback Issues
-If you have video playback or lag issues in old VNs, make sure **DXVK is disabled**.
+If you have video playback or lag issues in old VNs, make sure **DXVK is disabled**.  
+If using **vanilla** prefix make sure you have the gstreamer libraries and are using a wow64 build of wine (the name of the wine version ends in wow64) for better compatibility.
 
 #### Text Rendering Issues
 For rendering text issues in-game, ensure fonts are in the prefix and use the Japanese locale environment variable:
@@ -247,6 +249,25 @@ For rendering text issues in-game, ensure fonts are in the prefix and use the Ja
 ```bash
 LANG="ja_JP.UTF-8"
 ```
+
+#### Fullscreen Issues
+Prefixes not using proton runners usually have issues with fullscreen in Visual Novels that use exclusive fullscreen. As a workaround you can use [Gamescope](gamescope)  
+
+<details>
+<summary>You can also compile your own version of Wine with the fullscreen fixes from proton in a wow64 build:</summary>
+
+
+1. Use [wine-tkt-git](https://github.com/Frogging-Family/wine-tkg-git) repository. Read the instructions.
+
+2. Use [wine-tkg-valve-exp.cfg](https://github.com/Frogging-Family/wine-tkg-git/blob/master/wine-tkg-git/wine-tkg-profiles/wine-tkg-valve-exp.cfg) as a template. Add `_NOLIB32="wow64"` at the end to enable wow64 build.
+
+3. Name the .cfg file as `wike-tkg.cfg`. Place it in `~/.config/frogminer/`.
+
+4. Run the compilation .sh script and select 0.
+
+5. Add your build to the Lutris folder: `~/.local/share/lutris/runners/wine/` or `~/.var/app/net.lutris.Lutris/data/lutris/runners/`(flatpak), restart Lutris.
+</details>
+
 
 #### WMP11 32-bit Installation
 The 32bit installer for `wmp11` is broken, but [a fix is available](https://github.com/Winetricks/winetricks/pull/1990). For now, use a 64bit prefix (as of April 21, 2023) with Lutris 7.2.

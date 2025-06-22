@@ -211,8 +211,20 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "Kirikiri",
-    "Wineprefix": "wmp10quartz",
-    "Wine version": "Lutris 7.21+/Proton 7+",
+    "Wineprefix": "vanilla",
+    "Wine version": "wine 10.4",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Sharin no Kuni",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "✅",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Kirikiri",
+    "Wineprefix": "vanilla",
+    "Wine version": "wine 10.4",
     "Notes": ""
   },
   {
@@ -1332,16 +1344,16 @@
     "Notes": "[9], [18], [57]"
   },
   {
-    "Visual Novel": "Amakano 2 Perfect editition",
+    "Visual Novel": "Amakano 2 Perfect edition",
     "Visual Novel Link": null,
     "Windows": "✅",
     "Mac": "❓",
-    "Linux": "❌",
-    "Steam Deck": "❌",
+    "Linux": "✅",
+    "Steam Deck": "✅",
     "Game engine": "CatSystem2",
     "Wineprefix": "proton-ge",
-    "Wine version": "Proton GE 9.5+",
-    "Notes": "[58]"
+    "Wine version": "Proton GE 10+",
+    "Notes": ""
   },
   {
     "Visual Novel": "Tsukikage no Simulacre",
@@ -1594,5 +1606,17 @@
     "Wineprefix": "wmp11",
     "Wine version": "Lutris 7.2.2",
     "Notes": "[7]"
+  },
+  {
+    "Visual Novel": "Itsuka, Todoku, Ano Sora ni.",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "BGI",
+    "Wineprefix": "vanilla",
+    "Wine version": "Wine 10.4",
+    "Notes": ""
   }
 ]

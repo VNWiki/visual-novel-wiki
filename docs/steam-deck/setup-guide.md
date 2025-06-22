@@ -77,14 +77,14 @@ Configure the following settings:
 - Runner: `Wine`
 
 **Game Options:**
-- Executable: Path to your Visual Novel executable  
+- Executable: Path to your Visual Novel executable.  
   Example: `/home/deck/games/WHITE ALBUM2/WA2.exe`
 - Wine prefix: `/home/deck/Documents/wine_prefixes/vanilla/`
 - Prefix architecture: `64-bit`
 
 **Runner Options:**
-- Wine version: `wine-10.1-amd64-wow64` (or latest version installed)
-- Enable DXVK: `Disable` (can enable if you have rendering issues)
+- Wine version: `wine-10.X-amd64-wow64` (Latest version available)
+- Enable DXVK: `Disable` (Enable it if you have rendering issues)
 
 **System Options:**
 - Locale: Select **Japanese**
@@ -112,14 +112,14 @@ Configure the following settings:
 - Runner: `Wine`
 
 **Game Options:**
-- Executable: Path to your Visual Novel executable  
+- Executable: Path to your Visual Novel executable.  
   Example: `/home/deck/games/WHITE ALBUM2/WA2.exe`
-- Wine prefix: `/home/deck/Documents/wine_prefixes/protonge`
+- Wine prefix: `/home/deck/Documents/wine_prefixes/protonge9` or `/home/deck/Documents/wine_prefixes/protonge10` 
 - Prefix architecture: `64-bit`
 
 **Runner Options:**
-- Wine version: `GE-Proton 10.3` (or latest version installed)
-- Enable DXVK: `Enable` (can disable if you have rendering issues)
+- Wine version: `GE-Proton 9.27` or `GE-Proton 10.X` (Latest version available)
+- Enable DXVK: `Enable` (Disable it if you have rendering issues)
 
 **System Options:**
 - Environment options:
@@ -128,6 +128,10 @@ Configure the following settings:
 - Locale: Select **Japanese**
 
 Click **Play** to create the prefix and open the game.
+
+::: tip
+Proton-ge 9.27 Seems to have better video compatibility as of right now, Make sure to try both if you have issues
+:::
 
 ## Step 7: Install Japanese Fonts
 
