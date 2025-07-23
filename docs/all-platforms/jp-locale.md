@@ -133,7 +133,7 @@ On Arch Linux and its derivatives, you'll uncomment the Japanese locale in the c
 
 # 1. Uncomment the ja_JP.UTF-8 line in the locale generation file
 # This tells the system you want this locale to be available.
-sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+sudo sed -i 's/^#[[:blank:]]*\(ja_JP.UTF-8[[:blank:]]*UTF-8\)/\1/' /etc/locale.gen
 
 # 2. Generate the locales
 # This creates the necessary locale archive files.
@@ -150,7 +150,7 @@ sudo dnf install glibc-langpack-ja
 *In most cases, this is all you need. If, after this, the locale isn't available (see "Verifying Locale Availability" below), you might need to ensure `glibc-common` is installed and manually generate the locale:*
 ```bash
 # sudo dnf install glibc-common # If locale-gen or /etc/locale.gen is missing
-# sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+# sudo sed -i 's/^#[[:blank:]]*\(ja_JP.UTF-8[[:blank:]]*UTF-8\)/\1/' /etc/locale.gen
 # sudo locale-gen
 ```
 
@@ -163,7 +163,7 @@ sudo apt update
 sudo apt install locales -y
 
 # 2. Uncomment the ja_JP.UTF-8 line in the locale generation file
-sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+sudo sed -i 's/^#[[:blank:]]*\(ja_JP.UTF-8[[:blank:]]*UTF-8\)/\1/' /etc/locale.gen
 
 # 3. Generate the locales
 sudo locale-gen
@@ -213,7 +213,7 @@ sudo steamos-readonly disable
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -S glibc
-sudo sed -i 's/^#\(ja_JP.UTF-8 UTF-8\)/\1/' /etc/locale.gen
+sudo sed -i 's/^#[[:blank:]]*\(ja_JP.UTF-8[[:blank:]]*UTF-8\)/\1/' /etc/locale.gen
 sudo locale-gen
 
 # Re-enable read-only mode (recommended)
