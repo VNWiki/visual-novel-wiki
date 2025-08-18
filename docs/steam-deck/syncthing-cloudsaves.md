@@ -18,11 +18,12 @@ title : 'Syncthing - Cloud Saves'
 
 ### 2. **Install the Syncthing Plugin**  
    Install the [Syncthing Plugin](https://github.com/theCapypara/steamdeck-decky-syncthing) via Decky Loader.  
-   Follow the GitHub page for the latest installation steps.
+   Follow the GitHub page for the latest installation steps.  
+   When it asks to use a port put `8384`. Not `8081` like the instructions say.
 
 ### 3. **Open Syncthing Web UI**  
-   - Set the Syncthing UI port (for example, `8081`).  
-   - In Desktop Mode, open a browser and visit `http://127.0.0.1:8081` to access the interface.
+   - Set the Syncthing UI port to `8384`. This can be changed if needed in `/home/deck/.var/app/me.kozec.syncthingtk/config/syncthing/config.xml`
+   - In Desktop Mode, open a browser and visit `http://127.0.0.1:8384` to access the interface.
 
 ### 4. **Create a Sync Folder**  
    Create a folder to hold all your save files, e.g., `~/Documents/game_savedata`.
@@ -52,11 +53,13 @@ We'll move the actual save files to the new Savething folder, then create a "sma
 
 1.  **Move Save Files to Syncthing Folder:**
     *   Locate your game's original save file/folder (from Step 7).
+    *   Make a backup of your save folder in a zip just in case.
     *   Move this entire save file/folder into the corresponding subfolder within your main `game_savedata` directory.
         *   *Example:* If saves are in `.../AppData/Roaming/GameName/Saves/`, move the `Saves` folder to `~/Documents/game_savedata/GameName/Saves/`.
-2.  **Delete the Original Save Folder (Now Empty or Redundant):**
+        *   *Note:* GameName in `~/Documents/game_savedata/GameName/Saves/` is to make make it easier to recognize. You should only move the last folder that contains your save files, not the entire tree of folders.
+2.  **Delete the Original Save Folder:**
     *   Go back to the game's original save location.
-    *   Delete the folder you just moved the contents from. **Double-check your files were successfully moved to the `game_savedata` folder first!**
+    *   Make sure the original folder with the savedata doesn't exist.
 3.  **Create the Symbolic Link ("Smart Shortcut"):**
     *   Open **Konsole** (the terminal application in Desktop Mode).
     *   Use the `ln -s` command. This command creates a link at the game's *original* save location that points to the *new* location of your saves (inside the Syncthing folder).
@@ -82,6 +85,12 @@ Launch the game to make sure it reads your saves correctly.
 
 > [!tip] Add More Games  
 > Repeat steps 6 to 9 for any additional games.
+
+> [!info] Syncthing Daemon not running
+> If you issues with decky plugin or syncthing-gtk stops conecting to the daemon:
+> Go to `/home/deck/.var/app/me.kozec.syncthingtk/config/syncthing/` open `config.xml` In a text editor and look for the address with a port (Probably 8080 or 8081), and change it 8384 like `127.0.0.1:8384`. Restart the daemon trhough syncthing-gtk interface.
+> If now starts working correctly return to Gaming Mode, go to decky -> syncthing > Settings > Syncthing Port and change it to 8384
+> After one update the Steam Deck put the CEF Remote Debugging page on port 8081 making syncthing stop working.
 
 ---
 
