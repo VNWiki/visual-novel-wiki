@@ -606,7 +606,7 @@
     "Mac": "✅",
     "Linux": "✅",
     "Steam Deck": "✅",
-    "Game engine": "nps",
+    "Game engine": "N2System",
     "Wineprefix": "lavfilters",
     "Wine version": "Lutris 7.21+/Proton 7+",
     "Notes": ""
@@ -618,7 +618,7 @@
     "Mac": "✅",
     "Linux": "✅",
     "Steam Deck": "✅",
-    "Game engine": "N4System",
+    "Game engine": "Diesel Engine",
     "Wineprefix": "xact",
     "Wine version": "Lutris 7.21+/Proton 7+",
     "Notes": ""
