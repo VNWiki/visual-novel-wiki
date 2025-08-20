@@ -46,6 +46,8 @@ Cloud:
 To run it open a terminal and run `owocr`. Once it is running it will automatically read images from your clipboard, any read text will be shown in the window and copied back to the clipboard.
 Once open you can press a key to change the provider
 
+![owocr preview](/img/tutorials/ocr/owocr_run.webp)
+
 ### Setup
 To optimize the usage there is a couple of shortcuts that can be useful
 
@@ -118,6 +120,7 @@ GSM will use OwOCR with OBS to manually detect text changes on the screen and au
 2. Install [OBS](https://obsproject.com/) through your package system, flatpak, etc.
 3. Make sure the OBS websocket is activated on port 7274.   
 Tools -> WebSocket Server Settings
+   ![obs](/img/tutorials/ocr/obs-ws.webp)
    
 > [!NOTE]
 > The websocket plugin is included by default in latest versions of OBS  
