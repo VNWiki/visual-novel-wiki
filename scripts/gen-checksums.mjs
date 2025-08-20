@@ -9,7 +9,7 @@ import { resolve, join, relative } from 'node:path';
 const baseDir = resolve(process.cwd(), 'docs/public');
 
 // Configuration: folders to include checksums from
-const foldersToInclude = ['texts', 'dlls'];  // add/remove folders as needed
+const foldersToInclude = ['texts', 'dlls', 'tools'];  // add/remove folders as needed
 
 const checksums = {};
 
