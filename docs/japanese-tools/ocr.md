@@ -118,7 +118,6 @@ GSM will use OwOCR with OBS to manually detect text changes on the screen and au
 2. Install [OBS](https://obsproject.com/) through your package system, flatpak, etc.
 3. Make sure the OBS websocket is activated on port 7274.   
 Tools -> WebSocket Server Settings
-   ![obs](/img/tutorials/ocr/obs-ws.png)
    
 > [!NOTE]
 > The websocket plugin is included by default in latest versions of OBS  
