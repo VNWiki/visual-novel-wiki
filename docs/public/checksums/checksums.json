@@ -33,5 +33,6 @@
   "texts/vanilla.yml": "5d22360eb5273befeebd7b71933ec628b002a9840a3a5b142677b6261edc406d",
   "texts/wine_breeze_theme.reg": "c989f10ee1ca4c7979f84b02bff7dd50b0a9a885f8754c5401e6a065bfde2c7f",
   "dlls/d2d1.dll": "91991c8fd8ed1efc9e103055c37a4b9d70e2122d943e384c0a65703c1d7029ba",
-  "dlls/d2d1_mini-v2.zip": "2c7b90363a77a8f7b2b40df2cae4dd5fa8b91a3c6656f629b4d4ff3f17c77e68"
+  "dlls/d2d1_mini-v2.zip": "2c7b90363a77a8f7b2b40df2cae4dd5fa8b91a3c6656f629b4d4ff3f17c77e68",
+  "tools/DenchiUnwrap.zip": "ce995d70643a8f88e3c3f45526e24b74a4c8bce963873487c7ffd7cec87945aa"
 }

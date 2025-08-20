@@ -1183,9 +1183,9 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "N4System",
-    "Wineprefix": "muramasaengine",
-    "Wine version": "Lutris 7.2",
-    "Notes": "[45], [46]"
+    "Wineprefix": "Vanilla + MF",
+    "Wine version": "Wine 10.10",
+    "Notes": "56"
   },
   {
     "Visual Novel": "Sore wa Maichiru Sakura no You ni -Re:BIRTH-",
@@ -1617,6 +1617,66 @@
     "Game engine": "BGI",
     "Wineprefix": "vanilla",
     "Wine version": "Wine 10.4",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Tsumi no Hikari Rendezvous",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Musica",
+    "Wineprefix": "proton-ge",
+    "Wine version": "Proton GE 10.4",
+    "Notes": "18"
+  },
+  {
+    "Visual Novel": "9-Nine",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Kirikiri",
+    "Wineprefix": "proton-ge",
+    "Wine version": "Proton GE 9.14",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Carnival",
+    "Visual Novel Link": "/visual-novels/carnival",
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "Vanilla",
+    "Wine version": "wine 10.4-amd64-wow64",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Holy Undead",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Artemis",
+    "Wineprefix": "Proton-ge",
+    "Wine version": "Proton GE 8-32",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Stellar Code",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Unity",
+    "Wineprefix": "Proton-ge",
+    "Wine version": "Proton GE 10-4",
     "Notes": ""
   }
 ]
