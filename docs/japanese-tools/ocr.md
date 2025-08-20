@@ -46,8 +46,6 @@ Cloud:
 To run it open a terminal and run `owocr`. Once it is running it will automatically read images from your clipboard, any read text will be shown in the window and copied back to the clipboard.
 Once open you can press a key to change the provider
 
-![owocr preview](/img/tutorials/ocr/owocr_run.png)
-
 ### Setup
 To optimize the usage there is a couple of shortcuts that can be useful
 
