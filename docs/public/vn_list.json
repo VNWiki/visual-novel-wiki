@@ -1678,5 +1678,17 @@
     "Wineprefix": "Proton-ge",
     "Wine version": "Proton GE 10-4",
     "Notes": ""
+  },
+  {
+    "Visual Novel": "Hold Me Tight All Night Onii-chan!",
+    "Visual Novel Link": "/visual-novels/hold-me-tight-all-night-onii-chan",
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Kirikiri",
+    "Wineprefix": "Proton-GE",
+    "Wine version": "Proton GE 10+",
+    "Notes": "[38]"
   }
 ]
