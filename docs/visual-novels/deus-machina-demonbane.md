@@ -67,6 +67,10 @@ Put the contents of the ZIP file into the following folder `%userprofile%\AppDat
 
 Put the contents of the ZIP file into the following folders inside of your prefix `drive_c/users/%User%/AppData/Roaming/`
 
+### Troubleshooting
+
+If text flow is choppy, enabling dgvoodoo2 in Lutris might help.
+
 ## Links
 
 * [VNDB](https://vndb.org/v231)
