@@ -25,7 +25,7 @@ Many games can be played natively on Linux using EasyRPG Player and mkxp. RPG Ma
 1. Create a vanilla Wine prefix, install [English](https://www.rpgmakerweb.com/run-time-package) and/or [Japanese](https://rpgmakerofficial.com/support/rtp/) RTPs.
 2. Install [Japanese fonts](/linux/wineprefixes).
 3. Download [RPG Maker 2003 fonts](https://web.archive.org/web/20201206133232/https://rpgmaker.net/users/kentona/locker/Fonts.rar) and copy them to `drive_c/windows/Fonts`.
-4. Set the `LANG="ja_JP.utf8"` environment variable if your game is in Japanese and run it through Lutris.
+4. Set the `LANG="ja_JP.UTF-8"` environment variable if your game is in Japanese and run it through Lutris.
 
 ## Known issues
 
