@@ -72,4 +72,15 @@ When that’s finished running, and you’ve pressed **y** to everything, you’
 * Mount a disc image: `cdemu load 0 ~/image.iso`
 * Unmount a disc image: `cdemu unload 0`
 
+For multi-disc games: 
+
+1. `cdemu add-device` to create a 2nd device if one doesn't exist already
+2. `cdemu load 0 "path/to/disc1.iso"`
+3. `cdemu load 1 "path/to/disc2.iso"`
+4. `sudo mount /dev/sr0 /path/to/drive`
+5. `sudo mount /dev/sr1 /path/to/drive` when they ask for the 2nd disc
+
+Or you can just copy the content of each disc into the same folder and then run the installer if it doesn't recognize the disc.
+
 More information on the [CDEmu ArchWiki page](https://wiki.archlinux.org/title/CDemu)
+
