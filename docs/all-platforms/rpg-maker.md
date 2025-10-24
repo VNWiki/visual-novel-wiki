@@ -12,14 +12,20 @@ Some Japanese games are compatible with [Locale Emulator](https://xupefei.github
 
 ## Linux
 
+### Native
+
+Many games can be played natively on Linux using EasyRPG Player and mkxp. RPG Maker MV/MZ games can be run through a [local web server](https://rpgmakerofficial.com/product/MV_Help/page/01_11_08.html) or [NW.js](https://itch.io/blog/484532/how-to-update-nwjs-in-rpg-maker-mv-for-rpg-devs).
+
 ### Lutris
 
 > [!info] Information
 > Requires to have [JP Locale enabled](/all-platforms/jp-locale).
 
-1. Install [English](https://www.rpgmakerweb.com/run-time-package) and/or [Japanese](https://rpgmakerofficial.com/support/rtp/) RTPs.
+
+1. Create a vanilla Wine prefix, install [English](https://www.rpgmakerweb.com/run-time-package) and/or [Japanese](https://rpgmakerofficial.com/support/rtp/) RTPs.
 2. Install [Japanese fonts](/linux/wineprefixes).
 3. Download [RPG Maker 2003 fonts](https://web.archive.org/web/20201206133232/https://rpgmaker.net/users/kentona/locker/Fonts.rar) and copy them to `drive_c/windows/Fonts`.
+4. Set the `LANG="ja_JP.UTF-8"` environment variable if your game is in Japanese and run it through Lutris.
 
 ## Known issues
 

@@ -211,6 +211,11 @@ winetricks -q --force wmp10
 winetricks -q --force wmp10 && sh ~/Documents/vn_winestuff-main/codec.sh quartz2
 ```
 
+#### general
+```bash
+winetricks -q --force d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015
+```
+
 ## Font Installation
 
 ### Installing Windows Japanese Fonts

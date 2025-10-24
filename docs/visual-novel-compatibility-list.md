@@ -187,6 +187,7 @@ If you are experiencing font issues, be sure to install the Windows Japanese Fon
 * For Evenicle 1, you must be on the game version 1.04 to do what is described in "Note 24"
 * Kara no Shoujo 2 has native GNU/Linux and macOS versions
 * The Yu-No edition listed here is the Windows port PC with the optional voice and BGM patch
+* `error message: unrecognized kernel32 module` is a [known issue](https://www.reddit.com/r/visualnovels/comments/1blu55t/rui_wa_tomo_o_yobu_fan_disk_not_working/) with older KiriKiri games that implement the integrity check. Check if the game has any official patches for Windows 8/10 compatibility.
 
 
 <style scoped>

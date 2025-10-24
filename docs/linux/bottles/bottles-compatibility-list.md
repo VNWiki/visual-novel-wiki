@@ -239,6 +239,8 @@ If you don't know which Wine/Proton version might be the best for a particular g
 * [GE-Proton9-9](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-9)
 * [GE-Proton9-10](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-10)
 * [GE-Proton9-13](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-13)
+* [GE-Proton10-4](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-4)
+* [GE-Proton10-8](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-8)
 * [Kron4ek Wine 8.15](https://github.com/Kron4ek/Wine-Builds/releases/tag/8.15)
 * [Kron4ek Wine 8.21](https://github.com/Kron4ek/Wine-Builds/releases/tag/8.21)
 * [Kron4ek Wine 10.0](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.0)
@@ -246,6 +248,7 @@ If you don't know which Wine/Proton version might be the best for a particular g
 * [Lutris Wine 7.2](https://github.com/lutris/wine/releases/tag/lutris-wine-7.2)
 * [Proton 5.13-6](https://github.com/ValveSoftware/Proton/releases/tag/proton-5.13-6)
 * [UMU-Proton 9.0-2](https://github.com/Open-Wine-Components/umu-proton/releases/tag/UMU-Proton-9.0-2)
+* [UMU-Proton 9.0-4e](https://github.com/Open-Wine-Components/umu-proton/releases/tag/UMU-Proton-9.0-4e)
 * [Wine 5.0](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.0)
 * [Wine 5.5](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.5)
 * [Wine 5.10](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.10)
@@ -255,8 +258,14 @@ If you don't know which Wine/Proton version might be the best for a particular g
 * [Wine 7.1](https://gitlab.winehq.org/wine/wine/-/releases/wine-7.1)
 * [Wine 7.2](https://gitlab.winehq.org/wine/wine/-/releases/wine-7.2)
 * [Wine 9.14](https://gitlab.winehq.org/wine/wine/-/releases/wine-9.14)
+* Wine 9.17 (WoW64)
 * [Wine 9.18](https://gitlab.winehq.org/wine/wine/-/releases/wine-9.18)
 * [Wine 10.0](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0)
+* [Wine 10.0 (WoW64)](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0)
+* Wine 10.4 (staging)
+* Wine 10.4 (staging, WoW64)
+* Wine 10.5
+* Wine 10.10 (staging, WoW64)
 * [Wine-GE-Proton7-43](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton7-43)
 * [Wine-GE-Proton8-5](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton8-5)
 * [Wine-GE-Proton8-13](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton8-13)
@@ -273,6 +282,9 @@ If you don't know which dependencies might be needed for a particular game, try 
 * [lavfilters741](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/lavfilters741.yml)
 * [vcredist2005](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/vcredist2005.yml)
 * [vcredist2008](https://github.com/bottlesdevs/dependencies/blob/main/Essentials/vcredist2008.yml)
+* dxvk 1.10.1
+* dxvk 2.1
+* dxvk 2.6.2
 
 ## Suggested packages
 
@@ -288,7 +300,8 @@ Lutris documentation [about drivers](https://github.com/lutris/docs/blob/master/
 * gnutls
 * gst-devtools-libs
 * gst-editing-services
-* gst-libavgst-plugins-ugly
+* gst-libav
+* gst-plugins-ugly
 * gst-plugin-good
 * gst-plugin-gtk
 * gst-plugin-pipewire
@@ -299,6 +312,8 @@ Lutris documentation [about drivers](https://github.com/lutris/docs/blob/master/
 * gst-plugins-good
 * gst-python
 * gstreamer
+* lib32-gst-libav
+* lib32-gst-plugins-ugly
 * gtk3
 * lib32-alsa-lib
 * lib32-alsa-plugins
