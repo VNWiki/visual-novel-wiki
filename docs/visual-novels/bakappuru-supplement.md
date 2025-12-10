@@ -5,34 +5,49 @@ title : 'Bakappuru Supplement'
 # Bakappuru Supplement
 ## Installation
 
+> [!warning] Warning
+> If you have the DVD version of the game, mount it using a loopback device. You will only need to mount the disk image once on the first run.
+
+### Windows
+
+Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click on the installer and choose "Run" in the "Locale Emulator" section.
+
 ### Linux
 
 > [!info] Information
-> This game uses EntisGLS, which is a rather mature engine which can correctly handle non-japanese environments. However the installer can't.
-> The packaged (DVD) version requires you to *insert* the disc on first startup of the game. Virtual discs are also supported.
-> Tested with [wine-10.20](/linux/adding-wine-versions). Later versions should work.
-
-
-#### Steps
-
-1. Prepare the game files. You can mount the ripped ISO file or just insert it into your disc drive if available.
-
-2. If winecfg did not recognize the cdrom or loopback device, then open `winecfg` and create a new drive with the correct target folder.
-
-3. Go into the mounted folder and execute `setup.exe`
-
-4. Choose `Install`.
-
-5. Change the installation path to make sure it only contains English characters. The default path with fail the installation.
-
-6. Go to the installation folder and run the main executable `bakaple.exe` once.
-
-7. Choose `Yes` on the in-game prompt for disc verification.
-
-8. Installation complete.
+> Tested with [Kron4ek-wine-10.20](/linux/adding-wine-versions). Later versions should work.
 
 > [!info] Information
-> The download version from DMM does not require disc verification.
+> Requires to have [JP Locale enabled](/all-platforms/jp-locale).
+
+You can mount the ripped ISO file using the following command:
+
+```
+sudo mount -o loop path/to/iso path/to/target
+```
+
+#### Lutris
+
+1. Add locally installed game with these settings:
+
+    * In "Game info", select "Wine" for "Runner"
+    * In "Game options", select any prefix directory for "Wine prefix" and `Setup.exe` for "Executable"(installation only)
+    * In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
+
+2. Run "Setup.exe" and install the game.
+
+> [!warning] Warning
+> The target directory should only contain English characters, otherwise installation might fail.
+
+3. Edit the configuration of the game:
+
+   * In "Game options", select `bakaple.exe` for "Executable"
+
+4. Run the game for the first time, it will ask for a disc check. Run it. If everything works, you will see the Marmalade logo.
+
+### Steam Deck
+
+Same as Linux.
 
 ## Links
 

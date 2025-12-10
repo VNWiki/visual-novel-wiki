@@ -1699,8 +1699,8 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "EntisGLS",
-    "Wineprefix": "any",
-    "Wine version": "Wine 10.20",
-    "Notes": ""
+    "Wineprefix": "Kron4ek",
+    "Wine version": "Kron4ek wine-10.20-amd64",
+    "Notes": "[5],[38]"
   }
 ]
