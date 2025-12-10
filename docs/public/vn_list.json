@@ -1690,5 +1690,17 @@
     "Wineprefix": "Proton-GE",
     "Wine version": "Proton GE 10+",
     "Notes": "[38]"
+  },
+  {
+    "Visual Novel": "Bakappuru Supplement",
+    "Visual Novel Link": "/visual-novels/bakappuru-supplement",
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "EntisGLS",
+    "Wineprefix": "any",
+    "Wine version": "Wine 10.20",
+    "Notes": ""
   }
 ]
