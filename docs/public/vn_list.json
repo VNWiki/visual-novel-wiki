@@ -117,7 +117,7 @@
     "Game engine": "",
     "Wineprefix": "N/A",
     "Wine version": "N/A",
-    "Notes": ""
+    "Notes": "[63]"
   },
   {
     "Visual Novel": "Majikoi! Love Me Seriously!",
@@ -165,7 +165,7 @@
     "Game engine": "Kirikiri",
     "Wineprefix": "N/A",
     "Wine version": "N/A",
-    "Notes": ""
+    "Notes": "[64]"
   },
   {
     "Visual Novel": "Gnosia",
@@ -333,7 +333,7 @@
     "Game engine": "NScripter",
     "Wineprefix": "any",
     "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": "[12]"
+    "Notes": "[12], [65]"
   },
   {
     "Visual Novel": "Higurashi - When They Cry",
@@ -489,7 +489,7 @@
     "Game engine": "",
     "Wineprefix": "N/A",
     "Wine version": "N/A",
-    "Notes": ""
+    "Notes": "[63]"
   },
   {
     "Visual Novel": "Baldr Sky",
@@ -633,7 +633,7 @@
     "Game engine": "",
     "Wineprefix": "yunoengine",
     "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": "[20]"
+    "Notes": "[20], [67]"
   },
   {
     "Visual Novel": "Corpse Party (2021)",
@@ -669,7 +669,7 @@
     "Game engine": "",
     "Wineprefix": "any",
     "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": "[24]"
+    "Notes": "[24], [66]"
   },
   {
     "Visual Novel": "Evenicle 2",
@@ -1065,7 +1065,7 @@
     "Game engine": "InnocentGrey/Unity",
     "Wineprefix": "N/A",
     "Wine version": "N/A",
-    "Notes": ""
+    "Notes": "[63]"
   },
   {
     "Visual Novel": "Tokyo Babel",
