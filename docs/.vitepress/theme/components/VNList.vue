@@ -165,7 +165,7 @@ onMounted(async () => {
       :sortField="sortField"
       :sortOrder="sortOrder"
       scrollable
-      scrollHeight="flex"
+      scrollHeight="80vh"
       dataKey="id"
       selectionMode="single"
     >
