@@ -72,6 +72,14 @@ const props = defineProps({
     required: true
   },
   onHighlight: Function, // Function passed from parent .md to handle highlighting
+  externalSearchQuery: {
+    type: Object, // Ref from parent
+    default: null
+  },
+  onStatsChange: {
+    type: Function,
+    default: null
+  },
   sortField: {
     type: String,
     default: null
@@ -190,6 +198,44 @@ watch(
   }
 );
 
+// Sync external search query into internal filters (optional)
+if (props.externalSearchQuery) {
+  watch(
+    () => props.externalSearchQuery.value,
+    (newVal) => {
+      filters.value.global.value = newVal;
+    },
+    { immediate: true }
+  );
+}
+
+// Helper to compute filtered count
+function getFilteredCount() {
+  if (!filters.value.global.value) return items.value.length;
+  const query = filters.value.global.value.toLowerCase();
+  const fields = props.columns.map(c => c.field);
+  return items.value.filter(item =>
+    fields.some(field => {
+      const val = item[field];
+      return val && val.toString().toLowerCase().includes(query);
+    })
+  ).length;
+}
+
+// Report stats when items or filters change
+watch(
+  [items, () => filters.value.global.value],
+  () => {
+    if (props.onStatsChange && items.value.length > 0) {
+      props.onStatsChange({
+        total: items.value.length,
+        filtered: getFilteredCount()
+      });
+    }
+  },
+  { deep: true }
+);
+
 // Load JSON data from public folder, with keys lowercased
 onMounted(async () => {
   // props.jsonPath should be like "vn_list.json" or "data/my_data.json" (relative to public)
@@ -217,7 +263,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="mb-2 flex items-center gap-3">
+  <div class="mb-2 flex items-center gap-3" v-if="!externalSearchQuery">
     <Button
       icon="pi pi-filter-slash"
       label="Clear"
@@ -237,13 +283,14 @@ onMounted(async () => {
     </span>
   </div>
 
-  <DataTable
-    :value="items"
-    :filters="filters"
-    :globalFilterFields="columns.map(c => c.field)"
-    :scrollable="true"
-    :scrollHeight="'700px'"
-    :paginator="true"
+  <div class="datatable-wrapper">
+    <DataTable
+      :value="items"
+      :filters="filters"
+      :globalFilterFields="columns.map(c => c.field)"
+      :scrollable="true"
+      scrollHeight="flex"
+      :paginator="true"
     :first="first"
     :sortField="sortField"
     :sortOrder="sortOrder"
@@ -318,7 +365,8 @@ onMounted(async () => {
         </template>
       </template>
     </Column>
-  </DataTable>
+    </DataTable>
+  </div>
 </template>
 
 <style scoped>
@@ -370,5 +418,12 @@ onMounted(async () => {
   width: auto; /* Override fixed width */
   flex-grow: 1; /* Allow it to grow */
   min-width: 150px; /* Minimum comfortable width */
+}
+
+.datatable-wrapper {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 </style>

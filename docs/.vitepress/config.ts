@@ -59,8 +59,10 @@ export default defineConfig({
       }),
       
       GitChangelogMarkdownSection({
+        exclude: (path) => path.includes('visual-novel-compatibility-list'),
         sections: {
           disableContributors: false,
+          disableChangelog: false,
         },
       }),
     ],
