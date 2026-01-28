@@ -109,6 +109,10 @@ To use it:
 > [!NOTE]
 > These are prototype scripts, feel free to modify according to your Desktop Environment and needs.
 
+Preview:
+![owocr gif](/img/tutorials/ocr/owocr_gif.webp)
+
+
 ### Screencapture
 Since version 1.22 now you can use screencapture if you are using Wayland to monitor the textbox of your VN for example and it will automatically detect changes. You can run it with: `owocr -e glens -r screencapture -w clipboard -es=meikiocr`. Here it is recommended to use both online and offline providers for better accuracy and speed.
 
