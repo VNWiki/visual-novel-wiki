@@ -15,4 +15,3 @@ title : 'Kirikiri'
 ### Kirikiroid2 Debloated
 
 [Kirikiroid2 Debloated](https://github.com/enaix/Kirikiroid2-debloated) is a recompilation of Kirikiroid2, patched for Android 14 and ads removal.
-

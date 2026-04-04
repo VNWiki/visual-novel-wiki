@@ -106,4 +106,3 @@ Some projects might recommend [RPGMaker Trans](https://rpgmakertrans.bitbucket.i
 - [NW.js website](https://nwjs.io/)
 - [NW.js download](https://dl.nwjs.io/v0.96.0/)
 - [kakurasan's Linux blog](https://kakurasan.blogspot.com/)
-

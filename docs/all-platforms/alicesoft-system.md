@@ -21,4 +21,3 @@ Note: "xsystem4" main developer (Nunuhara) also made [ai5-sdl2](https://github.c
 ## Games
 
 Nunuhara prepared [Appimages for AliceSoft's freewares](https://haniwa.technology/games/). Check out the [page about the xsystem35 setup](https://haniwa.technology/games/preparing-a-game-directory.html) if you want to use "xsystem35" directly.
-

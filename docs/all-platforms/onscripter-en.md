@@ -25,4 +25,3 @@ If you want to know how to write ONScripter-derived scripts, check out these lin
 * [NScripter API reference](https://kaisernet.org/onscripter/api/NScrAPI-framed.html)
 * [Sekai Project's PONScripter documentation](https://sekaiproject.github.io/PONScripter-fork/doc/)
 * [07th-mod's introduction to PONScripter](https://07th-mod.github.io/PONScripter-fork)
-
