@@ -60,7 +60,6 @@ If you need to use an application through a Wine version using Linux 32-bit depe
 * `libfaketime` was tested with Wine 11.5 WoW64 and libfaketime 0.9.12 but should work on different setups.
 * If you get a `ERROR: ld.so: object './libfaketime.so.1' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored` message or [this error](https://github.com/wolfcw/libfaketime/issues/266), use a build with the right bitness depending on the message you got.
 * Games store time and date differently so changing the date through `libfaketime` can also change the save date shown in a loading menu. Some old 32-bit games like Touhou 6 aren't affected by the year 2038 problem [as the date is converted to a string](https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/strdate-wstrdate?view=msvc-170) (thanks Nylilsa).
-* Using negative values with `FAKETIME` seems to prevent the game from starting if you ran the `winetricks sandbox` command or `winetricks d3dx9_36` in the current prefix on some setups. And, using positive values appears to make the game freeze a few seconds after launch on some setups
+* Using negative values with `FAKETIME` seems to prevent the game from starting if you ran the `winetricks sandbox` command or `winetricks d3dx9_36` in the current prefix on some setups. And, using positive values appears to make the game freeze a few seconds after launch.
 * Changing the `FAKETIME` value updates the prefix and prompt for the `mono` installer again if you dismissed it at the prefix creation.
-* Setting `LD_PRELOAD` can make 32-bit games run slow on Wine 11.5 WoW64 builds
-
+* Setting `LD_PRELOAD` can make 32-bit games run slow on Wine 11.5 WoW64 builds.

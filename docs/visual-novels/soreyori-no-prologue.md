@@ -8,7 +8,7 @@ title : 'Soreyori no Prologue'
 
 ### Linux / Steam Deck
 
-If you get multiple file, you can merge them into one ISO file:
+If you get multiple files, you can merge them into one ISO:
 
 ```
 cat file.mdf file.md0 file.md1 file.md2 > SOREYORI.iso
@@ -19,4 +19,3 @@ You might need to set the `TZ=Asia/Tokyo` environment variable.
 ## Links
 
 * [VNDB](https://vndb.org/v15637)
-
