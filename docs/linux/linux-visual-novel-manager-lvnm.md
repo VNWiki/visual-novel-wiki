@@ -132,6 +132,8 @@ This one uses vanilla prefix, requires GStreamer libraries.
 
 ### Siglus Engine (Key/Visual arts VNs Summer Pockets, Anemoi, etc)
 
+Need to change to MCI movie settings inside the game.
+
 ```json
 {
     "game": {
