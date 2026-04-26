@@ -44,11 +44,11 @@ Visit the [github readme how to use section](https://github.com/uunniiblog/linux
 
 ## Imports
 
-In the games tab you can import a .json with preconfigured game and prefix settings that has been exported before.
+In the games tab, you can import a .json file containing preconfigured game and prefix settings.
 
-Below there are a few .json you can download for popular games and engines.
+Below there are several `.json` files you can import for popular games and engines.
 
-Once you select the json file in the application a popup will appear where you need to select the name of the game and the location of the .exe of the game.
+Once you select the json file in the application a popup will appear where you need to select the name of the game and the location of the .exe of the game to complete the import.
 
 ### Kirikiri engine (Atri, Ginka, Sharin, etc)
 
@@ -210,6 +210,43 @@ Need to change to MCI movie settings inside the game.
         "update_date": "2026-04-24 10:04:02",
         "wayland": false,
         "dpi": false
+    }
+}
+```
+
+### Liarsoft codeX Rscript engine (Sona-Nyl, Ever Maiden, Albatross, etc)
+```json
+{
+    "game": {
+        "name": "Liarsoft",
+        "path": "",
+        "prefix": "protonge913",
+        "vndb": "",
+        "coverpath": "",
+        "last_played": "",
+        "ogtitle": "",
+        "envvar": {
+            "LANG": "ja_JP.UTF-8"
+        },
+        "dlloverride": {},
+        "gamescope": {
+            "enabled": "false",
+            "parameters": ""
+        },
+        "update_date": "2026-04-26 12:49:38",
+        "label": "",
+        "umu-gameid": "umu-default",
+        "umu-store": "none"
+    },
+    "prefix": {
+        "name": "protonge913",
+        "path": "",
+        "runner": "GE-Proton9-13",
+        "type": "proton",
+        "codecs": "",
+        "winetricks": "",
+        "fonts": true,
+        "update_date": "2026-03-28 08:40:41"
     }
 }
 ```
