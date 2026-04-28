@@ -27,3 +27,23 @@ Runners for Lutris are located at `~/.var/app/net.lutris.Lutris/data/lutris/runn
 ```sh
 flatpak install flathub net.lutris.Lutris
 ```
+
+#### Enable Konsole terminal in Flatpak or Steam Deck Lutris
+
+Open Kate text editor and write the following lines:
+
+```sh
+#!/bin/bash
+flatpak-spawn --host /usr/bin/konsole "$@"
+```
+
+Save it to somehwere you remember like Desktop or Documents, I named it "host-konsole".
+
+Go to lutris open preferences on the top right:
+
+![lutris preferences](/img/tutorials/lutris/preferences.webp)
+
+Go to the Global options section. Enable "Advanced" at the top right. Scroll down to the text based games section and add the path to the script, for example:
+`/home/deck/Desktop/host-konsole`
+
+![lutris terminal](/img/tutorials/lutris/change_emulator.webp)

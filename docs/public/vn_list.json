@@ -1015,9 +1015,10 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "codeX RScript",
-    "Wineprefix": "liarsoftengine/vanilla",
-    "Wine version": "Lutris 7.2/Wine 10",
-    "Notes": "[9]"
+    "Wineprefix": "",
+    "Wine version": "Proton-ge 9.13",
+    "Notes": "[5], [60]",
+    "Update Date": "04-24-2026"
   },
   {
     "Visual Novel": "Gahkthun of the Golden Lightning -What a Radiant Brave-",
@@ -1027,9 +1028,10 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "codeX RScript",
-    "Wineprefix": "liarsoftengine/vanilla",
-    "Wine version": "Lutris 7.2/Wine 10",
-    "Notes": "[9]"
+    "Wineprefix": "",
+    "Wine version": "Proton-ge 9.13",
+    "Notes": "[5], [60]",
+    "Update Date": "04-24-2026"
   },
   {
     "Visual Novel": "Ayakashibito",
@@ -1209,7 +1211,8 @@
     "Game engine": "N4System",
     "Wineprefix": "Vanilla + MF/Proton-ge",
     "Wine version": "Wine 10.10/proton-ge 10.25",
-    "Notes": "[56] [122]"
+    "Notes": "[56] [122]",
+    "Update Date": "01-27-2026"
   },
   {
     "Visual Novel": "Sore wa Maichiru Sakura no You ni -Re:BIRTH-",
@@ -1233,7 +1236,8 @@
     "Game engine": "Kirikiri",
     "Wineprefix": "wmp11quartz or vanilla",
     "Wine version": "wine/proton 10+",
-    "Notes": ""
+    "Notes": "",
+    "Update Date": "01-27-2026"
   },
   {
     "Visual Novel": "Rewrite",
@@ -2253,7 +2257,8 @@
     "Game engine": "",
     "Wineprefix": "wmp11quartz",
     "Wine version": "Proton-ge 10.25",
-    "Notes": "[5]"
+    "Notes": "[5]",
+    "Update Date": "01-27-2026"
   },
   {
     "Visual Novel": "Haru no Ashioto",
@@ -2265,11 +2270,12 @@
     "Game engine": "Musica",
     "Wineprefix": "proton-ge",
     "Wine version": "Proton-ge 10.25",
-    "Notes": "[5], [18]"
+    "Notes": "[5], [18]",
+    "Update Date": "01-27-2026"
   },
   {
     "Visual Novel": "Soreyori no Prologue",
-    "Visual Novel Link": null,
+    "Visual Novel Link": "/visual-novels/soreyori-no-prologue",
     "Windows": "✅",
     "Mac": "❓",
     "Linux": "✅",
@@ -2277,6 +2283,47 @@
     "Game engine": "Musica",
     "Wineprefix": "wmp11quartz",
     "Wine version": "Proton-ge 10.25",
-    "Notes": "[5], [18]"
+    "Notes": "[5], [18]",
+    "Update Date": "01-27-2026"
+  },
+  {
+    "Visual Novel": "Anemoi",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Siglus Engine",
+    "Wineprefix": "wmp11",
+    "Wine version": "Proton-ge 10.34",
+    "Notes": "[5], [123]",
+    "Update Date": "04-24-2026"
+  },
+  {
+    "Visual Novel": "Tasogare no Shapeshifter",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "codeX RScript",
+    "Wineprefix": "",
+    "Wine version": "Proton-ge 9.13",
+    "Notes": "[5], [60]",
+    "Update Date": "04-24-2026"
+  },
+  {
+    "Visual Novel": "Suisou Ginka no Istoria",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "wmp11quartz",
+    "Wine version": "Proton-ge 10.24",
+    "Notes": "[5], [27]",
+    "Update Date": "04-24-2026"
   }
+  
 ]
