@@ -1,5 +1,5 @@
 ---
-title : 'ProtonUp'
+title: "ProtonUp"
 ---
 
 # ProtonUp
@@ -12,23 +12,21 @@ In the Steam Deck it can be installed from the Discover Store.
 
 Vanilla Builds for Lutris are distributed by Kron4ek ([github](https://github.com/Kron4ek/Wine-Builds))
 
-* Select Lutris
-* Add version
-* Select Kron4ek Wine-Builds Vanilla
+- Select Lutris
+- Add version
+- Select Kron4ek Wine-Builds Vanilla
 
 ![](https://i.imgur.com/Ns14EDG.png)
 
-
 ### Proton-GE
+
 Now you can Use Proton-GE in both Lutris or Steam. The install process is the same:
 
-* Select Lutris
-* Add Version
-* Select GE-Proton
+- Select Lutris
+- Add Version
+- Select GE-Proton
 
 ![](https://i.imgur.com/x6YNsdg.png)
 
 > [!warning] Warning
 > Need to restart Lutris or Steam after installing a new runner.
-
-

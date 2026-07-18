@@ -1,5 +1,5 @@
 ---
-title : 'Steam'
+title: "Steam"
 ---
 
 # Steam
@@ -17,9 +17,10 @@ Depending on your distribution and package manager, you need to run a different 
 :::tabs
 
 === Debian / Ubuntu / Linux Mint
+
 > [!WARNING]
 > Recent versions of Ubuntu install the Snap version of Steam, and [Steam developers recommend against it](https://mastodon.social/@TTimo/111772575146054328).
- 
+
 ```bash
  sudo apt install steam
 ```

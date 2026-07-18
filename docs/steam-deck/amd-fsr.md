@@ -1,6 +1,6 @@
 ---
-title: 'AMD FSR'
-description: 'Learn how to use AMD FidelityFX Super Resolution to improve visual quality in Visual Novels on Steam Deck'
+title: "AMD FSR"
+description: "Learn how to use AMD FidelityFX Super Resolution to improve visual quality in Visual Novels on Steam Deck"
 ---
 
 # AMD FSR
@@ -65,9 +65,7 @@ To activate FSR, you need to run your Visual Novel at a resolution below 1280×8
   </div>
 </div>
 
-
-
-*Hover or drag the slider to see FSR changes to image quality and text clarity.*
+_Hover or drag the slider to see FSR changes to image quality and text clarity._
 
 ## Forcing Resolution for Games Without Options
 
@@ -85,6 +83,7 @@ Some Visual Novels don't include built-in resolution settings. For these titles,
 
 ::: tip Finding the Right Resolution
 You may need to experiment with different resolutions to find the sweet spot where:
+
 - FSR activates (shown in the performance overlay)
 - The game displays properly without UI scaling issues
 - Visual quality is optimized
@@ -96,16 +95,19 @@ Common working resolutions: **800×600**, **960×600**, **1024×576**
 ## Troubleshooting
 
 **FSR not activating?**
+
 - Ensure game resolution is below 1280×800
 - Check that Performance Overlay Level is set to 5
 - Verify Scaling Filter is set to FSR (not Linear or Nearest)
 
 **Game looks worse with FSR?**
+
 - Try adjusting FSR Sharpness (values 3-5 work best)
 - Some games may look better at different base resolutions
 - Very old or pixel-art games might benefit from Integer scaling instead
 
 **UI elements too small?**
+
 - Some games scale UI with resolution - try a higher base resolution like 960×600
 - Check if the game has separate UI scaling options
 

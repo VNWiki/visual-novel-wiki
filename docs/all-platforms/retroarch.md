@@ -1,5 +1,5 @@
 ---
-title : 'RetroArch'
+title: "RetroArch"
 ---
 
 # RetroArch
@@ -8,7 +8,7 @@ title : 'RetroArch'
 
 ## Core installation
 
-RetroArch doesn't come with emulators by default. Called "cores" in RetroArch, they're plugins implementing the Libretro API. To install them, you do it [through the online updater](https://www.retroarch.com/?page=cores), directly from RetroArch. You can do it manually by downloading the core you want from [buildbot.libretro.com](https://buildbot.libretro.com/nightly/linux/x86_64/latest/) and extracting it to `~/.config/retroarch/cores/`. 
+RetroArch doesn't come with emulators by default. Called "cores" in RetroArch, they're plugins implementing the Libretro API. To install them, you do it [through the online updater](https://www.retroarch.com/?page=cores), directly from RetroArch. You can do it manually by downloading the core you want from [buildbot.libretro.com](https://buildbot.libretro.com/nightly/linux/x86_64/latest/) and extracting it to `~/.config/retroarch/cores/`.
 
 > [!warning] Warning
 > When installed through your Linux package manager, RetroArch online updater might be disabled by default. You'll have to [edit its configuration file](https://wiki.archlinux.org/title/RetroArch#Enabling_the_%22Online_Updater%22) to enable it.
@@ -31,21 +31,20 @@ PC-98 games can easily be played through RetroArch thanks to the [np2kai libretr
 3. Run RetroArch and [scan the directory](https://docs.libretro.com/guides/import-content/#step-2-scan-and-import) where the games are located.
 4. Configure the core with the following settings (it should run most of the translated games).
 
-| Setting                                      | Value                                                                 |
-|----------------------------------------------|-----------------------------------------------------------------------|
-| **PC Model**                                 | `PC-9801VX`                                                           |
-| **CPU Clock Multiplier**                     | `42`                                                                  |
-| **RAM Size**                                 | `16`                                                                  |
-| **CPU Feature**                              | `80386`                                                               |
-| **Sound Board**                              | `PC9801-86`                                                           |
-| **GDC**                                      | `uPD7220`                                                             |
-| **JastSound**                                | `OFF`                                                                 |
-| **Floppy Seek Sound**                        | `OFF`                                                                 |
-| **Volume Floppy Seek**                       | `0`                                                                   |
-| **Volume Beep**                              | `0`                                                                   |
-| **Mouse or Touchpanel Input**                | `ON`                                                                  |
-| **D-pad to Mouse/Keyboard/Joypad Mapping**   | `Manual Keyboard`                                                     |
-
+| Setting                                    | Value             |
+| ------------------------------------------ | ----------------- |
+| **PC Model**                               | `PC-9801VX`       |
+| **CPU Clock Multiplier**                   | `42`              |
+| **RAM Size**                               | `16`              |
+| **CPU Feature**                            | `80386`           |
+| **Sound Board**                            | `PC9801-86`       |
+| **GDC**                                    | `uPD7220`         |
+| **JastSound**                              | `OFF`             |
+| **Floppy Seek Sound**                      | `OFF`             |
+| **Volume Floppy Seek**                     | `0`               |
+| **Volume Beep**                            | `0`               |
+| **Mouse or Touchpanel Input**              | `ON`              |
+| **D-pad to Mouse/Keyboard/Joypad Mapping** | `Manual Keyboard` |
 
 These settings can be tweaked further depending on the game. For more information, check out the [PC-98 Game FAQ](https://gang-fight.com/projects/98faq/) and the [official libretro core docs](https://docs.libretro.com/library/neko_project_ii_kai/).
 
@@ -86,7 +85,7 @@ For [some specific games](https://www.scummvm.org/compatibility/), you can also 
 
 ## Troubleshooting
 
-* To [reset all RetroArch settings](https://forums.libretro.com/t/how-to-restore-retro-arch-default-settings/2524/3), go to `~/.config/retroarch/` and delete "retroarch.cfg".
-* If your GPU is old, you might have to check if "Allow Cores to Switch the Video Driver" in "Core" settings is enabled and change the video driver used by RetroArch from `glcore` to `gl` [in "Video" settings, under the "Output"](https://www.libretro.com/index.php/changing-behavior-of-gl-and-glcore-video-drivers/).
-* RetroArch didn't enter in proper fullscreen under [old versions of GNOME X11](https://github.com/libretro/RetroArch/issues/15259) and workarounds included [`devilspie2` scripts](https://github.com/libretro/RetroArch/issues/15259#issuecomment-1575693902), [running RetroArch with Gamescope](https://github.com/libretro/RetroArch/issues/15259#issuecomment-1743577443) and forcing borderless fullscreen windowed mode.
-* If you're using GNOME with an NVIDIA GPU, [game frames may flicker](https://github.com/libretro/RetroArch/issues/8976) and persist after exiting a game until the next reboot if you don't have "Show Window Decorations" enabled in "Video" settings, under the "Windowed Mode" menu (it might be [related to buffer-flipping](https://forums.libretro.com/t/vsync-not-working-with-windows-10-1809-newest-update/18443/15) [like mentioned here](https://www.reddit.com/r/linux_gaming/comments/1ai2kel/nvidia_flipping_only_working_on_selected/), [on NVIDIA forums](https://forums.developer.nvidia.com/t/flipping-not-working-in-fullscreen-apps/279865) [or this old thread](https://web.archive.org/web/20201223115540/https://www.nvidia.com/en-us/geforce/forums/discover/285622/when-will-there-be-a-driver-update-to-fix-retroarch-rsquo-s-flashing-flcickiering-black-lines-in-full-screen-mode-/), [NVIDIA G-Sync](https://www.reddit.com/r/RetroArch/comments/10i9l6f/screen_flickering_on_linux_with_nvidia_gsync_on/), [unredirection being broken](https://gitlab.gnome.org/GNOME/mutter/-/issues/3134) or [Vsync/VRR](https://gitlab.gnome.org/GNOME/mutter/-/issues/2794))
+- To [reset all RetroArch settings](https://forums.libretro.com/t/how-to-restore-retro-arch-default-settings/2524/3), go to `~/.config/retroarch/` and delete "retroarch.cfg".
+- If your GPU is old, you might have to check if "Allow Cores to Switch the Video Driver" in "Core" settings is enabled and change the video driver used by RetroArch from `glcore` to `gl` [in "Video" settings, under the "Output"](https://www.libretro.com/index.php/changing-behavior-of-gl-and-glcore-video-drivers/).
+- RetroArch didn't enter in proper fullscreen under [old versions of GNOME X11](https://github.com/libretro/RetroArch/issues/15259) and workarounds included [`devilspie2` scripts](https://github.com/libretro/RetroArch/issues/15259#issuecomment-1575693902), [running RetroArch with Gamescope](https://github.com/libretro/RetroArch/issues/15259#issuecomment-1743577443) and forcing borderless fullscreen windowed mode.
+- If you're using GNOME with an NVIDIA GPU, [game frames may flicker](https://github.com/libretro/RetroArch/issues/8976) and persist after exiting a game until the next reboot if you don't have "Show Window Decorations" enabled in "Video" settings, under the "Windowed Mode" menu (it might be [related to buffer-flipping](https://forums.libretro.com/t/vsync-not-working-with-windows-10-1809-newest-update/18443/15) [like mentioned here](https://www.reddit.com/r/linux_gaming/comments/1ai2kel/nvidia_flipping_only_working_on_selected/), [on NVIDIA forums](https://forums.developer.nvidia.com/t/flipping-not-working-in-fullscreen-apps/279865) [or this old thread](https://web.archive.org/web/20201223115540/https://www.nvidia.com/en-us/geforce/forums/discover/285622/when-will-there-be-a-driver-update-to-fix-retroarch-rsquo-s-flashing-flcickiering-black-lines-in-full-screen-mode-/), [NVIDIA G-Sync](https://www.reddit.com/r/RetroArch/comments/10i9l6f/screen_flickering_on_linux_with_nvidia_gsync_on/), [unredirection being broken](https://gitlab.gnome.org/GNOME/mutter/-/issues/3134) or [Vsync/VRR](https://gitlab.gnome.org/GNOME/mutter/-/issues/2794))

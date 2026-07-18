@@ -1,13 +1,13 @@
 ---
-title : 'Carnival'
+title: "Carnival"
 ---
 
-<script setup> 
+<script setup>
 import DownloadButton from '@components/DownloadButton.vue'
 </script>
 
-
 # Carnival
+
 ## Installation
 
 Tested with the Download Version of the game from DMM
@@ -25,7 +25,6 @@ Use `vanilla` [wineprefix](/linux/wineprefixes) with runner `wine-10.4-amd64-wow
 
 <DownloadButton filePath="tools/DenchiUnwrap.zip" />
 
-
 5. Unzip it, copy `DenchiUnwrap.exe` into the installed game folder (/../CARNIVAL/program files/S.M.L/carnival/) alongside `carexec.exe`.
 6. Open Terminal and run: `wine DenchiUnwrap.exe carexec.exe`.
 7. Right click on the newly created `carexec_unwrapped.exe` and copy location.
@@ -41,6 +40,6 @@ Same as Linux.
 
 ## Links
 
-* [VNDB](https://vndb.org/v1001)
-* [DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ001614.html)
-* [DMM](https://dlsoft.dmm.co.jp/detail/ijam_0006/)
+- [VNDB](https://vndb.org/v1001)
+- [DLsite](https://www.dlsite.com/pro/work/=/product_id/VJ001614.html)
+- [DMM](https://dlsoft.dmm.co.jp/detail/ijam_0006/)

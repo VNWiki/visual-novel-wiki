@@ -1,8 +1,9 @@
 ---
-title : 'Gahkthun of the Golden Lightning -What a Radiant Brave-'
+title: "Gahkthun of the Golden Lightning -What a Radiant Brave-"
 ---
 
 # Gahkthun of the Golden Lightning -What a Radiant Brave-
+
 ## Installation
 
 ### Windows
@@ -18,10 +19,10 @@ Use [Locale Emulator](https://xupefei.github.io/Locale-Emulator/), right-click o
 
 1. Add locally installed game with these settings:
 
-   * In "Game info", select "Wine" for "Runner"
-   * In "Game options", select "liarsoftengine" prefix directory for "Wine prefix" and "game.exe" for "Executable"
-   * In "Runner Options", disable DXVK
-   * In "System Options", set up Japanese locales with `LC_ALL=ja_JP.utf8` and install Japanese fonts
+   - In "Game info", select "Wine" for "Runner"
+   - In "Game options", select "liarsoftengine" prefix directory for "Wine prefix" and "game.exe" for "Executable"
+   - In "Runner Options", disable DXVK
+   - In "System Options", set up Japanese locales with `LC_ALL=ja_JP.utf8` and install Japanese fonts
 
 2. Run the game once so the "drive_c" folder is generated inside the "liarsoftengine" then close it.
 3. Install "mciqtz32" with the [special codecs script](/linux/special-codecs): `sh codec.sh mciqtz32`
@@ -37,6 +38,6 @@ Save are located inside the "save" folder, in the game directory.
 
 ## Links
 
-* [VNDB](https://vndb.org/v11033)
-* [SteamgridDB](https://www.steamgriddb.com/game/11363)
-* [Walkthrough](https://forums.fuwanovel.net/topic/13445-gahkthun-of-the-golden-lightning/)
+- [VNDB](https://vndb.org/v11033)
+- [SteamgridDB](https://www.steamgriddb.com/game/11363)
+- [Walkthrough](https://forums.fuwanovel.net/topic/13445-gahkthun-of-the-golden-lightning/)

@@ -1,12 +1,12 @@
 <!-- DataTable.vue -->
- 
+
 <!--
   Use this component to make an interactive table in your .md files. We use JSON as our table data.
 
   Usage Example:
 
-  <DataTable 
-    jsonPath="/data/my-data.json" 
+  <DataTable
+    jsonPath="/data/my-data.json"
     :columns="[
       { field: 'visual novel', header: 'Visual Novel', sortable: true },
       { field: 'windows', header: 'Windows', sortable: true },
@@ -24,14 +24,14 @@
 
   <script setup>
   import MyDataTable from '/.vitepress/theme/components/DataTable.vue'
-  
+
   const vnColumns = [
     { field: 'visual novel', header: 'Visual Novel', sortable: true },
     { field: 'windows', header: 'Windows', sortable: true },
      ...more objects here
   ]
   </script>
-  
+
   <MyDataTable jsonPath="/vn_list.json" :columns="vnColumns" />
 
   Load in the data as JSON within public/*.json. The keys correspond to the field names.
@@ -114,7 +114,7 @@ watch(items, (newItems) => {
   if (newItems.length > 10) dynamicOptions.push(20);
   if (newItems.length > 20) dynamicOptions.push(50);
   if (newItems.length > 50) dynamicOptions.push(100);
-  
+
   // Add an option that is the total number of items if it's not too large and not already covered
   const maxItemsOption = Math.min(newItems.length, 100); // Cap at 100 or total items
   if (maxItemsOption > 0 && !dynamicOptions.includes(maxItemsOption)) {
@@ -130,7 +130,7 @@ watch(items, (newItems) => {
     // Ensure the base minimum is there if applicable
     // filteredOptions.push(minStandardOption); // This line could add duplicates if not careful
   }
-  
+
   // Ensure unique and sorted
   const finalOptions = [...new Set(filteredOptions)].sort((a, b) => a - b);
 
@@ -241,7 +241,7 @@ onMounted(async () => {
   // props.jsonPath should be like "vn_list.json" or "data/my_data.json" (relative to public)
   // Vite's import.meta.env.BASE_URL handles base path for deployments (e.g. to subfolder)
   const fullPath = `${import.meta.env.BASE_URL}${props.jsonPath.startsWith('/') ? props.jsonPath.substring(1) : props.jsonPath}`;
-  
+
   console.log('DataTable: Fetching from constructed fullPath:', fullPath);
 
   try {

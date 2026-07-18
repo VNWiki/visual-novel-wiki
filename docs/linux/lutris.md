@@ -1,5 +1,5 @@
 ---
-title : 'Lutris'
+title: "Lutris"
 ---
 
 # Lutris
@@ -8,7 +8,6 @@ title : 'Lutris'
 Over the years, video games have gone through many different hardware and software platforms. By offering the best software available to run your games, Lutris makes it easy to run all your games, old and new.
 
 Assets for Lutris are available [here](https://www.steamgriddb.com/game/5267809).
-
 
 ## Installation
 

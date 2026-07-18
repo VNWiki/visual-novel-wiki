@@ -1,8 +1,9 @@
 ---
-title : 'Subarashiki Hibi ~Furenzoku Sonzai~'
+title: "Subarashiki Hibi ~Furenzoku Sonzai~"
 ---
 
 # Subarashiki Hibi ~Furenzoku Sonzai~
+
 ## Steam patch installation
 
 > [!info] Information
@@ -25,8 +26,8 @@ Put the "BGI.gdb" file inside of the game install folder (usually inside of the 
 
 ## Links
 
-* [VNDB](https://vndb.org/v3144)
-* [JAST USA](https://jastusa.com/games/fwng006/wonderful-everyday-~diskontinuierliches-dasein~)
-* [Steam](https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/)
-* [SteamGridDB](https://www.steamgriddb.com/game/19199)
-* [Walkthrough](https://steamcommunity.com/sharedfiles/filedetails/?id=1127955406)
+- [VNDB](https://vndb.org/v3144)
+- [JAST USA](https://jastusa.com/games/fwng006/wonderful-everyday-~diskontinuierliches-dasein~)
+- [Steam](https://store.steampowered.com/app/658620/Wonderful_Everyday_Down_the_RabbitHole/)
+- [SteamGridDB](https://www.steamgriddb.com/game/19199)
+- [Walkthrough](https://steamcommunity.com/sharedfiles/filedetails/?id=1127955406)

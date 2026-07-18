@@ -10,11 +10,11 @@ If a visual novel isn't on the Wiki yet, you can try to run it with Wine. If a g
 
 ### Tips
 
-* Most visual novels should work fine with Proton-GE 9 and up
-* Run games with Wine 10 WoW64 builds
-* Use Wine 9 WoW64 builds and older non-WoW64 builds if newer versions don't work
-* Try already tested games with Wine 10 WoW64 builds and then with Proton-GE
-* Try non-staging and staging WoW64 builds as some games can give different results
+- Most visual novels should work fine with Proton-GE 9 and up
+- Run games with Wine 10 WoW64 builds
+- Use Wine 9 WoW64 builds and older non-WoW64 builds if newer versions don't work
+- Try already tested games with Wine 10 WoW64 builds and then with Proton-GE
+- Try non-staging and staging WoW64 builds as some games can give different results
 
 ## Write reports
 
@@ -30,5 +30,4 @@ You can also help by editing the existing Wiki pages.
 
 ### Tasks
 
-* Migrate Bottles compatibility list to the main one
-
+- Migrate Bottles compatibility list to the main one

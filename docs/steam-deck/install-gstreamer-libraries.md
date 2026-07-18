@@ -1,8 +1,9 @@
 ---
-title : 'Install GStreamer libraries'
+title: "Install GStreamer libraries"
 ---
 
 # GStreamer
+
 GStreamer is a library for constructing graphs of media-handling components. Very useful to play opening videos in visual novels.
 
 # Steam Deck Setup
@@ -11,7 +12,7 @@ SteamOS already comes with some of them preinstalled, but it's missing a few tha
 
 Also this is not needed when using Lutris since they already bundle this library in their application.
 
-> [!warning] 
+> [!warning]
 > SteamOS is a read only system, so it will restart all this changes with every major update to the system.
 
 Open konsole and run this commands in the terminal in order to disable readonly and enable pacman to install packages:

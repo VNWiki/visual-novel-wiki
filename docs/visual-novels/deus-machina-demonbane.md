@@ -1,8 +1,9 @@
 ---
-title : 'Deus Machina Demonbane'
+title: "Deus Machina Demonbane"
 ---
 
 # Deus Machina Demonbane
+
 ## Installation
 
 ### GNU/Linux
@@ -15,10 +16,11 @@ title : 'Deus Machina Demonbane'
 This guide is a bit different to the other guides, as we will create a specific prefix for Demonbane.
 
 1. Add a locally installed game in Lutris
-   * In "Game info", select "Wine" for "Runner"
-   * In "Game options", make a new vanilla "Wine prefix" folder named "demonbane", select it, choose "32bit" for "Wine architecture" and "Demonbane_Setup.exe" for "Executable"
-   * In "Runner options", disable "DXVK", "Esync", "Fsync" and select "Lutris 7.2" for "Wine version"
-   * In "System options", set up Japanese locales, add the following environment variable and its value: `LC_ALL=ja_JP.utf8`
+
+   - In "Game info", select "Wine" for "Runner"
+   - In "Game options", make a new vanilla "Wine prefix" folder named "demonbane", select it, choose "32bit" for "Wine architecture" and "Demonbane_Setup.exe" for "Executable"
+   - In "Runner options", disable "DXVK", "Esync", "Fsync" and select "Lutris 7.2" for "Wine version"
+   - In "System options", set up Japanese locales, add the following environment variable and its value: `LC_ALL=ja_JP.utf8`
 
 2. Install the game
 
@@ -32,30 +34,30 @@ This guide is a bit different to the other guides, as we will create a specific 
 
 4. Setup the prefix:
 
-    Click on the Wine bottle, and click "Bash Terminal".
-    Copy the following command & paste it into each terminal using CTRL + SHIFT + V
-    Hit Enter to input the command
-    
-    ```
-    winetricks -q --force lavfilters wmp10
-    ```
+   Click on the Wine bottle, and click "Bash Terminal".
+   Copy the following command & paste it into each terminal using CTRL + SHIFT + V
+   Hit Enter to input the command
 
-    Close the terminal.
-    Get the [custom quartz files](https://web.archive.org/web/20240126231520mp_/https://www.visualnovelwiki.org/tutorials/wineprefixes/quartz2.zip) The .zip contains: "quartz", "quartz2.dll", "quartz2-win32.reg", "quartz2-win64.reg".
+   ```
+   winetricks -q --force lavfilters wmp10
+   ```
 
-    > [!warning] Warning
-    > This zip also comes with "quartz2-win64.reg", which can be used for 64 bit wineprefixes. "quartz2.dll" would also go in `drive_c/Windows/SysWow64` instead of "system32". This wineprefix is using 32bit.
+   Close the terminal.
+   Get the [custom quartz files](https://web.archive.org/web/20240126231520mp_/https://www.visualnovelwiki.org/tutorials/wineprefixes/quartz2.zip) The .zip contains: "quartz", "quartz2.dll", "quartz2-win32.reg", "quartz2-win64.reg".
 
-    Find your demonbane folder, and navigate to `demonbane/drive_c/Windows/system32`
-    Drag and drop the "quartz2.dll" file in there.
-    Click the Wine bottle, then select "Bash Terminal".
-    Enter this command to register the "quartz2.dll" file in the wineprefix: `wine regsvr32 quartz2.dll`
+   > [!warning] Warning
+   > This zip also comes with "quartz2-win64.reg", which can be used for 64 bit wineprefixes. "quartz2.dll" would also go in `drive_c/Windows/SysWow64` instead of "system32". This wineprefix is using 32bit.
 
-    Close the terminal
-    Click the Wine bottle again, then select "Wine Registry".
-    You’ll get a popup for the Windows registry.
-    Click "Registry" in the toolbar then "Import Registry File".
-    Find & import the "quartz2-win32.reg" file you downloaded.
+   Find your demonbane folder, and navigate to `demonbane/drive_c/Windows/system32`
+   Drag and drop the "quartz2.dll" file in there.
+   Click the Wine bottle, then select "Bash Terminal".
+   Enter this command to register the "quartz2.dll" file in the wineprefix: `wine regsvr32 quartz2.dll`
+
+   Close the terminal
+   Click the Wine bottle again, then select "Wine Registry".
+   You’ll get a popup for the Windows registry.
+   Click "Registry" in the toolbar then "Import Registry File".
+   Find & import the "quartz2-win32.reg" file you downloaded.
 
 ## Save Data
 
@@ -73,6 +75,6 @@ If text flow is choppy, enabling dgvoodoo2 in Lutris might help.
 
 ## Links
 
-* [VNDB](https://vndb.org/v231)
-* [JAST USA](https://jastusa.com/games/np001)
-* [SteamGridDB](https://www.steamgriddb.com/game/21185)
+- [VNDB](https://vndb.org/v231)
+- [JAST USA](https://jastusa.com/games/np001)
+- [SteamGridDB](https://www.steamgriddb.com/game/21185)

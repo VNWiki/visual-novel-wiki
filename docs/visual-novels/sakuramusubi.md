@@ -1,8 +1,9 @@
 ---
-title : 'Sakura Musubi'
+title: "Sakura Musubi"
 ---
 
 # Sakura Musubi
+
 ## Installation
 
 ### Windows
@@ -10,12 +11,12 @@ title : 'Sakura Musubi'
 1. Use Japanese locale.
 2. Mount the disc and run the installer.
 3. Install in any directory other than Program files (x86).
-3. Download and apply the patch from the [official website](https://www.cuffs.co.jp/products/sakuramusubi/down/index.html). [Direct link](http://suezou.dyndns.org/cuffs.html#sm050819). [Web Archive mirror](https://archive.org/download/sm050819/sm050819.exe).
-4. To run the game Windows 10/11 you need this [unofficial patched .exe](https://web.archive.org/web/20200509045933/https://c.0x0c.org/wp-content/uploads/2016/10/musubi.zip) Replace it in the installed directory.
-5. Rename the following file under the installation directory.
-    - **Installation directory\system\sakura.csx** to: **Installation directory\system\wanko.csx**.
+4. Download and apply the patch from the [official website](https://www.cuffs.co.jp/products/sakuramusubi/down/index.html). [Direct link](http://suezou.dyndns.org/cuffs.html#sm050819). [Web Archive mirror](https://archive.org/download/sm050819/sm050819.exe).
+5. To run the game Windows 10/11 you need this [unofficial patched .exe](https://web.archive.org/web/20200509045933/https://c.0x0c.org/wp-content/uploads/2016/10/musubi.zip) Replace it in the installed directory.
+6. Rename the following file under the installation directory.
+   - **Installation directory\system\sakura.csx** to: **Installation directory\system\wanko.csx**.
 
-Information from https://vndb.org/t16906
+Information from <https://vndb.org/t16906>
 
 ### Linux/Steam Deck
 
@@ -30,5 +31,5 @@ Information from https://vndb.org/t16906
 
 ## Links
 
-* [VNDB](https://vndb.org/v1466)
-* [Walkthrough](https://seiya-saiga.com/game/cuffs/sakuramusubi.html)
+- [VNDB](https://vndb.org/v1466)
+- [Walkthrough](https://seiya-saiga.com/game/cuffs/sakuramusubi.html)

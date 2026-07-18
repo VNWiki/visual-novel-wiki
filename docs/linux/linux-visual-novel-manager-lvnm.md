@@ -1,5 +1,5 @@
 ---
-title : 'Linux Visual Novel Manager'
+title: "Linux Visual Novel Manager"
 ---
 
 # lvnm
@@ -19,10 +19,9 @@ It doesn't really do anything different than other linux game launchers do, but 
 - Create Steam shortcuts with covers for the Steam Deck.
 - PySide QT 6 interface.
 
-
 ## Installation
 
-Download latest appimage from a tagged release: https://github.com/uunniiblog/linux-vn-manager-lvnm/releases
+Download latest appimage from a tagged release: <https://github.com/uunniiblog/linux-vn-manager-lvnm/releases>
 
 It bundles umu and winetricks so it runs smoothly in the Steam Deck.
 
@@ -54,39 +53,39 @@ Once you select the json file in the application a popup will appear where you n
 
 ```json
 {
-    "game": {
-        "name": "Kirikiri",
-        "path": "",
-        "prefix": "proton1034wmp11quartz2",
-        "vndb": "",
-        "coverpath": "",
-        "last_played": "",
-        "ogtitle": "",
-        "envvar": {
-            "LANG": "ja_JP.UTF-8"
-        },
-        "dlloverride": {},
-        "gamescope": {
-            "enabled": "false",
-            "parameters": ""
-        },
-        "update_date": "2026-04-24 10:31:19",
-        "label": "",
-        "umu-gameid": "umu-default",
-        "umu-store": "none"
+  "game": {
+    "name": "Kirikiri",
+    "path": "",
+    "prefix": "proton1034wmp11quartz2",
+    "vndb": "",
+    "coverpath": "",
+    "last_played": "",
+    "ogtitle": "",
+    "envvar": {
+      "LANG": "ja_JP.UTF-8"
     },
-    "prefix": {
-        "name": "proton1034wmp11quartz2",
-        "path": "",
-        "runner": "GE-Proton10-34",
-        "type": "proton",
-        "codecs": "quartz2 wmp11",
-        "winetricks": "",
-        "fonts": true,
-        "update_date": "2026-04-24 10:04:02",
-        "wayland": false,
-        "dpi": false
-    }
+    "dlloverride": {},
+    "gamescope": {
+      "enabled": "false",
+      "parameters": ""
+    },
+    "update_date": "2026-04-24 10:31:19",
+    "label": "",
+    "umu-gameid": "umu-default",
+    "umu-store": "none"
+  },
+  "prefix": {
+    "name": "proton1034wmp11quartz2",
+    "path": "",
+    "runner": "GE-Proton10-34",
+    "type": "proton",
+    "codecs": "quartz2 wmp11",
+    "winetricks": "",
+    "fonts": true,
+    "update_date": "2026-04-24 10:04:02",
+    "wayland": false,
+    "dpi": false
+  }
 }
 ```
 
@@ -96,37 +95,37 @@ This one uses vanilla prefix, requires GStreamer libraries.
 
 ```json
 {
-    "game": {
-        "name": "BGI",
-        "path": "",
-        "prefix": "wine10.4wow64",
-        "vndb": "",
-        "coverpath": "",
-        "last_played": "",
-        "ogtitle": "",
-        "envvar": {
-            "LANG": "ja_JP.UTF-8"
-        },
-        "dlloverride": {},
-        "gamescope": {
-            "enabled": "false",
-            "parameters": ""
-        },
-        "update_date": "2026-04-24 10:44:13",
-        "label": "",
-        "umu-gameid": "umu-default",
-        "umu-store": "none"
+  "game": {
+    "name": "BGI",
+    "path": "",
+    "prefix": "wine10.4wow64",
+    "vndb": "",
+    "coverpath": "",
+    "last_played": "",
+    "ogtitle": "",
+    "envvar": {
+      "LANG": "ja_JP.UTF-8"
     },
-    "prefix": {
-        "name": "wine10.4wow64",
-        "path": "",
-        "runner": "wine-10.4-amd64-wow64",
-        "type": "wine",
-        "codecs": "",
-        "winetricks": "",
-        "fonts": true,
-        "update_date": "2026-04-04 11:18:59"
-    }
+    "dlloverride": {},
+    "gamescope": {
+      "enabled": "false",
+      "parameters": ""
+    },
+    "update_date": "2026-04-24 10:44:13",
+    "label": "",
+    "umu-gameid": "umu-default",
+    "umu-store": "none"
+  },
+  "prefix": {
+    "name": "wine10.4wow64",
+    "path": "",
+    "runner": "wine-10.4-amd64-wow64",
+    "type": "wine",
+    "codecs": "",
+    "winetricks": "",
+    "fonts": true,
+    "update_date": "2026-04-04 11:18:59"
+  }
 }
 ```
 
@@ -136,40 +135,40 @@ Need to change to MCI movie settings inside the game.
 
 ```json
 {
-    "game": {
-        "name": "Siglus",
-        "path": "",
-        "prefix": "protonwmp11",
-        "vndb": "v47937",
-        "coverpath": "",
-        "last_played": "",
-        "ogtitle": "anemoi",
-        "envvar": {
-            "LANG": "ja_JP.UTF-8",
-            "TZ": "Asia/Tokyo"
-        },
-        "dlloverride": {},
-        "gamescope": {
-            "enabled": "false",
-            "parameters": "-W 3840 -H 2160 -f -r 60"
-        },
-        "update_date": "2026-04-24 10:48:09",
-        "label": "aPlaying",
-        "umu-gameid": "umu-default",
-        "umu-store": "none"
+  "game": {
+    "name": "Siglus",
+    "path": "",
+    "prefix": "protonwmp11",
+    "vndb": "v47937",
+    "coverpath": "",
+    "last_played": "",
+    "ogtitle": "anemoi",
+    "envvar": {
+      "LANG": "ja_JP.UTF-8",
+      "TZ": "Asia/Tokyo"
     },
-    "prefix": {
-        "name": "protonwmp11",
-        "path": "",
-        "runner": "GE-Proton10-34",
-        "type": "proton",
-        "codecs": "wmp11",
-        "winetricks": "",
-        "fonts": true,
-        "update_date": "2026-04-23 20:50:28",
-        "wayland": false,
-        "dpi": false
-    }
+    "dlloverride": {},
+    "gamescope": {
+      "enabled": "false",
+      "parameters": "-W 3840 -H 2160 -f -r 60"
+    },
+    "update_date": "2026-04-24 10:48:09",
+    "label": "aPlaying",
+    "umu-gameid": "umu-default",
+    "umu-store": "none"
+  },
+  "prefix": {
+    "name": "protonwmp11",
+    "path": "",
+    "runner": "GE-Proton10-34",
+    "type": "proton",
+    "codecs": "wmp11",
+    "winetricks": "",
+    "fonts": true,
+    "update_date": "2026-04-23 20:50:28",
+    "wayland": false,
+    "dpi": false
+  }
 }
 ```
 
@@ -177,77 +176,78 @@ Need to change to MCI movie settings inside the game.
 
 ```json
 {
-    "game": {
-        "name": "Nitroplus",
-        "path": "",
-        "prefix": "NitroplusPrefix",
-        "vndb": "",
-        "coverpath": "",
-        "last_played": "",
-        "ogtitle": "",
-        "envvar": {
-            "LANG": "ja_JP.UTF-8",
-            "PROTON_MEDIA_USE_GST": "1"
-        },
-        "dlloverride": {},
-        "gamescope": {
-            "enabled": "false",
-            "parameters": ""
-        },
-        "update_date": "2026-04-24 10:55:28",
-        "label": "",
-        "umu-gameid": "umu-default",
-        "umu-store": "none"
+  "game": {
+    "name": "Nitroplus",
+    "path": "",
+    "prefix": "NitroplusPrefix",
+    "vndb": "",
+    "coverpath": "",
+    "last_played": "",
+    "ogtitle": "",
+    "envvar": {
+      "LANG": "ja_JP.UTF-8",
+      "PROTON_MEDIA_USE_GST": "1"
     },
-    "prefix": {
-        "name": "NitroplusPrefix",
-        "path": "",
-        "runner": "GE-Proton10-25",
-        "type": "proton",
-        "codecs": "",
-        "winetricks": "",
-        "fonts": false,
-        "update_date": "2026-04-24 10:04:02",
-        "wayland": false,
-        "dpi": false
-    }
+    "dlloverride": {},
+    "gamescope": {
+      "enabled": "false",
+      "parameters": ""
+    },
+    "update_date": "2026-04-24 10:55:28",
+    "label": "",
+    "umu-gameid": "umu-default",
+    "umu-store": "none"
+  },
+  "prefix": {
+    "name": "NitroplusPrefix",
+    "path": "",
+    "runner": "GE-Proton10-25",
+    "type": "proton",
+    "codecs": "",
+    "winetricks": "",
+    "fonts": false,
+    "update_date": "2026-04-24 10:04:02",
+    "wayland": false,
+    "dpi": false
+  }
 }
 ```
 
 ### Liarsoft codeX Rscript engine (Sona-Nyl, Ever Maiden, Albatross, etc)
+
 ```json
 {
-    "game": {
-        "name": "Liarsoft",
-        "path": "",
-        "prefix": "protonge913",
-        "vndb": "",
-        "coverpath": "",
-        "last_played": "",
-        "ogtitle": "",
-        "envvar": {
-            "LANG": "ja_JP.UTF-8"
-        },
-        "dlloverride": {},
-        "gamescope": {
-            "enabled": "false",
-            "parameters": ""
-        },
-        "update_date": "2026-04-26 12:49:38",
-        "label": "",
-        "umu-gameid": "umu-default",
-        "umu-store": "none"
+  "game": {
+    "name": "Liarsoft",
+    "path": "",
+    "prefix": "protonge913",
+    "vndb": "",
+    "coverpath": "",
+    "last_played": "",
+    "ogtitle": "",
+    "envvar": {
+      "LANG": "ja_JP.UTF-8"
     },
-    "prefix": {
-        "name": "protonge913",
-        "path": "",
-        "runner": "GE-Proton9-13",
-        "type": "proton",
-        "codecs": "",
-        "winetricks": "",
-        "fonts": true,
-        "update_date": "2026-03-28 08:40:41"
-    }
+    "dlloverride": {},
+    "gamescope": {
+      "enabled": "false",
+      "parameters": ""
+    },
+    "update_date": "2026-04-26 12:49:38",
+    "label": "",
+    "umu-gameid": "umu-default",
+    "umu-store": "none"
+  },
+  "prefix": {
+    "name": "protonge913",
+    "path": "",
+    "runner": "GE-Proton9-13",
+    "type": "proton",
+    "codecs": "",
+    "winetricks": "",
+    "fonts": true,
+    "update_date": "2026-03-28 08:40:41"
+  }
 }
 ```
 

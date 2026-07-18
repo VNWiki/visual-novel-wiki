@@ -8,7 +8,7 @@ title: Shin Koihime † Musou ~Otome Ryouran ☆ Sangokushi Engi~
 
 ::: tip
 This guide uses [Lutris](https://lutris.net/) for installation.
-Tested with: [lutris-GE-Proton-7-16](https://www.visualnovelwiki.org/en/linux/wine-versions)  
+Tested with: [lutris-GE-Proton-7-16](https://www.visualnovelwiki.org/en/linux/wine-versions)
 Patch available via [The SKM Project](https://www.facebook.com/theskmproject/posts/pfbid0WrLE6LsCq4xB6umebUvWdTd37DH5T5XdThMjC39sg45Dsr3gaQpxc2VRTmFfQF3yl)
 :::
 
@@ -28,14 +28,17 @@ Mount and merge the contents of the two image disks to a local directory.
 2. Configure the game with the following options:
 
 ### Game Info
+
 - **Runner**: `Wine`
 
 ### Game Options
+
 - **Wine prefix**: Set to [lavfilters](../linux/wineprefixes.html#special-purpose-wineprefixes)
 - **Executable**: Path to `Launcher.exe`
 - **Prefix architecture**: `64-bit`
 
 ### System Options
+
 - **Locale**: `ja_JP.UTF-8`
 
 ---
@@ -49,12 +52,15 @@ Run `Launcher.exe` and click the orange button:
 Choose default options unless otherwise stated.
 
 ### Select (N)
+
 ![Step 3](/img/tutorials/v1967/v1967-linux-3.webp)
 
 ### Select (I)
+
 ![Step 4](/img/tutorials/v1967/v1967-linux-4.webp)
 
 ### Select (F) to Finish
+
 ![Step 5](/img/tutorials/v1967/v1967-linux-5.webp)
 
 ---

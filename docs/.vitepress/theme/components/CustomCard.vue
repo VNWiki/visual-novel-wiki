@@ -1,6 +1,6 @@
 <!-- CustomCard.vue -->
 
-<!-- 
+<!--
 
 Custom Card component based on the card that shows up on the Home page (index.md at docs/ dir (root))
 

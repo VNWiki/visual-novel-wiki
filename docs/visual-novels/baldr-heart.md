@@ -1,8 +1,9 @@
 ---
-title : 'BALDR Heart + EXE'
+title: "BALDR Heart + EXE"
 ---
 
 # BALDR Heart + EXE
+
 ## Installation
 
 > [!info] Information
@@ -53,10 +54,10 @@ title : 'BALDR Heart + EXE'
 
 2. Add a locally installed game with the following settings
 
-   * In "Game info", input "BALDR HEART" for "Name" abd select "Wine" for "Runner"
-   * In "Game options", select the wmp10quartz prefix directory for "Wine prefix", "AlphaROMdiE.exe" for "Executable", input "BALDR HEART.exe" with the quotes for "Arguments" and select 32bit for "Wine architecture"
-   * In "Runner options", select "Lutris 7.2" for "Wine version", enable "VKD3D", disable "dgvoodoo2" and "DXVK"
-   * In "System options", set up Japanese locales, add and environment variables and its value: `LC_ALL=ja_JP.utf8`
+   - In "Game info", input "BALDR HEART" for "Name" abd select "Wine" for "Runner"
+   - In "Game options", select the wmp10quartz prefix directory for "Wine prefix", "AlphaROMdiE.exe" for "Executable", input "BALDR HEART.exe" with the quotes for "Arguments" and select 32bit for "Wine architecture"
+   - In "Runner options", select "Lutris 7.2" for "Wine version", enable "VKD3D", disable "dgvoodoo2" and "DXVK"
+   - In "System options", set up Japanese locales, add and environment variables and its value: `LC_ALL=ja_JP.utf8`
 
 3. Install registry files
 
@@ -86,7 +87,7 @@ Exact same as in Linux.
 It can be modified as you want in game settings. Here's a working layout for the Steam Deck with default keyboard controls.
 
 | Keyboard    | In-game control | Steam Deck Button | Combat                       | ADV                    |
-|-------------|-----------------|-------------------|------------------------------|------------------------|
+| ----------- | --------------- | ----------------- | ---------------------------- | ---------------------- |
 | Z           | Button 1        | A                 | Attack 1                     | Advance text           |
 | X           | Button 2        | X                 | Attack 2                     | Menu                   |
 | C           | Button 3        | C                 | Attack 3                     | N/A                    |
@@ -117,4 +118,4 @@ Overwrite "Config.dat" in `<wineprefix>/drive_c/users/<yourusername>/Documents/G
 
 ## Links
 
-* [VNDB](https://vndb.org/v18783)
+- [VNDB](https://vndb.org/v18783)

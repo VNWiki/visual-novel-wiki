@@ -4,9 +4,10 @@ layout: home
 
 hero:
   name: "Visual Novel Wiki"
-#   text: "Cross-platform VN guide"
+  #   text: "Cross-platform VN guide"
   tagline: "Your go-to source for compatibility and guides across all platforms."
-  image: # Optional: Add a logo or hero image
+  image:# Optional:
+    Add a logo or hero image
     # src: /logo.svg # Path relative to public directory
     # alt: Visual Novel Wiki Logo
   actions:

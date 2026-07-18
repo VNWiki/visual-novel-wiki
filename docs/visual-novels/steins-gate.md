@@ -1,8 +1,9 @@
 ---
-title : 'Steins;Gate'
+title: "Steins;Gate"
 ---
 
 # Steins;Gate
+
 ## Installation
 
 ### Committee of Zero patch
@@ -47,8 +48,8 @@ Overwrite "SAVEDATA.dat" in `Documents\My Games\mages_steam\STEINS;GATE\eng`
 
 ## Links
 
-* [VNDB](https://vndb.org/v2002)
-* [SteamGridDB](https://www.steamgriddb.com/game/9557)
-* [Steam](https://store.steampowered.com/app/412830/STEINSGATE/) (newer version with HD artwork, compatible with Committee of Zero improvement patch)
-* [JAST USA](https://jastusa.com/games/sg001/steinsgate) (older DRM-free version)
-* [Walkthrough](https://steamcommunity.com/sharedfiles/filedetails/?id=2600680431)
+- [VNDB](https://vndb.org/v2002)
+- [SteamGridDB](https://www.steamgriddb.com/game/9557)
+- [Steam](https://store.steampowered.com/app/412830/STEINSGATE/) (newer version with HD artwork, compatible with Committee of Zero improvement patch)
+- [JAST USA](https://jastusa.com/games/sg001/steinsgate) (older DRM-free version)
+- [Walkthrough](https://steamcommunity.com/sharedfiles/filedetails/?id=2600680431)

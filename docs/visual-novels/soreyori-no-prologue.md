@@ -1,5 +1,5 @@
 ---
-title : 'Soreyori no Prologue'
+title: "Soreyori no Prologue"
 ---
 
 # Soreyori no Prologue
@@ -20,4 +20,4 @@ Use a prefix with wmp11 quartz2 codecs installed with proton-ge for the game to 
 
 ## Links
 
-* [VNDB](https://vndb.org/v15637)
+- [VNDB](https://vndb.org/v15637)

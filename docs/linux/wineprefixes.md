@@ -1,5 +1,5 @@
 ---
-title: 'Wineprefixes'
+title: "Wineprefixes"
 ---
 
 # Wineprefixes
@@ -9,40 +9,43 @@ A **WINEPREFIX** is simply a folder that Wine uses as a separate Windows environ
 A **clean prefix** (also called a **vanilla wineprefix**) is a fresh Wine environment with nothing extra installed - just the basics.
 
 In simple terms, a wineprefix:
+
 1. Acts like a mini Windows computer inside your Linux system
 2. Lets Wine translate Windows programs to work on Linux
 3. Keeps all Windows-related files and settings in one place
 
-> [!NOTE] Why This Matters  
+> [!NOTE] Why This Matters
 > It's good practice to use different wineprefixes for different Windows applications. This keeps them separate, like having multiple Windows computers for different tasks. If one application breaks, it won't affect the others.
 
 [^1]: Technically, a wineprefix is controlled by the `WINEPREFIX` environment variable that points to the directory containing the virtual Windows environment. By default, it's located at `~/.wine/` if not specified.
-[^2]: Answer from https://askubuntu.com/questions/956244/what-is-a-wineprefix
+[^2]: Answer from <https://askubuntu.com/questions/956244/what-is-a-wineprefix>
 
 ## Types of Wineprefixes
 
 ### Main Wineprefixes
+
 These are recommended for most visual novels:
 
-| Prefix | Purpose | When to Use |
-|--------|---------|-------------|
-| `proton_ge` | General compatibility | First choice for newer VNs |
-| `vanilla` | Clean Wine setup | For VNs using older engines like kirikiri or BGI |
+| Prefix      | Purpose               | When to Use                                      |
+| ----------- | --------------------- | ------------------------------------------------ |
+| `proton_ge` | General compatibility | First choice for newer VNs                       |
+| `vanilla`   | Clean Wine setup      | For VNs using older engines like kirikiri or BGI |
 
 ### Special-Purpose Wineprefixes
+
 For games with specific codec or component requirements:
 
-| Prefix | Primary Use Case |
-|--------|-----------------|
+| Prefix        | Primary Use Case                     |
+| ------------- | ------------------------------------ |
 | `wmp11quartz` | Windows Media Player 11 + QuartzCore |
-| `lavfilters` | LAV Video/Audio Filters |
-| `mciqtz32` | MCI + QuartzCore codecs |
-| `ffdshow` | FFDShow multimedia codecs |
-| `wmp11` | Windows Media Player 11 |
-| `xact` | DirectX Audio codecs |
-| `quartz_dx` | DirectX + Quartz |
+| `lavfilters`  | LAV Video/Audio Filters              |
+| `mciqtz32`    | MCI + QuartzCore codecs              |
+| `ffdshow`     | FFDShow multimedia codecs            |
+| `wmp11`       | Windows Media Player 11              |
+| `xact`        | DirectX Audio codecs                 |
+| `quartz_dx`   | DirectX + Quartz                     |
 | `wmp10quartz` | Windows Media Player 10 + QuartzCore |
-| `wmp9` | Windows Media Player 9 |
+| `wmp9`        | Windows Media Player 9               |
 
 ### Choosing the Right Prefix
 
@@ -93,18 +96,19 @@ mkdir wmp11quartz lavfilters mciqtz32 ffdshow wmp11 xact quartz_dx wmp10quartz
 In Lutris, visit any game's config and enter these settings:
 
 **Game Options:**
-* **Wine prefix**: *path_to_your_wineprefix_folder* (The location of the folder created in step 1)
-* **Prefix architecture**: **64bit** (**32bit** for `wmp10` & `wmp10quartz`)
+
+- **Wine prefix**: _path_to_your_wineprefix_folder_ (The location of the folder created in step 1)
+- **Prefix architecture**: **64bit** (**32bit** for `wmp10` & `wmp10quartz`)
 
 ### 3. Select Wine version
 
 Based on the prefix type, select the appropriate Wine runner:
 
-| Prefix Type | Recommended Runner | Installation Source | Notes |
-|-------------|-------------------|---------------------|-------|
-| **vanilla** | Wine 10 | [protonUp-qt](protonup) [Kron4ek Builds](https://github.com/Kron4ek/Wine-Builds/releases/) | It has fullscreen issues with some VNs, can use gamescope as a workaround |
-| **proton_ge** | Proton-GE 10.25 | [protonUp-qt](protonup) | - |
-| **Others** | Lutris 7.2 | Default | Do NOT use Lutris 7.2.2 (video playback issues)<br>Disable DXVK for these prefixes |
+| Prefix Type   | Recommended Runner | Installation Source                                                                        | Notes                                                                              |
+| ------------- | ------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| **vanilla**   | Wine 10            | [protonUp-qt](protonup) [Kron4ek Builds](https://github.com/Kron4ek/Wine-Builds/releases/) | It has fullscreen issues with some VNs, can use gamescope as a workaround          |
+| **proton_ge** | Proton-GE 10.25    | [protonUp-qt](protonup)                                                                    | -                                                                                  |
+| **Others**    | Lutris 7.2         | Default                                                                                    | Do NOT use Lutris 7.2.2 (video playback issues)<br>Disable DXVK for these prefixes |
 
 ### 4. Install components (optional)
 
@@ -120,7 +124,7 @@ For each prefix:
 3. Paste it into the terminal using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>
 4. Hit <kbd>Enter</kbd> and wait for the installation to complete
 
-#### After this, done! Run your visual novels!
+#### After this, done! Run your visual novels
 
 ## Component Installation
 
@@ -130,22 +134,24 @@ For each prefix:
 ### Basic Prefixes
 
 #### vanilla (64bit)
+
 Needs GStreamer libraries for video playback.
 
-* **System Lutris**: Make sure you have these libraries installed:
+- **System Lutris**: Make sure you have these libraries installed:
 
   ```bash
   gstreamer gst-plugins-ugly gst-plugins-good gst-plugins-base-libs gst-plugins-base gst-plugins-bad gst-plugins-bad-libs gst-plugin-pipewire gst-libav
   ```
 
-* **Flatpak Lutris or Steam Deck**: No need to install anything as these come bundled in.
+- **Flatpak Lutris or Steam Deck**: No need to install anything as these come bundled in.
 
 #### proton GE (64bit)
+
 No extra video components needed; should work out of the box.
 
-* If using outside Steam (like Lutris), install `umu-launcher`.
-* Flatpak/Steam Deck Lutris bundles `umu-launcher` so no need to install it.
-* If you have video playback issues try to add Environment variable PROTON_MEDIA_USE_GST=1 (It runs the old proton-ge 9 video playback implementation).
+- If using outside Steam (like Lutris), install `umu-launcher`.
+- Flatpak/Steam Deck Lutris bundles `umu-launcher` so no need to install it.
+- If you have video playback issues try to add Environment variable PROTON_MEDIA_USE_GST=1 (It runs the old proton-ge 9 video playback implementation).
 
 ### Media Prefixes
 
@@ -159,45 +165,55 @@ No extra video components needed; should work out of the box.
 These prefixes all use "Windows 10" as the [reported Windows version](https://gitlab.winehq.org/wine/wine/-/wikis/Commands/winecfg#windows-version), unless stated otherwise.
 
 #### wmp11quartz (64bit)
+
 ```bash
 sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz2
 ```
 
 #### wmp11 (64bit)
+
 ```bash
 sh ~/Documents/vn_winestuff-main/codec.sh wmp11
 ```
 
 #### Media Foundation (MF) (64bit)
+
 ```bash
 sh ~/Documents/vn_winestuff-main/codec.sh mf
 ```
 
 #### quartz_dx (64bit)
+
 ```bash
 sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz_dx
 ```
 
 #### lavfilters (64bit)
+
 ```bash
 sh ~/Documents/vn_winestuff-main/codec.sh lavfilters
 ```
 
 #### mciqtz32 (64bit)
+
 ```bash
 sh ~/Documents/vn_winestuff-main/codec.sh mciqtz32
 ```
 
 #### xact (64bit)
+
 ```bash
 winetricks -q --force xact
 ```
 
 #### ffdshow (64bit)
+
 ```bash
 winetricks ffdshow
 ```
+
 #### wmp9 (32bit)
+
 ```bash
 winetricks -q --force wmp9
 ```
@@ -346,16 +362,19 @@ winetricks -q --force d3dx9 devenum dirac dotnet35 dotnet40 dxvk2010 lavfilters 
 ### Legacy Prefixes (Currently Broken)
 
 #### wmp10 (32bit)
+
 ```bash
 winetricks -q --force wmp10
 ```
 
 #### wmp10quartz (32bit)
+
 ```bash
 winetricks -q --force wmp10 && sh ~/Documents/vn_winestuff-main/codec.sh quartz2
 ```
 
 #### general
+
 ```bash
 winetricks -q --force d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015
 ```
@@ -365,7 +384,7 @@ winetricks -q --force d3dx9 dotnet35 vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcr
 ### Installing Windows Japanese Fonts
 
 1. Download the [Windows Japanese Fonts Pack](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view)
-2. Extract the fonts 
+2. Extract the fonts
 3. Place them in each prefix's fonts directory:
 
 ```text
@@ -389,10 +408,12 @@ ln -s "~/Desktop/Fonts/" <your-wineprefix-path>/drive_c/windows/
 ### Common Issues
 
 #### Video Playback Issues
-If you have video playback or lag issues in old VNs, make sure **DXVK is disabled**.  
+
+If you have video playback or lag issues in old VNs, make sure **DXVK is disabled**.
 If using **vanilla** prefix make sure you have the gstreamer libraries and are using a wow64 build of wine (the name of the wine version ends in wow64) for better compatibility.
 
 #### Text Rendering Issues
+
 For rendering text issues in-game, ensure fonts are in the prefix and use the Japanese locale environment variable:
 
 ```bash
@@ -400,11 +421,11 @@ LANG="ja_JP.UTF-8"
 ```
 
 #### Fullscreen Issues
-Prefixes not using proton runners usually have issues with fullscreen in Visual Novels that use exclusive fullscreen. As a workaround you can use [Gamescope](gamescope)  
+
+Prefixes not using proton runners usually have issues with fullscreen in Visual Novels that use exclusive fullscreen. As a workaround you can use [Gamescope](gamescope)
 
 <details>
 <summary>You can also compile your own version of Wine with the fullscreen fixes from proton in a wow64 build:</summary>
-
 
 1. Use [wine-tkt-git](https://github.com/Frogging-Family/wine-tkg-git) repository. Read the instructions.
 
@@ -415,15 +436,17 @@ Prefixes not using proton runners usually have issues with fullscreen in Visual 
 4. Run the compilation .sh script and select 0.
 
 5. Add your build to the Lutris folder: `~/.local/share/lutris/runners/wine/` or `~/.var/app/net.lutris.Lutris/data/lutris/runners/`(flatpak), restart Lutris.
+
 </details>
 
-
 #### WMP11 32-bit Installation
+
 The 32bit installer for `wmp11` is broken, but [a fix is available](https://github.com/Winetricks/winetricks/pull/1990). For now, use a 64bit prefix (as of April 21, 2023) with Lutris 7.2.
 
 ### Wine Configuration Tips
 
 #### Wayland Support
+
 For Wine 9.22+ (staging) or 10.0+ (stable), the native Wayland driver is enabled by default.
 The X11 driver still takes precedence if both are available, but you can force Wayland by unsetting the `DISPLAY` variable:
 
@@ -438,10 +461,12 @@ wine reg add 'HKEY_CURRENT_USER\Software\Wine\Drivers' /v Graphics /t REG_SZ /d 
 ```
 
 #### FFmpeg Backend
+
 From Wine 10.0 (stable), a new opt-in FFmpeg-based backend is available as an alternative to GStreamer. Enable it by setting:
 `DisableGstByteStreamHandler=1` in the `HKCU\Software\Wine\MediaFoundation` registry key.
 
 #### Registry Keys
+
 See the [list of useful registry keys](https://gitlab.winehq.org/wine/wine/-/wikis/Useful-Registry-Keys) maintained by Wine for advanced configuration options.
 
 #### Wine amd64 vs WoW64

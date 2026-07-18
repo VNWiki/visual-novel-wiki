@@ -1,8 +1,9 @@
 ---
-title : 'Never7 -the end of infinity-'
+title: "Never7 -the end of infinity-"
 ---
 
 # Never7 -the end of infinity-
+
 ## Installation
 
 ### Windows
@@ -34,6 +35,6 @@ Overwrite the folder contents in `~/.local/share/love/Never7Eternal`.
 
 ## Links
 
-* [VNDB](https://vndb.org/v248)
-* [SteamGridDB](https://www.steamgriddb.com/game/34700)
-* [Walkthrough](https://forums.fuwanovel.net/topic/731-never-7/)
+- [VNDB](https://vndb.org/v248)
+- [SteamGridDB](https://www.steamgriddb.com/game/34700)
+- [Walkthrough](https://forums.fuwanovel.net/topic/731-never-7/)

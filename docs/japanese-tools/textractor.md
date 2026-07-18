@@ -1,5 +1,5 @@
 ---
-title : 'Textractor'
+title: "Textractor"
 ---
 
 # Textractor
@@ -29,9 +29,10 @@ Text hooking in Linux through Wine is possible by running Textractor in the same
 
 ::: info Setup Overview
 This involves two main steps:
+
 1. **Getting Textractor to hook onto your Visual Novel** (extracting the text)
 2. **Setting up text output** to send extracted text to your browser for use with Yomitan
-:::
+   :::
 
 ### Step 1: Setup Textractor with Lutris
 
@@ -39,11 +40,13 @@ This involves two main steps:
 > For simplicity and general cross-distro usage, we're using [Flatpak Lutris](/linux/lutris).
 
 1. **Create a duplicate entry:**
+
    - Right-click your working game entry in Lutris
    - Select **Duplicate**
    - Rename it to something like "Game Name - Textractor"
 
 2. **Configure the Textractor entry:**
+
    - Open the duplicated entry
    - Go to **Game Options**
    - Change the **Executable** path to point to Textractor
@@ -58,10 +61,11 @@ This involves two main steps:
 
 ::: tip Troubleshooting Text Extraction
 If Textractor isn't capturing text properly:
+
 - Try different text threads in the Textractor interface
 - Some games require manual Hook codes (H-codes) - see our [Hook Codes page](h-codes)
 - Make sure you're using the correct architecture (x86 vs x64)
-:::
+  :::
 
 You can also run Textractor from the CLI by clicking on "Open Wine console" in Lutris and using `textractor -p<PID>`, where `<PID>` is the game process identifier (you can use the "Wine Task Manager" to find it).
 
@@ -70,10 +74,12 @@ You can also run Textractor from the CLI by clicking on "Open Wine console" in L
 #### WebSocket Method (Recommended)
 
 1. **Install the WebSocket extension:**
+
    - Download the [WebSocket extension DLL](https://github.com/kuroahna/textractor_websocket/releases/tag/0.2.0)
    - Copy the appropriate DLL to both `x64` and `x86` Textractor folders
 
 2. **Configure Textractor:**
+
    - Open Textractor's extension menu
    - Drag the WebSocket DLL file to add it
    - Remove the "Copy to Clipboard" extension if present
@@ -89,18 +95,19 @@ Manifest V2 extensions no longer work in Chrome and Edge. Firefox still supports
 :::
 
 For Firefox users:
+
 - Install the [LAP Clipboard Inserter extension](https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/)
 - Use it with this [text hooker page](https://anacreondjt.gitlab.io/docs/texthooker/)
-
 
 ## Important Considerations
 
 ::: warning Architecture Compatibility
 The architecture (x86 or x64) must match what the game is running on:
+
 - Using the wrong architecture will cause error messages or crashes when trying to attach
 - This has no relation to your Wine prefix architecture
 - You can hook 32-bit games in a 64-bit prefix
-:::
+  :::
 
 ::: warning Proton Limitations
 Text hooking requires **Wine runners** and cannot use Proton with umu-launcher due to extra containerization that blocks Textractor from seeing other applications.
@@ -110,12 +117,13 @@ Text hooking requires **Wine runners** and cannot use Proton with umu-launcher d
 
 ::: info Gamescope Compatibility
 If running your game with Gamescope:
+
 - Textractor must also run with Gamescope
 - Enable Gamescope in the Textractor Lutris entry
 - Run both applications in fullscreen mode
 - Use Wayland backend (should be default)
 - Currently requires WebSocket for text transfer due to clipboard limitations
-:::
+  :::
 
 ## Additional Resources
 

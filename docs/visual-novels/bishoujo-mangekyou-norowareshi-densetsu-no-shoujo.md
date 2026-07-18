@@ -1,8 +1,9 @@
 ---
-title : 'Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-'
+title: "Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-"
 ---
 
 # Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-
+
 ## Installation
 
 > [!info] Information
@@ -19,16 +20,16 @@ title : 'Bishoujo Mangekyou -Norowareshi Densetsu no Shoujo-'
 
 2. Add locally installed game with these settings:
 
-   * In "Game info", select "Wine" for "Runner"
-   * In "Game options", select "visualnoveengine" prefix directory for "Wine prefix" and the translated game binary for "Executable"
-   * In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
-  
+   - In "Game info", select "Wine" for "Runner"
+   - In "Game options", select "visualnoveengine" prefix directory for "Wine prefix" and the translated game binary for "Executable"
+   - In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
+
 3. Change the save location. Go to the game directory, into `SaveData` and edit "savePath.txt". It should look something like that:
-`SavePath=\home\your_user\Games\BishoujoMangekyou-NorowareshiDensetsunoShoujo-\SaveData\`
+   `SavePath=\home\your_user\Games\BishoujoMangekyou-NorowareshiDensetsunoShoujo-\SaveData\`
 
 > [!warning] Warning
 > Since we're using Wine to run the game, you have to put backslashes in the save path, just like on Windows.
 
 ## Links
 
-* [VNDB](https://vndb.org/v8038)
+- [VNDB](https://vndb.org/v8038)

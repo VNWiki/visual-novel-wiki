@@ -1,5 +1,5 @@
 ---
-title : 'RLVM'
+title: "RLVM"
 ---
 
 # RVLM
@@ -11,4 +11,3 @@ Download the [latest version from Github](https://github.com/eglaysher/rlvm/rele
 ## Usage
 
 Start the executable using an application launcher or from a terminal emulator with `rlvm /path/to/game/`. You also need to have a "msgothic.ttc" font file in the game or home directory. Otherwise, you'd have to specify a Japanese font file with `rlvm /path/to/game/ --font font.ttc`.
-

@@ -5,10 +5,10 @@ on:
     branches:
       - main
     paths:
-      - 'docs/public/img/**'
+      - "docs/public/img/**"
   pull_request:
     paths:
-      - 'docs/public/img/**'
+      - "docs/public/img/**"
 
 jobs:
   convert-to-webp:

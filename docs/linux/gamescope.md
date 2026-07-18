@@ -1,5 +1,5 @@
 ---
-title : 'Gamescope'
+title: "Gamescope"
 ---
 
 # Gamescope
@@ -19,13 +19,13 @@ When done, to check if it is install correctly enter `gamescope --help` in conso
 
 ## How to upscale VNs with Gamescope in Lutris
 
-Generally, we’ll run our VNs on [Lutris](/linux/lutris). 
+Generally, we’ll run our VNs on [Lutris](/linux/lutris).
 To start, go to Lutris and click on configure on the game/prefix you want to, click on System options and Show advanced options on the bottom.\
 You will see three fields for Gamescope:
 
-* **Enable Gamescope** (check this field)
-* **Gamescope output resolution** (this is the resolution you want the game to display, generally put your monitor resolution here)
-* **Gamescape game resolution** (this is the original resolution of the game you are running)
+- **Enable Gamescope** (check this field)
+- **Gamescope output resolution** (this is the resolution you want the game to display, generally put your monitor resolution here)
+- **Gamescape game resolution** (this is the original resolution of the game you are running)
 
 Make sure **MangoHud** is disabled since it is not compatible with Gamescope yet.\
 Start up your game, if everything went correctly you will notice it will open in a different window at fullscreen.\
@@ -39,14 +39,13 @@ Check out the [Github page](https://github.com/Plagman/gamescope) for the most u
 
 ## Shortcut list
 
-- <kbd>Super</kbd> + <kbd>F</kbd>: toggle fullscreen  
-- <kbd>Super</kbd> + <kbd>N</kbd>: toggle nearest neighbour filtering  
-- <kbd>Super</kbd> + <kbd>U</kbd>: toggle FSR upscaling  
-- <kbd>Super</kbd> + <kbd>Y</kbd>: toggle NIS upscaling  
-- <kbd>Super</kbd> + <kbd>I</kbd>: increase FSR sharpness by 1  
-- <kbd>Super</kbd> + <kbd>O</kbd>: decrease FSR sharpness by 1  
-- <kbd>Super</kbd> + <kbd>S</kbd>: take screenshot  
-
+- <kbd>Super</kbd> + <kbd>F</kbd>: toggle fullscreen
+- <kbd>Super</kbd> + <kbd>N</kbd>: toggle nearest neighbour filtering
+- <kbd>Super</kbd> + <kbd>U</kbd>: toggle FSR upscaling
+- <kbd>Super</kbd> + <kbd>Y</kbd>: toggle NIS upscaling
+- <kbd>Super</kbd> + <kbd>I</kbd>: increase FSR sharpness by 1
+- <kbd>Super</kbd> + <kbd>O</kbd>: decrease FSR sharpness by 1
+- <kbd>Super</kbd> + <kbd>S</kbd>: take screenshot
 
 > [!info] Info
 > Currently, screenshots taken are stored in `/tmp/gamescope_$DATE.png`
@@ -54,6 +53,7 @@ Check out the [Github page](https://github.com/Plagman/gamescope) for the most u
 ## Known Issues
 
 ### Text Hooking
+
 To texthook a VN you need to launch the texthooker in the same prefix than the VN, this is problematic with gamescope,
 for now a workaround is to launch both the VN and the texthooker with gamescope enabled and in fullscreen.
 If you are using proton or proton-ge it has process isolation so it can't find the VN process, can use [protonhax](https://github.com/Will40/protonhax/) it has Lutris support but it's quite hacky and not recommended unless needed.

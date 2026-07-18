@@ -5,10 +5,11 @@ This guide will help you set up your Steam Deck to run Non-Steam Japanese Visual
 ## Prerequisites
 
 ::: info Required Software
+
 - **Lutris** (available in Discover)
 - **ProtonUp-Qt** (available in Discover)
 - [Windows Japanese Fonts Pack](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view)
-:::
+  :::
 
 ## Step 1: Install Software
 
@@ -16,7 +17,7 @@ This guide will help you set up your Steam Deck to run Non-Steam Japanese Visual
 2. Open **Discover** and install:
    - **Lutris**
    - **ProtonUp-Qt**
-   ![discover_store](https://i.imgur.com/hyfuGmy.png)
+     ![discover_store](https://i.imgur.com/hyfuGmy.png)
 3. Download the [Windows Japanese Fonts Pack](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view)
 
 ## Step 2: Initial Lutris Setup
@@ -47,7 +48,7 @@ If your Steam Deck isn't distributed by Valve you may also need to manually enab
 2. Select **Lutris** from the dropdown
 3. Click **Add version**
 4. Select **Kron4ek Wine-Builds Vanilla Version 10.X** wow64 build (latest available) or manually install from [Kron4ek releases](https://github.com/Kron4ek/Wine-Builds/releases/) into `/home/deck/.var/app/net.lutris.Lutris/data/lutris/runners/wine/`
-![protonup_add_kron4ek](https://i.imgur.com/Ns14EDG.png)
+   ![protonup_add_kron4ek](https://i.imgur.com/Ns14EDG.png)
 5. Press **Install** and wait for completion
 
 ### 4.2 Install Proton-GE Versions
@@ -55,7 +56,7 @@ If your Steam Deck isn't distributed by Valve you may also need to manually enab
 1. Select **Steam** from the dropdown
 2. Click **Add Version**
 3. Select **GE-Proton Version 10.X** (latest available)
-![protonup_add_protonGE](https://i.imgur.com/cgOM6m5.png)
+   ![protonup_add_protonGE](https://i.imgur.com/cgOM6m5.png)
 4. Press **Install** and wait for completion
 
 ## Step 5: Create Prefix Folders
@@ -75,20 +76,24 @@ Open **Lutris** again and click the **+** button in the top left, then select **
 Configure the following settings:
 
 **Game Info:**
+
 - Name: `vanilla`
 - Runner: `Wine`
 
 **Game Options:**
-- Executable: Path to your Visual Novel executable.  
+
+- Executable: Path to your Visual Novel executable.
   Example: `/home/deck/games/WHITE ALBUM2/WA2.exe`
 - Wine prefix: `/home/deck/Documents/wine_prefixes/vanilla/`
 - Prefix architecture: `64-bit`
 
 **Runner Options:**
+
 - Wine version: `wine-10.X-amd64-wow64` (Latest version available)
 - Enable DXVK: `Disable` (Enable it if you have rendering issues)
 
 **System Options:**
+
 - Locale: Select **Japanese**
 
 ::: tip Locale Setting
@@ -96,13 +101,16 @@ The Japanese locale is usually not necessary for official localizations, but alw
 :::
 
 **Initialize the Prefix:**
+
 1. Click **Save** at the top
 2. Select the vanilla entry and click **Open Bash terminal**
-![lutris_bash_terminal](https://i.imgur.com/hAqNIPB.png)
+   ![lutris_bash_terminal](https://i.imgur.com/hAqNIPB.png)
 3. Run the following command:
+
    ```bash
    WINEARCH=win64 wineboot
    ```
+
 4. Close the terminal when finished
 
 ### 6.2 Proton-GE Prefix
@@ -110,33 +118,38 @@ The Japanese locale is usually not necessary for official localizations, but alw
 Configure the following settings:
 
 **Game Info:**
+
 - Name: `proton-ge`
 - Runner: `Wine`
 
 **Game Options:**
-- Executable: Path to your Visual Novel executable.  
+
+- Executable: Path to your Visual Novel executable.
   Example: `/home/deck/games/WHITE ALBUM2/WA2.exe`
-- Wine prefix: `/home/deck/Documents/wine_prefixes/protonge9` or `/home/deck/Documents/wine_prefixes/protonge10` 
+- Wine prefix: `/home/deck/Documents/wine_prefixes/protonge9` or `/home/deck/Documents/wine_prefixes/protonge10`
 - Prefix architecture: `64-bit`
 
 **Runner Options:**
+
 - Wine version: `GE-Proton 9.27` or `GE-Proton 10.X` (Latest version available)
 - Enable DXVK: `Enable` (Disable it if you have rendering issues)
 
 **System Options:**
+
 - Environment options:
   - Key: `PROTON_VERB`
   - Value: `waitforexitandrun`
 - Locale: Select **Japanese**
-- 
+-
 
 Click **Play** to create the prefix and open the game.
 
 ::: tip
 From GE-Proton 10.20+ if you have video playback issues you can also try the old GE-Proton 9 video playback implementation with this environment variable in System Options:
-  - Key: `PROTON_MEDIA_USE_GST`
-  - Value: `1`
-:::
+
+- Key: `PROTON_MEDIA_USE_GST`
+- Value: `1`
+  :::
 
 ## Step 7: Install Japanese Fonts
 
@@ -166,8 +179,8 @@ Once you have your game running properly in Desktop Mode:
 Use the [SteamGridDB](https://github.com/SteamGridDB/decky-steamgriddb) Decky Loader plugin to conveniently add artwork for your Visual Novel while in Steam Gaming Mode.
 :::
 
-
 ::: info Additional Resources
+
 - Check the [compatibility list](/visual-novel-compatibility-list) to search for your games or similar engines/developers
 - Review the [wineprefix guide](/linux/wineprefixes) to create more specific prefixes for individual games
-:::
+  :::

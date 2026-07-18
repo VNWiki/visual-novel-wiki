@@ -5,17 +5,17 @@ on:
     branches:
       - main
     paths:
-      - 'docs/**'
-      - 'package.json'
-      - 'pnpm-lock.yaml'
-      - 'scripts/gen-sidebar.mjs'
-      - '.github/workflows/deploy.yml'
+      - "docs/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "scripts/gen-sidebar.mjs"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
-  contents: read    # To checkout the repository
-  pages: write      # To push a deployment to GitHub Pages
-  id-token: write   # To enable OIDC for GitHub Pages deployments
+  contents: read # To checkout the repository
+  pages: write # To push a deployment to GitHub Pages
+  id-token: write # To enable OIDC for GitHub Pages deployments
 
 concurrency:
   group: "pages"
@@ -28,7 +28,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # fetch full git history for changelog plugin
+          fetch-depth: 0 # fetch full git history for changelog plugin
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -36,12 +36,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'pnpm'
+          node-version: "18"
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install
-        
+
       - name: Build VitePress site
         run: pnpm build
 

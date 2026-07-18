@@ -1,8 +1,9 @@
 ---
-title : 'Spiral Dystopia'
+title: "Spiral Dystopia"
 ---
 
 # Spiral Dystopia
+
 ## Known issue
 
 ### Linux / Steam Deck
@@ -11,4 +12,4 @@ Game needs dinput to work in English. Use `protontricks 1933680 dinput dinput8` 
 
 ## Links
 
-* [VNDB](https://vndb.org/v15699)
+- [VNDB](https://vndb.org/v15699)

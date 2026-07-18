@@ -1,8 +1,9 @@
 ---
-title : 'Fate/stay night'
+title: "Fate/stay night"
 ---
 
 # Fate/stay night
+
 ## Installation
 
 ### Windows
@@ -22,9 +23,9 @@ Follow Linux guide from step 5.
 
 Same as Linux, but set these settings in-game:
 
-* In "Display", enable "Window mode"
-* In "Display", set "Window Size" to "0.80x"
-* In "Display", set "Aspect Ratio" to "Wide"
+- In "Display", enable "Window mode"
+- In "Display", set "Window Size" to "0.80x"
+- In "Display", set "Aspect Ratio" to "Wide"
 
 ## Save Data
 
@@ -34,7 +35,7 @@ Overwrite the folder contents in `<wineprefixfolder>/drive_c/users/<username>/Do
 
 ## Links
 
-* [VNDB](https://vndb.org/v11)
-* [SteamGridDB](https://www.steamgriddb.com/game/33910)
-* [Walkthrough](https://forums.fuwanovel.net/topic/706-fatestay-night/)
-* [Lutris auto-installer Github repository](https://github.com/leycec/fsnrnue)
+- [VNDB](https://vndb.org/v11)
+- [SteamGridDB](https://www.steamgriddb.com/game/33910)
+- [Walkthrough](https://forums.fuwanovel.net/topic/706-fatestay-night/)
+- [Lutris auto-installer Github repository](https://github.com/leycec/fsnrnue)

@@ -1,8 +1,9 @@
 ---
-title : 'EROGE! Sex and Games Make Sexy Games'
+title: "EROGE! Sex and Games Make Sexy Games"
 ---
 
 # EROGE! Sex and Games Make Sexy Games
+
 ## Installation
 
 ### Linux
@@ -14,8 +15,8 @@ title : 'EROGE! Sex and Games Make Sexy Games'
 
 1. Add locally installed game with these settings:
 
-   * In "Game info", select "Wine" for "Runner"
-   * In "Game options", select any prefix directory for "Wine prefix"
+   - In "Game info", select "Wine" for "Runner"
+   - In "Game options", select any prefix directory for "Wine prefix"
 
 2. Next, click on "Run EXE inside Wine prefix" and select the installer executable named "EROGE.part1.exe".
 3. Set the directory where you want the game to be installed.
@@ -23,8 +24,8 @@ title : 'EROGE! Sex and Games Make Sexy Games'
 5. The installer will close itself when finished.
 6. Edit the configuration of the game:
 
-   * In "Game options", select "eroge.exe" for "Executable"
-  
+   - In "Game options", select "eroge.exe" for "Executable"
+
 7. Run the game for the first time and, you should get the Team Anise screen if everything works.
 
 ### Known issues
@@ -34,7 +35,7 @@ title : 'EROGE! Sex and Games Make Sexy Games'
 1. If you want the game to be fullscreen, install [gamescope](/linux/gamescope)
 2. Edit the configuration of the game:
 
-   * In "System options", check "Enable gamescope", set "Gamescope output resolution" to your native resolution or to a 4:3 one and "Gamescope game resolution" to "800x600"
+   - In "System options", check "Enable gamescope", set "Gamescope output resolution" to your native resolution or to a 4:3 one and "Gamescope game resolution" to "800x600"
 
 #### Checksum error
 
@@ -46,6 +47,6 @@ Same as Linux except you don't need `gamescope` (SteamOS includes it by default)
 
 ## Links
 
-* [VNDB](https://vndb.org/v4037)
-* [SteamgridDB](https://www.steamgriddb.com/game/5257173)
-* [MangaGamer](https://www.mangagamer.com/r18/detail.php?aflg=18over&product_code=4&af=ef78b80a04988a3935aab7ea04c218b5)
+- [VNDB](https://vndb.org/v4037)
+- [SteamgridDB](https://www.steamgriddb.com/game/5257173)
+- [MangaGamer](https://www.mangagamer.com/r18/detail.php?aflg=18over&product_code=4&af=ef78b80a04988a3935aab7ea04c218b5)

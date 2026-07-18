@@ -1,5 +1,5 @@
 ---
-title : 'RPG Maker'
+title: "RPG Maker"
 ---
 
 # RPG Maker
@@ -84,7 +84,6 @@ Right-click on the game executable and select "Open with" then "RPG Maker MV/MZ 
 If it's not a Steam game, add it as a non-Steam game first. Then, right-click on the game, go to "Properties" in the "Compatibility" tab and select "RPG Maker MV/MZ (cicpoffs mount) Tool"
 
 ![](https://i.imgur.com/RwRFlSU.png)
-
 
 ## Game translations
 

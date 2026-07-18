@@ -1,6 +1,6 @@
 <!-- DownloadButton.vue -->
 
-<!-- 
+<!--
 
   A download button component that provides a link to download a file.
   It also fetches and displays the SHA256 checksum of the file.
@@ -22,7 +22,7 @@ const error = ref(null)
 const loading = ref(true)
 
 // Path to checksums.json RELATIVE TO THE PUBLIC FOLDER
-const CHECKSUMS_RELATIVE_PATH = 'checksums/checksums.json'; 
+const CHECKSUMS_RELATIVE_PATH = 'checksums/checksums.json';
 
 async function loadChecksums() {
   loading.value = true
@@ -75,7 +75,7 @@ const filename = computed(() => {
 
     <a
       v-if="!loading && !error && checksum"
-      :href="downloadUrl" 
+      :href="downloadUrl"
       :download="filename"
       class="download-button"
       :aria-label="`Download file ${filename}`"

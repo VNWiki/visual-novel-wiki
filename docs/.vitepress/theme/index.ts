@@ -72,10 +72,10 @@ export default {
     app.component('CustomCard', CustomCard);
     app.component('CardGrid', CardGrid);
     app.component('ImageCompare', ImageCompare)
-    
+
     // Register custom layouts
     app.component('dashboard-layout', DashboardLayout);
-    
+
     // Enable changelog plugin
     app.use(NolebaseGitChangelogPlugin);
 

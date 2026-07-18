@@ -12,7 +12,6 @@ A lightweight, community-driven wiki for running visual novels.
 
 Have any questions? [Join our Discord server](https://discord.gg/jkujBZ5vjV).
 
-
 </div>
 
 ---
@@ -33,6 +32,7 @@ The Visual Novel Wiki provides:
 - **Installation Guides** for different platforms
 
 Future content may include:
+
 - Walkthroughs
 - VN Cheat guides (i.e., for RPG Maker)
 - Translation resources
@@ -74,32 +74,36 @@ We welcome contributions from the community! Whether you're fixing a typo, addin
 
 Here's where to add different types of content:
 
-| Type of Contribution | Where to Add It |
-|----------------------|-----------------|
-| VN compatibility entry | Edit `docs/public/vn_list.json` |
-| New wiki page | Add `.md` file to `docs/`. Please format as `your-visual-novel.md` (kebab-case) |
-| Custom component | Add Vue component to `docs/.vitepress/theme/components/` |
-| Static assets | Put files in `docs/public/` |
-| Site configuration | Modify `docs/.vitepress/config.js` |
+| Type of Contribution   | Where to Add It                                                                 |
+| ---------------------- | ------------------------------------------------------------------------------- |
+| VN compatibility entry | Edit `docs/public/vn_list.json`                                                 |
+| New wiki page          | Add `.md` file to `docs/`. Please format as `your-visual-novel.md` (kebab-case) |
+| Custom component       | Add Vue component to `docs/.vitepress/theme/components/`                        |
+| Static assets          | Put files in `docs/public/`                                                     |
+| Site configuration     | Modify `docs/.vitepress/config.js`                                              |
 
 ### Referencing Files and Components
 
 When writing content for the wiki, you'll need to reference various files and components:
 
 #### Images and Static Assets
+
 > [!NOTE]
 > Images will be converted to `.webp` when merged-- please reference with `<img-name>.webp`
 
 ```md
 <!-- Reference images from the public directory -->
+
 ![Logo](/logo.webp)
 ![Screenshot](/screenshots/install-guide.webp)
 
 <!-- Link to downloadable files -->
+
 [Download sample config](/configs/textractor-setup.zip)
 ```
 
 #### Vue Components
+
 Pages can literally embed Vue components, conveniently enough.
 
 ```md
@@ -108,6 +112,7 @@ Pages can literally embed Vue components, conveniently enough.
 ```
 
 #### Internal Page Links
+
 This uses the relative file path starting from your .md file.
 
 Sometimes you need to go up or down a folder starting from the `.md` page to get to the correct `.md` page.
@@ -140,7 +145,6 @@ If we started from `docs/android/kirikiroid2.md`, and want to reference `docs/al
 docs/android/kirikiroid2.md -> docs/all-platforms/textractor.md
 
 See our [Textractor](../all-platforms/textractor.md) for more details.
-
 ```
 
 ### Contribution Workflow
@@ -177,22 +181,22 @@ This project uses **VitePress** to generate a static site from Markdown files.
 └── README.md
 ```
 
-| Path | Description |
-|------|-------------|
-| `docs/` | Main content directory – all `.md` pages go here |
-| `docs/.vitepress/` | Site config + theme overrides |
-| `docs/.vitepress/config.ts` | Navigation, sidebar, title, etc. |
-| `docs/.vitepress/theme/` | Custom Vue theme and components |
-| `docs/public/` | Static assets (images, JSON, etc.) |
-| `scripts/` | Helper scripts |
-| `package.json` | Project dependencies and commands |
+| Path                        | Description                                      |
+| --------------------------- | ------------------------------------------------ |
+| `docs/`                     | Main content directory – all `.md` pages go here |
+| `docs/.vitepress/`          | Site config + theme overrides                    |
+| `docs/.vitepress/config.ts` | Navigation, sidebar, title, etc.                 |
+| `docs/.vitepress/theme/`    | Custom Vue theme and components                  |
+| `docs/public/`              | Static assets (images, JSON, etc.)               |
+| `scripts/`                  | Helper scripts                                   |
+| `package.json`              | Project dependencies and commands                |
 
 ### Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Start local development server |
-| `pnpm build` | Build production site |
+| Command        | Description                    |
+| -------------- | ------------------------------ |
+| `pnpm dev`     | Start local development server |
+| `pnpm build`   | Build production site          |
 | `pnpm preview` | Preview the built site locally |
 
 ---
@@ -201,4 +205,4 @@ This project uses **VitePress** to generate a static site from Markdown files.
 
 Copyright © 2025 vnwiki project
 
-This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at <http://mozilla.org/MPL/2.0/>

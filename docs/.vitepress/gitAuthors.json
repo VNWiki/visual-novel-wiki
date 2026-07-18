@@ -1,14 +1,14 @@
-[ 
-    { 
-      "name": "moogul", 
-      "username": "mooooooogul" 
-    },
-    {
-        "name" : "saetron",
-        "username" : "saetron"
-    },
-    {
-        "name" : "uni",
-        "username" : "uunniiblog"
-    }
+[
+  {
+    "name": "moogul",
+    "username": "mooooooogul"
+  },
+  {
+    "name": "saetron",
+    "username": "saetron"
+  },
+  {
+    "name": "uni",
+    "username": "uunniiblog"
+  }
 ]

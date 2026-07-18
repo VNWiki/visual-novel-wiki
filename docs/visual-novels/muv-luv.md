@@ -1,8 +1,9 @@
 ---
-title : 'Muv-Luv'
+title: "Muv-Luv"
 ---
 
 # Muv-Luv
+
 ## Installation
 
 ### Windows
@@ -28,9 +29,9 @@ Run the [patch installer](https://steamcommunity.com/app/802880/discussions/0/34
 
 ## Links
 
-* [VNDB](https://vndb.org/v93)
-* [SteamGridDB](https://www.steamgriddb.com/game/25785)
-* [Steam](https://store.steampowered.com/app/802880/MuvLuv/)
-* [Walkthrough](https://forums.fuwanovel.net/topic/796-muv-luv-extraunlimited/)
-* [Original guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2818455527)
-* [Patch installer link](https://steamcommunity.com/app/802880/discussions/0/3418811381786665974/)
+- [VNDB](https://vndb.org/v93)
+- [SteamGridDB](https://www.steamgriddb.com/game/25785)
+- [Steam](https://store.steampowered.com/app/802880/MuvLuv/)
+- [Walkthrough](https://forums.fuwanovel.net/topic/796-muv-luv-extraunlimited/)
+- [Original guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2818455527)
+- [Patch installer link](https://steamcommunity.com/app/802880/discussions/0/3418811381786665974/)

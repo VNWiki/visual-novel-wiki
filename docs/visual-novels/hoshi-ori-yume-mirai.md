@@ -1,8 +1,9 @@
 ---
-title : 'Hoshi Ori Yume Mirai'
+title: "Hoshi Ori Yume Mirai"
 ---
 
 # Hoshi Ori Yume Mirai
+
 ## Installation
 
 ### Linux
@@ -17,9 +18,9 @@ title : 'Hoshi Ori Yume Mirai'
 
 1. Add locally installed game with these settings:
 
-   * In "Game info", select "Wine" for "Runner"
-   * In "Game options", select any prefix directory for "Wine prefix" and `Autorun.exe` for "Executable" (installation only)
-   * In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
+   - In "Game info", select "Wine" for "Runner"
+   - In "Game options", select any prefix directory for "Wine prefix" and `Autorun.exe` for "Executable" (installation only)
+   - In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
 
 2. Run "Autorun.exe" and install the game using the first button.
 3. Click on the button with a "Y".
@@ -28,7 +29,7 @@ title : 'Hoshi Ori Yume Mirai'
 6. Replace all the content of the [English patch](https://github.com/hanabiworks/Hoshi-Ori-Yume-Mirai-Perfect-Edition-English-Translation) inside the same directory.
 7. Edit the configuration of the game:
 
-   * In "Game options", select `SiglusEngine.exe` for "Executable"
+   - In "Game options", select `SiglusEngine.exe` for "Executable"
 
 > [!info] Information
 > If everything works, HanabiWorks and Tsurezure Scans splash screens should appear.
@@ -39,7 +40,7 @@ Download version only, [CDEmu](/linux/cdemu) under testing.
 
 ## Links
 
-* [VNDB](https://vndb.org/v14265)
-* [SteamGridDB](https://www.steamgriddb.com/game/5281426)
-* [Walkthrough](https://forums.fuwanovel.net/topic/21841-hoshi-ori-yume-mirai-star-weaving-%E2%98%86-dreaming-of-the-future/)
-* [English patch Github repository](https://github.com/hanabiworks/Hoshi-Ori-Yume-Mirai-Perfect-Edition-English-Translation)
+- [VNDB](https://vndb.org/v14265)
+- [SteamGridDB](https://www.steamgriddb.com/game/5281426)
+- [Walkthrough](https://forums.fuwanovel.net/topic/21841-hoshi-ori-yume-mirai-star-weaving-%E2%98%86-dreaming-of-the-future/)
+- [English patch Github repository](https://github.com/hanabiworks/Hoshi-Ori-Yume-Mirai-Perfect-Edition-English-Translation)

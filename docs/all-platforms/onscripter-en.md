@@ -1,5 +1,5 @@
 ---
-title : 'ONScripter'
+title: "ONScripter"
 ---
 
 # ONScripter
@@ -20,8 +20,8 @@ Follow the instructions on [chaoskaiser72's website](https://kaisernet.org/onscr
 
 If you want to know how to write ONScripter-derived scripts, check out these links:
 
-* [galladite's ONScripter-EN home](https://galladite.net/~galladite/ons-en/index.html)
-* [galladite's ONScripter-EN Guide Pages](https://galladite.net/~galladite/nscripter/guide/guidepages/index.html)
-* [NScripter API reference](https://kaisernet.org/onscripter/api/NScrAPI-framed.html)
-* [Sekai Project's PONScripter documentation](https://sekaiproject.github.io/PONScripter-fork/doc/)
-* [07th-mod's introduction to PONScripter](https://07th-mod.github.io/PONScripter-fork)
+- [galladite's ONScripter-EN home](https://galladite.net/~galladite/ons-en/index.html)
+- [galladite's ONScripter-EN Guide Pages](https://galladite.net/~galladite/nscripter/guide/guidepages/index.html)
+- [NScripter API reference](https://kaisernet.org/onscripter/api/NScrAPI-framed.html)
+- [Sekai Project's PONScripter documentation](https://sekaiproject.github.io/PONScripter-fork/doc/)
+- [07th-mod's introduction to PONScripter](https://07th-mod.github.io/PONScripter-fork)

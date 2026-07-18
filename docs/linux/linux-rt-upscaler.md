@@ -1,5 +1,5 @@
 ---
-title : 'Real-Time Upscaler for Linux'
+title: "Real-Time Upscaler for Linux"
 ---
 
 # Real-Time Upscaler for Linux
@@ -19,7 +19,7 @@ pipx install --python=python3.13 --fetch-missing-python linux-rt-upscaler
 
 ## Usage
 
-Use `upscale -h` for detailed and up to date usage instructions. 
+Use `upscale -h` for detailed and up to date usage instructions.
 
 If you don't use -s parameter it will upscale the currently focused application in 5 seconds. with -s parameter you can choose from the list of xwayland windows running.
 
@@ -47,10 +47,9 @@ fi
 
 Once upscale is enabled in your game you can also toggle it on and off with Alt+Shift+S shortcut.
 
-There is a detailed config file here where you can parametrize every setting and the shortcut keys: https://github.com/baronsmv/linux-rt-upscaler/blob/main/config-example.yaml.
+There is a detailed config file here where you can parametrize every setting and the shortcut keys: <https://github.com/baronsmv/linux-rt-upscaler/blob/main/config-example.yaml>.
 
 The file needs to be placed in `~/.config/linux-rt-upscaler/config.yaml`
 
 Comparasion screenshot taken from the github:
 ![comparasion](https://raw.githubusercontent.com/baronsmv/linux-rt-upscaler/main/docs/comparisons/gurikaji/w40-60_h20-50_4x_comparison.png)
-

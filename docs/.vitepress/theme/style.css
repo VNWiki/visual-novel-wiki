@@ -49,23 +49,23 @@
 
 :root {
   /* Brand: Forest Green */
-  --vp-c-brand-1: #256d45;   /* Deeper, more legible green */
-  --vp-c-brand-2: #34a76e;   /* Brighter hover green */
-  --vp-c-brand-3: #2e8c5a;   /* Solid button green */
+  --vp-c-brand-1: #256d45; /* Deeper, more legible green */
+  --vp-c-brand-2: #34a76e; /* Brighter hover green */
+  --vp-c-brand-3: #2e8c5a; /* Solid button green */
   --vp-c-brand-soft: #2ecc714d; /* ~30% opacity */
 }
 
-
 .dark {
   /* Brand: Forest Green (Adjusted for Dark Mode) */
-  --vp-c-brand-1: #58d68d;  /* Lighter Green for text */
-  --vp-c-brand-2: #2ecc71;  /* Medium Bright Green */
-  --vp-c-brand-3: #27ae60;  /* Solid Green */
+  --vp-c-brand-1: #58d68d; /* Lighter Green for text */
+  --vp-c-brand-2: #2ecc71; /* Medium Bright Green */
+  --vp-c-brand-3: #27ae60; /* Solid Green */
   --vp-c-brand-soft: #2ecc7126;
 }
 
 /* Alias definitions (should be consistent) */
-:root, .dark {
+:root,
+.dark {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -86,6 +86,6 @@ kbd {
 
 /* Fix sticky header on scroll */
 .vp-doc table.p-datatable-table {
-    display: table !important; /* Crucial: Restore table display context */
-    overflow-x: unset !important;        /* PrimeVue's .p-datatable-table-container handles scrolling */
+  display: table !important; /* Crucial: Restore table display context */
+  overflow-x: unset !important; /* PrimeVue's .p-datatable-table-container handles scrolling */
 }

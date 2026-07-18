@@ -1,5 +1,5 @@
 ---
-title : 'Kirikiri'
+title: "Kirikiri"
 ---
 
 # Kirikiri

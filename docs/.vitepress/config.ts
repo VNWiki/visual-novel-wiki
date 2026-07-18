@@ -22,14 +22,14 @@ export default defineConfig({
   ],
 
   lastUpdated: true,
-  
+
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
       md.use(footnote)
     }
   },
-  
+
   // Useful for calling components within md, i.e. with use <component> from '@components/<component>.vue'
   // Don't have to type the whole path.
   vite: {
@@ -57,7 +57,7 @@ export default defineConfig({
         repoURL: () => "https://github.com/VNWiki/visual-novel-wiki",
         mapAuthors: gitAuthors // By default, commits don't show your github Username. Visit gitAuthors.json to bind your commit name to your username.
       }),
-      
+
       GitChangelogMarkdownSection({
         exclude: (path) => path.includes('visual-novel-compatibility-list'),
         sections: {
@@ -89,7 +89,7 @@ export default defineConfig({
 
     // Use the imported sidebar from sidebar.js
     sidebar: sidebar,
-    
+
     // Table of Contents (right side on page) nesting
     outline: {
         level: [1,3], // 1,3 means h1 to h3 elements will be nested.
@@ -116,7 +116,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/VNWiki/visual-novel-wiki' },
       { icon: 'discord', link: 'https://discord.gg/dejvpMhWaH' },
       // { icon: 'bluesky', link: 'https://bsky.app/your-handle' }
-    ],     
+    ],
 
     // Optional: Carbon Ads (if you have an ID)
     // carbonAds: {
@@ -127,6 +127,6 @@ export default defineConfig({
     // Optional: Customize the "Last Updated" text (default is 'Last updated')
     // lastUpdatedText: 'Content Last Updated On:'
 
-    
+
   }
 })

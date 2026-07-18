@@ -1,8 +1,9 @@
 ---
-title : 'Root Double -Before Crime * After Days'
+title: "Root Double -Before Crime * After Days"
 ---
 
-# Root Double -Before Crime * After Days
+# Root Double -Before Crime \* After Days
+
 ## Known issue
 
 ### Linux / Steam Deck
@@ -11,5 +12,5 @@ Pixelated fonts. Checked with "Lutris FSHack 7.2" and Windows 10 fonts imported.
 
 ## Links
 
-* [VNDB](https://vndb.org/v5000)
-* [Walkthrough](https://forums.fuwanovel.net/topic/20753-root-double-before-crime-after-days/?tab=comments#comment-490366)
+- [VNDB](https://vndb.org/v5000)
+- [Walkthrough](https://forums.fuwanovel.net/topic/20753-root-double-before-crime-after-days/?tab=comments#comment-490366)

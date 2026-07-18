@@ -20,10 +20,10 @@ const legendItems = [
           {{ tableStats.filtered }} / {{ tableStats.total }} entries
         </small>
       </div>
-      
+
       <div class="search-container">
-        <InputText 
-          v-model="searchQuery" 
+        <InputText
+          v-model="searchQuery"
           placeholder="Search visual novels..."
           class="search-input"
         />

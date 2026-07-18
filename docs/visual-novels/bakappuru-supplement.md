@@ -1,8 +1,9 @@
 ---
-title : 'Bakappuru Supplement'
+title: "Bakappuru Supplement"
 ---
 
 # Bakappuru Supplement
+
 ## Installation
 
 > [!warning] Warning
@@ -30,9 +31,9 @@ sudo mount -o loop path/to/iso path/to/target
 
 1. Add locally installed game with these settings:
 
-    * In "Game info", select "Wine" for "Runner"
-    * In "Game options", select any prefix directory for "Wine prefix" and `Setup.exe` for "Executable"(installation only)
-    * In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
+   - In "Game info", select "Wine" for "Runner"
+   - In "Game options", select any prefix directory for "Wine prefix" and `Setup.exe` for "Executable"(installation only)
+   - In "System options", set up Japanese locales with this environment variable: `LC_ALL=ja_JP.utf8`
 
 2. Run "Setup.exe" and install the game.
 
@@ -41,7 +42,7 @@ sudo mount -o loop path/to/iso path/to/target
 
 3. Edit the configuration of the game:
 
-   * In "Game options", select `bakaple.exe` for "Executable"
+   - In "Game options", select `bakaple.exe` for "Executable"
 
 4. Run the game for the first time, it will ask for a disc check. Run it. If everything works, you will see the Marmalade logo.
 
@@ -51,4 +52,4 @@ Same as Linux.
 
 ## Links
 
-* [VNDB](https://vndb.org/v52031)
+- [VNDB](https://vndb.org/v52031)

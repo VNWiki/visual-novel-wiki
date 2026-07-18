@@ -1,12 +1,12 @@
 <!-- CardGrid.vue -->
 
-<!-- 
+<!--
 
-CardGrid is a wrapper for CustomCard. 
+CardGrid is a wrapper for CustomCard.
 
 It provides control for layouts with multiple cards, contained within a CardGrid.
 
-Use: 
+Use:
 
 <CardGrid>
 

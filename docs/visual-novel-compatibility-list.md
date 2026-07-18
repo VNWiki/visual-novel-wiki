@@ -1,5 +1,5 @@
 ---
-title : 'Visual Novel Compatibility List'
+title: "Visual Novel Compatibility List"
 layout: dashboard-layout
 navbar: false
 sidebar: false
@@ -24,8 +24,8 @@ const vnColumns = [
 </script>
 
 <ClientOnly>
-  <VNList 
-    jsonPath="vn_list.json" 
+  <VNList
+    jsonPath="vn_list.json"
     notesPath="vn_list_notes.json"
     :columns="vnColumns"
     sortField="visual novel"
@@ -33,9 +33,6 @@ const vnColumns = [
     filterField="visual novel"
   />
 </ClientOnly>
-
-
-
 
 <style scoped>
 .note-highlight {

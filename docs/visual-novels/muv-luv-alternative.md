@@ -1,8 +1,9 @@
 ---
-title : 'Muv-Luv Alternative'
+title: "Muv-Luv Alternative"
 ---
 
 # Muv-Luv Alternative
+
 ## Installation
 
 ### Windows
@@ -27,9 +28,9 @@ Run the [patch installer](https://steamcommunity.com/app/802880/discussions/0/34
 
 ## Links
 
-* [VNDB](https://vndb.org/v92)
-* [SteamGridDB](https://www.steamgriddb.com/game/25785)
-* [Steam](https://store.steampowered.com/app/802890/MuvLuv_Alternative/)
-* [Walkthrough](https://forums.fuwanovel.net/topic/19279-muv-luv-alternative/)
-* [Original guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2818455527)
-* [Patch installer link](https://steamcommunity.com/app/802880/discussions/0/3418811381786665974/)
+- [VNDB](https://vndb.org/v92)
+- [SteamGridDB](https://www.steamgriddb.com/game/25785)
+- [Steam](https://store.steampowered.com/app/802890/MuvLuv_Alternative/)
+- [Walkthrough](https://forums.fuwanovel.net/topic/19279-muv-luv-alternative/)
+- [Original guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2818455527)
+- [Patch installer link](https://steamcommunity.com/app/802880/discussions/0/3418811381786665974/)

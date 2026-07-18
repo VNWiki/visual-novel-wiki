@@ -1,11 +1,11 @@
 ---
 title: H-codes
-description: 'Textractor Hook Codes'
+description: "Textractor Hook Codes"
 ---
 
 # H-Codes
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > This is a backup of the [Visual Novel Text Hooking Wiki](https://web.archive.org/web/20221114220419/https://vn-hooking.fandom.com/wiki/H-Code), re-formatted for the Visual Novel Wiki project.
 
 This page contains hook code information for Visual Novels. Feel free to add your own H-code into the list below, but do use the following format:
@@ -17,11 +17,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 > [!TIP] Use the 'Search' function (<kbd>Ctrl</kbd>+<kbd>F</kbd> or <kbd>Cmd</kbd>+<kbd>F</kbd>) to search for the H-code of the game you're looking for.
 
 ### [-#DEFINE]
+
 ```
 - 催眠実驗: /HA18@488B14 /Ftext@48853A
 ```
 
 ### [0verflow]
+
 ```
 - Cross Days（クロスデイズ） 初回限定版
   /HWN-4@41F3A8 (v1.00b)
@@ -33,6 +35,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [13cm]
+
 ```
 - DEVOTE2 いけない放課後: /HA8@50E4B0
 - キミベタ～キミをベタベтаにさせてあげる: /HAN-C:-14@445458 (use /pn)
@@ -40,6 +43,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [130cm]
+
 ```
 - 鬼うた。 ～鬼が来たりて、甘えさせろとのたもうた。～
   /HA-10:58@4A4FA8 /pnREALLIVE.EXE (Leave away :58 if you want names infront of the dialogue, but it'll be double then)
@@ -48,16 +52,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [3rdEye]
+
 ```
 - BLOODY†RONDO: /HA-C:40@0:GDI32.dll:GetTextMetricsA
 ```
 
 ### [5pb.Games]
+
 ```
 - メモリーズオフ -Innocent Fille- /HHN-C:-18@319AF:Game.exe
 ```
 
 ### [5pb.／ホビボックス]
+
 ```
 - STEINS；GATE 0[STEINS GATE 0]
   H-code by @SaintLouisX
@@ -70,6 +77,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [A-Kaguya Honky-Tonk Pumpkin] (アトリエかぐや Honky-Tonk Pumpkin)
+
 ```
 - エロティ課　誘惑研修はじまるよ～
   /HB8@1C630!4A0FEAB4
@@ -83,6 +91,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [ABALONE KISS]
+
 ```
 - 鬼孕の学園～スク水少女異種姦凌辱劇～: /HBC@44C8B0
 - 孕狂 胎魔巫女 ～はっきょう たいまみこ～
@@ -90,6 +99,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Abel Software] (アーベルソフトウェア)
+
 ```
 - 萌恋維新！～アタシら、じぇいけー、新閃組！: /KF /HB-4@4042B2
 - ミステリート～アザーサイド・オブ・チャーチ～ /HBN-4@4042B2 /KF
@@ -100,11 +110,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Abelia]
+
 ```
 - おねがい♪ ご主人さまっ！: /HBC*0@404500 /KF
 ```
 
 ### [Abogado Powers]
+
 ```
 - D＋VINE[LUV]: /HAN-4@486836 /KF /KS19 /Ftext@1 or /HS10@486790 /KF /KS19
   Note: both require the latest(?) update: http://www.abopa.net/download/patch/dv_luv/dv_pt5.lzh
@@ -112,21 +124,25 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Acacia Soft]
+
 ```
 - 夏めろ: /HB-4*0@40DAC0 or /HB-18*0@40DAC0
 ```
 
 ### [ACTIVE]
+
 ```
 - SEVEN -Sympathy for the Fairies-: /HS4:38@427730
 ```
 
 ### [ad：lib]
+
 ```
 - ボクラはピアチェーレ 初回版: /HSC@4044F0 /KF
 ```
 
 ### [Age] (アージュ)
+
 ```
 - アージュマニアックス ~伊隅四姉妹最期の日~: /HA4@169D0:UnivUI.dll /KF
 - 君が望む永遠~Latest Edition~: (rUGP Ver 5.81.03): /HA-18@2CDBC:UnivUI.dll /KF /PNrugp.exe or /HA4@2E220:rvmm.dll
@@ -138,6 +154,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Aicherry]
+
 ```
 - ボクの目の前で親友に抱かれ腰を振る彼女―奴の言いなりにそのエロい肢体は開かれてい：/HB4:-14@58BA80 or /HB4B@58BA80 or /HB4:-14@18BA80:ボクの目の前で親友に抱かれ、腰を振る彼女.exe
 - 他の男の精液で孕んでもいいですか…？4 憧れていた先輩のむっちり美乳は僕のものではなかった―知りたくなかった彼女の秘蜜―:/HB8:-14@594280
@@ -145,6 +162,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Ail] (アイル)
+
 ```
 - 僕の目の前で××される彼女
   /HB+1C@3A248:bokukano.exe
@@ -162,7 +180,9 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - 私の知らない妻の貌: /HA-4@412364 (use /pn)
 - 桃華散る～少女剣士の報復は恥辱に満ちて～: /HA-4@4151D6
 ```
+
 ### [Ail【チーム・Riva】] (Ail [Team Riva])
+
 ```
 - 脅迫3～遙かに響く光と影の淫哀歌（うた）～
   /HA4@416DA0
@@ -171,17 +191,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Ainos]
+
 ```
 - ぱちぱちサーキット～やっぱレースクイーンは「速い男」が好きな訳よ～: /HA-C@42B7E0
 ```
 
 ### [Akabeisoft2 (あかべぇそふとつぅ)]
+
 ```
 - 光輪の町、ラベンダーの少女 初回版
   Note: go to (Menubar) 文字表示(C) -> フォント(F) to bring up font dialog, then choose another font such as ＭＳゴシック then close the dialog. it should be enough to bring up the kirikiri threads in agth on next run.
 ```
 
 ### [Akabeisoft2 TRY] (あかべぇそふとつぅTRY)
+
 ```
 - 俺サマのラグナRock!?
   Note: Hook of this game is a little tricky, need to reverse from mscorlib.ni.dll. If that description seems meaningless to you, latest ITH will do that for you.
@@ -195,32 +218,39 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Akatonbo]
+
 ```
 - サキュヴァス～堕ちた天使～: /HS4@407a40 /Ftext@407C3E
 ```
 
 ### [Akatsuki Works]
+
 ```
 - 僕がサダメ　君には翼を。: (Ver. 1.01) /HSNC@413AE0 or /HSN-8@413AE0
 ```
 
 ### [Albion]
+
 ```
 - 彼女はツンデる風紀委員: /HAN-C@F8DB4 /Ftext@1
 ```
 
 ### [ALcot]
+
 ```
 - Vestige ―刃に残るは君の面影―
   /HB8*0:d4@0:GDI32.dll:GetTextExtentPoint32A
 ```
+
 ### [ALcot シトラス] (ALcot Citrus)
+
 ```
 - 死神の接吻は別離の味
   /HA18@4887D0
 ```
 
 ### [AliceSoft]
+
 ```
 - しゃーまんず・さんくちゅあり -巫女の聖域-(对应系统XP)
   /HB18*4@0:ChipmunkSpriteEngine.dll:SP_SetTextSprite /pnMankuchu.exe
@@ -272,6 +302,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [All-Time]
+
 ```
 - 極嬢痴漢電車～快楽絶頂ラッシュアワー：/KF /HBN-8*0@43CEF2
 - 普通じゃないッ!!:
@@ -283,6 +314,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [AMUSE CRAFT]
+
 ```
 - ☀ お家にかえるまでがましまろです介 (Ouchi ni Kaeru made ga Mashimaro Desu)
   お家に帰るまでがましまろです体験版 v0.90 (Trial version)
@@ -290,6 +322,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [An*tique]
+
 ```
 - カミ☆たま～神様のたまご～: /HS48@404B40 /KF5:100
 - あそび塾
@@ -297,35 +330,41 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [ANIM] (Likely developer for 茉莉子さん家の性事情)
+
 ```
 - 茉莉子さん家の性事情～伯母さんは僕のモノ～ 限定版[Mariko-sanchi no Seijijou ~Oba-san wa Boku no Mono~ ]
   /HS4@2ACE0:SystemC.EXE
 ```
 
 ### [ANIM team MM]
+
 ```
 - 壁の向こうの妻の嬌声2[壁の向こうの妻の嬌声（こえ）2][No向Kouno 妻 Koe） 2]
   /HS4@26E80:kabetuma2.exe
 ```
 
 ### [Anime Lilith]
+
 ```
 - 監獄アカデミア : /HSN4@147440:PRISON_ACADEMIA.exe
 ```
 
 ### [AniSeed]
+
 ```
 - 重装皇女メタルプリンセス＆ガンシスター DVDパック : /HB4*0@421C10 and /HB-1C*0@421C10
 - Relict2～エピソード・ムーン～: /HBNC*0:10@435D90 | (Upd01) /HBNC*0:10@435CE0
 ```
 
 ### [Anesen]
+
 ```
 - あまからツインズ～双姉といっしょ～
   /HAN0:-10@1E530:AMAKARA.exe
 ```
 
 ### [Anizetta] (アニゼッタ)
+
 ```
 - 12+
   /HAN-10@4095C1 (1.2)
@@ -333,6 +372,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Apple Mint]
+
 ```
 - 淫忍伝 さくら繚乱
   /HBC*0@4500:sakura.exe /KF
@@ -341,17 +381,21 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Applique] (あっぷりけ)
+
 ```
 - 黄昏のシンセミア 初回限定版
   Note: 文字表示(C) - > フォント(F) change the font to ＭＳ ゴシック select the kirikiri
   thread - set text speed to fastest
 ```
+
 ### [Applique -Imouto-]
+
 ```
 - フェイクアズール・アーコロジー: /HSN-1C@419004
 ```
 
 ### [APRICOT]
+
 ```
 - 桜花センゴク～信長ちゃんの恋して野望!?～
   /HW-20@4C4DA0 /KF
@@ -361,30 +405,37 @@ This page contains hook code information for Visual Novels. Feel free to add you
   /HAN8@546DA0 /KF
 - ゆにばる！ PARANORMAL GIRLS STRIKE!!: /HW-20@49AE30 /KF (on Vista/Win7, must use this exe)
 ```
+
 ### [APRICOT Cherry]
+
 ```
 - えむっ娘シスターズ
   /HW-20@4B7C20 /KF
 - シスタ×シスタ～Lovevery Sisters～: /HA-1C:4@42FAAE
 ```
+
 ### [APRICOT Plum]
+
 ```
 - なでしこドリップ /HW8:4*28@4BFD40 /KF
   Note: Set ingame message speed to max to make it work better.
 ```
 
 ### [Aquahouse]
+
 ```
 - 淫らな看護婦物語: /HS-4*0@45B58C /KF
 - 館の奥さま: (oksup103) /HS-4*0@45B58C /KF
 ```
 
 ### [AQUAPLUS]
+
 ```
 - ToHeart PSE v1.00: /HAN-4@40C4F6 (use /pn)
 ```
 
 ### [Arianrhod]
+
 ```
 - 夢みる月のルナルティア
   agth code：/HBN-C*0:@42D54D
@@ -392,6 +443,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Aries]
+
 ```
 - 俺の彼女のウラオモテ
   /HBC@46a3e0
@@ -401,12 +453,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Armonica]
+
 ```
 - Skyprythem -スカイプリズム-
   /HW-4*0@54689C
 ```
 
 ### [aromarie]
+
 ```
 - 蝶の毒 華の鎖 初回限定版
   /HWN-4*14:-4*0@5136F4
@@ -416,24 +470,28 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Art]
+
 ```
 - こすちゅーむ☆ぷれいやー: /HA-8@419434
 - ヘブンズケージ/Heaven's Cage: /HA-8@418C24
 ```
 
 ### [Astronauts Sirius] (アストロノーツ・シリウス)
+
 ```
 - デモニオン ～魔王の地下要塞～
   /HWN-10@50F535 /kf
 ```
 
 ### [Atelier D]
+
 ```
 - ナースのお勉強: /HB8*0@40D4B0
 - ナースのお勉強応用編～受けシチュ以外は絶対禁止！: /HB8*0@407CE3#2 | (V.1.10) /HS4@419660 (use /pn)
 ```
 
 ### [Atelier Kaguya] (アトリエかぐや)
+
 ```
 - 姉母娘でイクッ！～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～
   /HB-4*0@C75F0:Start.exe
@@ -446,18 +504,23 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Atelier Kaguya Berkshire Yorkshire]
+
 ```
 - プリマ☆ステラ: /HSNC*0:368@41E920
   /FText@1:411149;Speaker@1:4119F8;Choices@1:4134AB
 - さらさらささら: /HSNC*0:3A4@41F7D0
   /FText@1:4112A9;Speaker@1:411B78;Choices@1:41368B
 ```
+
 ### [Atelier Kaguya DREIZEHN]
+
 ```
 - 淫皇覇伝アマツ～白濁の呪印～: /HBN28@410C6B
 - 裏入学～淫液に濡れた教科書～: /HB28@4308FC
 ```
+
 ### [Atelier Kaguya TEAM HEARTBEAT]
+
 ```
 - マジカルウィッチコンチェルト
   /HB8*4@409390
@@ -477,6 +540,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Atelier Kaguya Honky-Tonk Pumpkin (アトリエかぐや Honky-Tonk Pumpkin)]
+
 ```
 - いじらレンタル～エロあまおねえさんに貸し出されちゃった!!～：/HB8:-14@41F4E0
 - オレと彼女は主従なカンケイ: /HBN28@40E33F
@@ -484,6 +548,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [AUGUST] (オーガスト)
+
 ```
 - 穢翼のユースティア
   /HA8:-14@421530 /pnBGI.exe
@@ -500,6 +565,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [AXL]
+
 ```
 - 恋する乙女と守護の楯
   /HSN14:-10@43BBAD
@@ -510,17 +576,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Azarashi Soft]
+
 ```
 - Osananajimi no Iru Kurashi /HW8:14@1D1320:Osananazimi_No_Irukurashi.exe
 - Amaemi-longing for you /アマエミ-longing for you- : /HS65001#-3C@18B840:amaemi.exe
 ```
 
 ### [Bannou Honpo]
+
 ```
 - ビーチ区バレー　～マッシブとミニスカとスペルマ～: /HAN-C@E5F5C
 ```
 
 ### [Baseson]
+
 ```
 - 真・恋姫†無双～萌将伝～
   /HS4@4F7730 (v1.00)
@@ -529,17 +598,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Basil]
+
 ```
 - それは舞い散る桜のように: /HSN3C@4423E6
 ```
 
 ### [Beenyan]
+
 ```
 - 痴漢貴族: (requires kizoku_up patch) /HB10*0@41168B or /HB-10*0@40F656
 - おすめすたいむすりっぷ！(version 1.01): /HB4*0@433EBF
 ```
 
 ### [Belisama]
+
 ```
 - ダストマニア・グロテスク ～解体挿入新書～
   /HQN-1C@10131E43
@@ -547,6 +619,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Bianca]
+
 ```
 - 人妻遊戯: /HS-4*0@45BC40 /KF
 - 淫欲母娘: /HS-4*0@45BC40 /KF
@@ -554,12 +627,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Bjoern Bjoern]
+
 ```
 - 八咫の帰還 (Standard Version): /HA-C:8@F3B24
 - 八咫の帰還 (Updated Special Version): /HA-C:8@F3D54
 ```
 
 ### [BLACK CYC]
+
 ```
 - 闇の声 特別編
   /HSN-1C@414224
@@ -567,6 +642,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Black Lilith]
+
 ```
 - 僕のエルフお姉さん
   特殊码:/HSN4@142580:BokunoElf.EXE (Note: Chinese text: "Special code:")
@@ -575,25 +651,31 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Black Rainbow]
+
 ```
 - 相姦遊戯: /HB4*0@403003 (Note: not work for window 7)
 ```
+
 ### [Black Rainbow with ニコチンソフト]
+
 ```
 - 新婚性活：/HB4:B@58BF80
 ```
 
 ### [Black Tale]
+
 ```
 - きまぐれ不良道: /HAN-C@F4360 /Ftext@1
 ```
 
 ### [Bloom Handle]
+
 ```
 - 恋と水着と太陽と～スミレ島ライフセーバーず～：/X3 /KS1
 ```
 
 ### [Blue Gale] (ブルゲLIGHT)
+
 ```
 - ＪＫとオーク兵団
   /HS-C@10E997:jkorc.exe
@@ -613,7 +695,9 @@ This page contains hook code information for Visual Novels. Feel free to add you
   /HA-C@4924F8 /KS
   /hb18*0@4D3E60
 ```
+
 ### [Bluegale Light]
+
 ```
 - 妻交換～あいつのワイフと俺の嫁～
   /HAN1C@491E24 /Ftext@1
@@ -622,11 +706,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Bokukano Project] (ボクカノProject)
+
 ```
 - ボクスキ！ 男の娘（ボク）を好きって言ってよ！ /HW-4*0@48CF5A
 ```
 
 ### [bolero]
+
 ```
 - らぶらぼ ～調教なんて興味のなかった俺と彼女の放課後SMラボラトリー～
   /HS-20@146447:bolero01sys.exe
@@ -635,6 +721,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [bootUP!] (bootup)
+
 ```
 - あねいも エターナルエディション：/HBC@55BE0:aneimoee.exe
 - FUTA・ANE～ふたあね～bitter＆sweet: /HBC@454DC0 /pnFUTAANE.exe
@@ -652,6 +739,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Broccoli]
+
 ```
 - プリズムパレット: (use priconUpdate101) /HA-4@496714
 - ギャラクシーエンジェル Eternal Lovers: /HAN20@9A1C:2DGrpLib.dll (must use /p)
@@ -661,6 +749,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [C:drive]
+
 ```
 - 催眠生活～校則だからしかたない！？～: /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A
 - 巫女だし: /HA-10@44B450 (use /pn)
@@ -672,22 +761,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [C-Side]
+
 ```
 - 赤線街路～昭和33年の初雪～: /HWN-4*14#1@53FDDA /KS3 /KF1:30
 ```
 
 ### [Cabblage Soft] (きゃべつそふと)
+
 ```
 - あまいろショコラータ : /HQ8@9ED90:amachoco.exe
 ```
 
 ### [Cacao]
+
 ```
 - ボインにかけろ!
   /HSN-4@270FE:boin.exp
 ```
 
 ### [Cage] (ケージ Cage)
+
 ```
 - 恋する妹はせつなくてお兄ちゃんを想うとすぐＨしちゃうの
   /HB18@3AD78:imouto.exe
@@ -698,6 +791,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Campus]
+
 ```
 - Triangle Love -アプリコットフィズ-[Triangle Love -Apricot Fizz-]
   H-code -4f180000 (Note: This is likely a base offset or incomplete code)
@@ -721,6 +815,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [CandySoft]
+
 ```
 - もっと 姉、ちゃんとしようよっ！ アフターストーリー /HSN-4@4FF1B:mottoaneas.exe
 - つよきす3学期
@@ -733,6 +828,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Caramel Box] (caramel-box)
+
 ```
 - ボクの手の中の楽園: /HSN14@414FC5 /KF or /HSN14@414F82 /KF
 - 終末少女幻想アリスマチック: /HBC*0@4086D0
@@ -743,21 +839,27 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - 廻り巡ればめぐるときっ！？
   /KF1:200 /HSN-4@004B31ED
 ```
+
 ### [Caramel Box Ichigo Aji]
+
 ```
 - とっぱら ～ざしきわらしのはなし～: /HSN14@415FB5 /KF
 ```
+
 ### [Caramel Box ミルク味] (キャラメルBOX ミルク味)
+
 ```
 - 雨芳恋歌 「センセイ。わたし、もうオトナだよ……」 /HS4@7E6612 /KF /FDialogue@81B556
 ```
 
 ### [Carmine]
+
 ```
 - 空蝉に触れるもの: (Utsu_UPD) /HA4@41A130 or /HB20*0@41A130
 ```
 
 ### [Catwalk NERO] (catwalkNERO)
+
 ```
 - 淫堕の姫騎士ジャンヌ～オーガの仔種を注がれる気高き姫！～: /HA14@40F200
 - 聖徒会長ヒカル～淫魔に占領された学園～: /HAN-C:-14@4458F8 (use /pn)
@@ -767,11 +869,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Chain Reaction]
+
 ```
 - 巫女だし: /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A
 ```
 
 ### [Chariot]
+
 ```
 - 処女と魔王とタクティクス
   /HW8@4EF330 /KF
@@ -779,11 +883,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Chien]
+
 ```
 - 冷徹冷静しかしてXXX！！: /HWN-4*14#1@53FD82
 ```
 
 ### [Chiffon]
+
 ```
 - デュアルカラーズ: /HS4*0@40C208 /kf /w40741C
 - 看護日誌マニア: /HS-4*0@45C08C /KF
@@ -792,16 +898,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Chuable]
+
 ```
 - Pure x Cure: (purecure_patch20) /HW-4*14@505BFC
 ```
 
 ### [ChuableSoft]
+
 ```
 - あなたをオトコにしてあげる！ /HSN-8@50637:あなたをオトコにしてあげる！.exe
 ```
 
 ### [Ciel]
+
 ```
 - そらのいろ、みずのいろ
   /HB10*0:-14@0:GDI32.DLL:TextOutA
@@ -809,11 +918,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Circle Yuki]
+
 ```
 - 退魔師イズミ: /HAN-C@F384C /Ftext@1
 ```
 
 ### [Circus] (CIRCUS)
+
 ```
 - Infantaria XP
   /HSN-1C@4066D0
@@ -855,6 +966,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Citoron Soft] (しとろんソフト / Citron Soft)
+
 ```
 - 妹スマイル Imouto Smile
   /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A
@@ -863,6 +975,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Clockup] (CLOCKUP)
+
 ```
 - ノーブレスオブリージュ /HSN-C:-C@405DE7 /KS /Fdiag@1:2982C68
 - まかぱらっ!～あの世でめちゃモテ～
@@ -873,27 +986,34 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - 麗辱の館 ～淫縁五姉妹汁姦記～: /HSN-8@43D1A3
 - レクイエム: /HSN-1C@41C094
 ```
+
 ### [CLOCKUP/C.C. CLOCKUP]
+
 ```
 - ザーメンセキュリティ２００９: /HBNC*0:20@42CD70 /KS7
 ```
+
 ### [CLOCKUP Team Anise]
+
 ```
 - 凌辱学園長／奴隷倶楽部 ～読心調教録～: /HBNC*0@415E95 or /HB4@411A11
 ```
 
 ### [Clochette]
+
 ```
 - スズノネセブン！
   /HAN8:-1C@4A86D4
 ```
 
 ### [Clover]
+
 ```
 - ている・ている: /HAC@402C10 /KS
 ```
 
 ### [CODEPINK]
+
 ```
 - ヌキアニ!! Vol.1 イってイかせてブッかけてつるぺたツンデレ処女＆セクハラ大好き巨乳女子大生 with Sweet Home パッケージ版 + 同梱特典
   /x3 /v /w434C3A
@@ -902,16 +1022,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Comet]
+
 ```
 - &Love: /HSN-8@414059
 ```
 
 ### [Compromise Comprog]
+
 ```
 - Silent Desire 1 and 2: Use hacked game .exe found here and /HBN-4*0:4@4CE995 (Note: "found here" refers to original wiki context)
 ```
 
 ### [Complets] (コンプリーツ)
+
 ```
 - ツマ×ヘヴン
   /HBN-20*0:38@0040DBF4 /PNC4.exe
@@ -937,6 +1060,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Confiture Soft] (コンフィチュールソフト)
+
 ```
 - 甘夏アドゥレセンス
   ver 1.1
@@ -946,12 +1070,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [CosmicCute]
+
 ```
 - LOVESICK PUPPIES-僕らは恋するために生まれてきた-+Tokuten+Patch 1.01
   /hw-4*14:-4*0@1137F8
 ```
 
 ### [Cotton Soft]
+
 ```
 - ぐらタン: /X3
 - アンバークォーツ: /X2 /W414C49
@@ -961,17 +1087,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [CRAFTWORK]
+
 ```
 - さよならを教えて～comment te dire adieu～ : /HSN-4@430B80
 ```
 
 ### [Creamy Trips] (クリーミートリップス)
+
 ```
 - ブリードブラッド: /HBN-1C*0@40F3AB
 - アーツ オブ ブラック〜魔女の箱庭〜: (aob104) /HWN-8*0@10D8B:libscr.dll or /HWN-C*0@10D8B:libscr.dll
 ```
 
 ### [Crepe]
+
 ```
 - 戦巫女あかり ～悪鬼妊娠凌辱の宴～
   /HSC@4044B0 /KF
@@ -986,15 +1115,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Crossnet]
+
 ```
 - Deep Voice: /HA4@1001B0F0 /KF
 ```
+
 ### [Crossnet-Pie]
+
 ```
 - リゾートBOIN: /HBC*0@4044C0 /KF
 ```
 
 ### [CRYSTALiA]
+
 ```
 - 絆きらめく恋いろは
   (Previously: /HSN-C@38648:mekuiro.exe /HBN-C@37F46:mekuiro.exe)
@@ -1006,16 +1139,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Cyc/Black Cyc]
+
 ```
 - 夢幻廻廊: /HSN14@412EF0 /Ftext@1
 ```
 
 ### [Cyon]
+
 ```
 - 淫獄病棟1&2: /HA-C@41679C
 ```
 
 ### [D:drive.] (D：drive.)
+
 ```
 - ツゴウノイイ彼女 ～Gカップおもらしツンデレ下級生『瑠璃子』
   /HB-4*-1@1D5C72:tsugokano_R.exe
@@ -1027,6 +1163,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [DARKROSE]
+
 ```
 - 境界線の果て～ふたつの性別、ふたつの性格～
   /HBN10*0:8@488C70 /Fdialogue@1:18;speaker+choice@1:1A;furigana@1:A /w1:18
@@ -1034,6 +1171,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Debo no Su Seisakusho] (Debonosu / でぼの巣製作所)
+
 ```
 - 空を仰ぎて雲たかく
   /HBN-C*0@4A75D8
@@ -1043,6 +1181,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Delta]
+
 ```
 - 獣魔戦姫エクセリア ～異種交配実験のはてに～
   /HBN0*0@414D0E (/pnMPE.exe) (1.2)
@@ -1054,6 +1193,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Digi Anime]
+
 ```
 - Present Play DVD版 /HBC*0@4010C3 /KF
 - ふしぎ電車
@@ -1061,6 +1201,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Digital Cute]
+
 ```
 - キュートリゾート ～しようよ♥エッチなアクティビティ～
   /HS8@5D998:pix.exe
@@ -1074,12 +1215,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Digital Lover]
+
 ```
 - School Captain 会長候補はご立腹
   /HWN10@49DC80 /Ftext@1
 ```
 
 ### [DisAbel]
+
 ```
 - オタカノ－こんなに可愛い彼女がオタクなわけがない
   /HBC*0@4044f0 /kf
@@ -1096,6 +1239,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [DISKDREAM]
+
 ```
 - エンドレスセレナーデ
   /HS-4@456CEF /KF (v1.01) or /HB4*0@456C3C (v1.00)
@@ -1105,22 +1249,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [DIVA]
+
 ```
 - こいらぼ[KOI-LABO.]初回限定版
   /HA-20:-10@13F970:resident.dll
 ```
 
 ### [DualTail]
+
 ```
 - VenusBlood -EMPIRE-:/ks /fText@547a59:12;Message@547f9e:12;Description@54800c:e;Choices@547f9e:14
 ```
 
 ### [E.G.O]
+
 ```
 - うちの妹のばあい: /HA4@4493A0 | (uchiimoj101) /HB18@447A10
 ```
 
 ### [eants]
+
 ```
 - ARCUS X: /HBC*0@4044C0 /KF
 - ARCUS X シムサード、淫欲調教の宴: /HB4@404260 /KF
@@ -1129,11 +1277,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [eigthnote]
+
 ```
 - 絶対幸せ宣言っ！: (zssup2) /HBC*0@4044C0 /KF
 ```
 
 ### [Elf]
+
 ```
 - あしたの雪之丞 DVD Special Edition: /HBN-10:4@4090C0 /Ftext@1:416A7A (must replace game .exe with this one)  or /HBN-10@16B24:Ai5win.exe
 - AVキング: /HB18*0@4B4686
@@ -1142,6 +1292,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Ensemble]
+
 ```
 - 恋はそっと咲く花のように /HQN-8@9570:AdvHD.exe
 - 恋はそっと咲く花のように～二人は永遠に寄り添っていく～ /HQN-1C@92F0:AdvHD.exe
@@ -1159,6 +1310,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Ensemble SWEET]
+
 ```
 - 乙女騎士♥いますぐ私を抱きしめて /HWN10@43063:AdvHD.exe
 - 乙女とふれあう、ひとつ屋根の下 /HQ-10@6430:AdvHD.exe
@@ -1167,6 +1319,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Erectlip]
+
 ```
 - エンコーJKとサポおぢさん ～ラヴパコ放課後ぶかつどう～
   /HS-C@27490:enko.exe
@@ -1177,38 +1330,45 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Eroge Honpo]
+
 ```
 - 恥淫ノ教室～女教師とその娘に××する～: /HA4@418FD8
 ```
 
 ### [eRONDO]
+
 ```
 - こいのす☆イチャコライズ /HW-8@190DA1:erondo02.exe
 ```
 
 ### [EROGOS]
+
 ```
 - 淫シリーズ　特濃生中出し: /HB-C@405340 /KF
 ```
 
 ### [ES-Pot]
+
 ```
 - マジカルチェンジゆうきくん: /HW-4*14@54230C#1 /KS /KF
 ```
 
 ### [Etoiles]
+
 ```
 - 姫×姫: /HS4@427650
 - Elle: PrieR ～しあわせの欠片をさがして～: /HS4@42E130
 ```
 
 ### [Etude] (etude)
+
 ```
 - 秋空に舞うコンフェティ: /HAN1C:14@49234C /KS6
 - 七つのふしぎの終わるとき：/HB18*0@4D2EC4
 ```
 
 ### [Eufonie] (eufonie)
+
 ```
 - カラフル アクアリウム: /HA14@47FEF0 /KS8
 - ひだまりバスケット: /KS /HA-20@48BF80
@@ -1216,6 +1376,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Eushully] (エウシュリー)
+
 ```
 - 天冥のコンキスタ /HS4@3E740:AGE.EXE
 - 姫狩りダンジョンマイスター /HSN4@41DB97 /pnage.exe
@@ -1228,18 +1389,22 @@ This page contains hook code information for Visual Novels. Feel free to add you
   /HAN44@46B6D9 (Append01 + 1.01 update installed (says 1.01.0008 in main menu))
   /HAN44@46B5D9 (Append01 + Append02 + 1.02 update)
 ```
+
 ### [Eushully/Anastasia]
+
 ```
 - 魔法が世界を救います！: /HA-4@43CA50
 - 冥色の隷姫～緩やかに廃滅する青珊瑚の森～: (Ver. 1.01) /HSN18@44DF10
 ```
 
 ### [Evee]
+
 ```
 - LOVExEVOLUTION: /HA-4@41ED20
 ```
 
 ### [evoLL]
+
 ```
 - お嬢様はイイナリみたいです！？
   名称 /HS-4@32C0B:ags.exe (Name)
@@ -1247,22 +1412,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [EX12]
+
 ```
 - 他人妻～誘淫～：/HW-4@41A3B0
 ```
 
 ### [Exception]
+
 ```
 - 白神子
   /HSN-14*8C:-F@41C9A0
 ```
 
 ### [Fairytale]
+
 ```
 - エスカレーション-HARD CORE-: /HBN-20*-3@40879F /KS
 ```
 
 ### [Falcom]
+
 ```
 - 英雄伝説VI 空の軌跡: (Update 1046) /HA-8@4A6A50 /W4A63A0 /KF32:16
 - 英雄伝説 空の軌跡FC: (ED6_1046) /HB4*0@4A6370 /KF32:16 or /HB-20*0@4A6370 /KF32:16
@@ -1272,6 +1441,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Ferret]
+
 ```
 - AngelKnight: /HS4*0@40D128 /kf /w407D31
 - 花触の罠（かしょくのわな）Special Disc: /HS4*0@40D160 /kf /w407D69
@@ -1281,11 +1451,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [FIANCEE]
+
 ```
 - 美衣菜△です！（みいなさん、かっけーです！）－Loveイチャ同居生活のススメ－：/HBC*0@4044F0 /kf
 ```
 
 ### [Fizz]
+
 ```
 - さくらテイル -the tale of cherry blossoms septet-
   /HB4*0:2E0@57FA90
@@ -1296,12 +1468,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Fluorite]
+
 ```
 - ソーサレス＊アライヴ！～the World's End Fallen Star～
   /HVN8@14C796:ソーサレス＊アライヴ！.exe
 ```
 
 ### [Frill]
+
 ```
 - 姫剣士エステル -孕ませ王２-
   /KF /HW8@432d10 /pnSiglusEngine.exe
@@ -1312,6 +1486,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Front Wing] (Frontwing)
+
 ```
 - ふたごえっち
   /HB4*0@43FBA8 /pnADV.exe
@@ -1335,18 +1510,22 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - フーリンガン: (Ver. 1.01) /HB-4*0@43B444
 - Yuki Uta Vista: /HBN-C*1@4DDF45
 ```
+
 ### [Frontwing/Survive]
+
 ```
 - セパレイトブルー: /HSN-20:C@44B96A
 - ゆきうた (Ver. 1.02): /HB18*0@4406C0 | Vista对应版: /HBN-C*1@4DDF45
 ```
 
 ### [Fukuneko]
+
 ```
 - みみ×みみ！～発情注意報～ : /HB-18*0@40FE30
 ```
 
 ### [FULLTIME] (Fulltime)
+
 ```
 - エロ医
   /HSN4:C*44@4ED953 /KF
@@ -1354,6 +1533,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [G.J?] (Ｇ．Ｊ？)
+
 ```
 - マドンナ ～完熟ボディCollection～
   /HA8:4@2E7BB:gdi32.dll
@@ -1375,6 +1555,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [G-Spot]
+
 ```
 - 今日のおかず (for msvcp80.dll): /HW4@0:msvcp80.dll:#2631 or /HW4@0:msvcp80.dll:?push_back@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXG@Z
 - 今日のおかず (for msvcp90.dll): /HW4@0:msvcp90.dll:?push_back@?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAEXG@Z
@@ -1383,11 +1564,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Gage]
+
 ```
 - 牝姫の虜-廃校舎の制服少女-: /HA14@47FE98 /KS8
 ```
 
 ### [Genyuukyou] (幻遊郷)
+
 ```
 - 異世界に召喚された俺は寝取られスキル持ちだった！？
   /HW-10:1C*0@153D:mono.dll
@@ -1401,6 +1584,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Gesen18] (げーせん18)
+
 ```
 - 戦極姫4～争覇百計、花守る誓い～
   /HBN-20*0@A1967:Sengokuhime4.exe v1.03 nodvd
@@ -1411,6 +1595,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [GIGA] (戯画)
+
 ```
 - ショコラ ～maid cafe ”curio”～ Re-order
   /x3 /v
@@ -1422,35 +1607,46 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - Ripple: /HBN-8@4043C5 (v1.0) | /HBN-8@404ED5 (v1.2)
 - V.G. Re-birth: /HBN-4*0@40FA0D
 ```
+
 ### [GIGA/Armonica]
+
 ```
 - Skyprythem: /HW-4*0@54689C
 ```
+
 ### [GIGA/Daisy]
+
 ```
 - Always ～ふと、気が付けばキミとの日常～: /HB4*0@439BF0 or /HB4*0@439B50
 ```
+
 ### [GIGA/HUG]
+
 ```
 - 明日はきっと、晴れますように: /HSC@451E70 /KF
 ```
+
 ### [GIGA/Pizzicato]
+
 ```
 - こいちゅ！～恋に恋するかたおもい～: /HB4*0@424F91
 ```
 
 ### [Gindokei]
+
 ```
 - こいとれ ～REN-AI TRAINING～: /HAC@41C630
 ```
 
 ### [Grand Cru]
+
 ```
 - JKおむchu
   /HS-C@3B942:JKOmuChu.exe
 ```
 
 ### [Groover]
+
 ```
 - グリーングリーン CD-ROM版
   /HBN-1C*44362A@41B4EB
@@ -1461,6 +1657,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Guilty]
+
 ```
 - 癒しん母 The Motion～世界で一番好きなひと～
   /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A /PN
@@ -1469,7 +1666,9 @@ This page contains hook code information for Visual Novels. Feel free to add you
   /HA-C:40@0:GDI32.dll:GetTextMetricsA /KS7 /w00432DBF:141414FF
   Note: in the game options - change this setting 文字装飾 -> change to the 3rd option (or see screenshot)
 ```
+
 ### [Guilty+]
+
 ```
 - Ran→Sem ~Hakudaku Delmo Tsuma no Miira Tori~
   /HB8*0:44@0:GDI32.dll:GetTextExtentPoint32A
@@ -1486,18 +1685,21 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Guilty Nightmare Project]
+
 ```
 - Nightmare×Sisters～淫獄のサクリファイス～
   /HW-1C:-10@CC70:AdvHD.exe
 ```
 
 ### [Guilty`Dash]
+
 ```
 - 横恋慕 -人妻のヒメゴト- (Yokorenbo -Hitozuma no Himegoto-)
   /HQ-8@64E0AdvHD_crack.exe ( or /HQ-8@64E0AdvHD.exe )
 ```
 
 ### [H+]
+
 ```
 - つま恋。
   /HA8*0@45AC40
@@ -1512,22 +1714,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Hadashi Shoujo] (裸足少女)
+
 ```
 - 素直くーる: /HA-18@478A47 (use /pn)
   /HA-18@478A47 /PNRealLive.exe
 ```
 
 ### [Hakudakukei/Milk Crown]
+
 ```
 - 人妻追っかけ痴漢！DL版: /HSN-1C@414527
 ```
 
 ### [Ham Ham Soft]
+
 ```
 - ド田舎ちゃんねる5～こちら鈴音学園放送部～: /HAN-C:-14@4488E8
 ```
 
 ### [Hammerheads] (HammerHeads)
+
 ```
 - 販売淫～夫の留守中に疼く妻～/HBC*0@4044F0 /KF
 - 熟女保健室～淫らな巨乳に誘われて～
@@ -1536,12 +1742,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Hanimaru]
+
 ```
 - てほどき交感～ボクのが○○が××で止まらないよ…～
   /HA-C@41A10C /pn5D72A756.exe
 ```
 
 ### [Haoh]
+
 ```
 - Hard Scandal
   /HSN0@411D84 /Ftext@1
@@ -1554,6 +1762,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [HARUKAZE]
+
 ```
 - らぶおぶ恋愛皇帝 of LOVE！ v1.03 /HAC@50C10:らぶおぶ恋愛皇帝ofLOVE!.exe
 - ノラと皇女と野良猫ハート v1.08 /HAC@55930:ノラと皇女と野良猫ハート.exe
@@ -1562,25 +1771,29 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [H-do C]
+
 ```
 - 夢見白書: /HQ8@469647
 - 夢見師: /HA-1C@4205F0
 ```
 
 ### [Hearts]
+
 ```
 - メルクリア～水の都に恋の花束を～
   /HW-4*0@5D3132 (use text extractor here)
 ```
 
 ### [Hecate]
+
 ```
 - お姫様は、ぱんてられお
   Vista: /HW-4@20CD80:mscorlib.ni.dll
   7: /HW-4@20CD60:mscorlib.ni.dll
-  ```
+```
 
 ### [Heiantei] (平安亭)
+
 ```
 - 友達のお母さんは好きですか？～息子の友人にハマったオバちゃん妻～
   /HA-18@69396:tomo.exe
@@ -1590,11 +1803,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [HERMIT]
+
 ```
 - 世界でいちばんNGな恋: /HA-1C@44FF44 or /HS1C@40EB70
 ```
 
 ### [hibiki works]
+
 ```
 - 新妻ＬＯＶＥＬＹ×ＣＡＴＩＯＮ / Niizuma Lovely x Cation
   ALL x CATION - no H-code needed
@@ -1608,22 +1823,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Highsox] (highsox)
+
 ```
 - 絶対女子寮域！: /HWN4:-4@4BEB55
 ```
 
 ### [Honey Pot]
+
 ```
 - 黒髪少女隊りばーす！: /HH-1C*0@4204E6
 ```
 
 ### [Honky-Tonk Pumpkin]
+
 ```
 - 姉です。
   /HB8@41DA80
 ```
 
 ### [Hooksoft] (HOOKSOFT)
+
 ```
 - IxSHE Tell/HWN-4:-10@15411C:IxSHETell.exe
 - もっとIxSHE Tell 彩楓・芳乃ミニアフターストーリー
@@ -1638,6 +1857,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Illusion]
+
 ```
 - 尾行: /HSN4@63C012 /KF
 - すくぅ～るメイト: /X /KF /HSN0@46AD29 /W1
@@ -1645,25 +1865,29 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Innocent Grey]
+
 ```
 - FLOWERS 春篇[FLOWERS -Le volume sur printemps- ] /HS8@540DF:Script.dll
   http://sakuradite.com/upload/image/1268.png
 ```
 
 ### [Interheart]
+
 ```
 - 人妻スイミング倶楽部 /HS-4:8@1DA513:HSWIM.exe
 - イイナリ姉色 ～お姉ちゃんさえいればいい！～
   /HSN0@62AAD:aneiro.exe
-  ```
+```
 
 ### [IRIS]
+
 ```
 - ないしょのないしょ! /HW-4@4148B7
   Note: works fine for me with ITH 2.3 but ITH3 lets the game terminate.
 ```
 
 ### [Ivory]
+
 ```
 - 桜待坂Stories vol.1: /HA-C@414BDC
 - 桜待坂Stories vol.2 せんせいがおしえてあげる: /HA-C@417B60
@@ -1671,6 +1895,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Janis]
+
 ```
 - CANDY TOYS: /HA-C@411728
 - とらいあんぐるハート DVD Edition (use thd20020623.exe patch from official site):
@@ -1683,6 +1908,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Jellyfish] (Jellyfish（ジェリーフィッシュ）)
+
 ```
 - Lovers: /HA-C@27A8A:ism.dll /PNlovers.exe
   (LOVERS104PATCH) /HB4@26E90:ism.dll /PNlovers.exe
@@ -1693,32 +1919,38 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Jitaku Studio] (自宅すたじお)
+
 ```
 - リアルエロゲシチュエーション！Hx3 /HSN4@1511F0:Reaeroh3.exe
 ```
 
 ### [Jitensha Sougyou (自転車創業)]
+
 ```
 - Lost Colors /HSN-4@41350A
 ```
 
 ### [Joker]
+
 ```
 - 恋夏～れんげ～: /HB8@422580
 ```
 
 ### [Juliette]
+
 ```
 - ご主人様へ: /HBEC*0@40E8CC or /HA4@44E493
 - 夏色公園～電波塔の下で愛を語る～: /HBEC*0@40EDBC or /HA4@450103
 ```
 
 ### [Kaeru Soft]
+
 ```
 - 現実が見えてきたので少女を愛するのを辞めました：/ HS-4 @ 268E00：noshoujo.exe
 ```
 
 ### [Kannazuki Seisakusho Tsumami-gumi] (神無月製作所・妻魅組)
+
 ```
 - 姦交バスツアー～色情に染められた花嫁～
   /HA4@41A2F8
@@ -1726,6 +1958,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Karen Soft] (可憐ソフト)
+
 ```
 - 巫女縛り: /HB-C*0@419308 or /HBN-C*0@419308
 - お嬢様はマゾ: /HA-C@418DD4
@@ -1734,6 +1967,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Keroq] (ケロQ)
+
 ```
 - 素晴らしき日々～不連続存在～: /HAC@423390
   フルボイスHD版 : /HS-20@3B452:BGI.exe
@@ -1741,12 +1975,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Key] (KEY)
+
 ```
 - Rewrite /HQN54@48693e /NH
 - クドわふたー: /HAN-C:-14@448878 /PNREALLIVE.EXE
 ```
 
 ### [Kid]
+
 ```
 - 12RIVEN: /HSN@450EAA (use /pn)
 - 秋之回忆 After Rain Vol. 1: /HBN-10*0@41F304
@@ -1761,6 +1997,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Koei]
+
 ```
 - 无双大蛇: /HA4@4CF330 /KF
 - 真三国无双2: /HA-4@523E60 /KF or /HA8@523E60 /KF
@@ -1768,6 +2005,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Kogado] (Kogasha / 高臥舎)
+
 ```
 - Shirogane no Cal to Aozora no Jouou V1.1
   /HBN24:-14@41C1FB /KF
@@ -1775,11 +2013,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Koushaku] (公爵)
+
 ```
 - ジサツのための101の方法 (v1.01)：/HAN-8@403E32
 ```
 
 ### [Kuro-Hina]
+
 ```
 - 超満淫～美乳姉妹車内調教: /HSC@4044D0 /KF
 - 放送禁肢～女子アナ凌辱生中継: /HBC*0@4044C0 /KF
@@ -1799,11 +2039,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Kur-Mar-Ter]
+
 ```
 - 邪！！ ぱんでみっく: /HA-10:48@4ABBB8 or /HAN-C:-14@448878
 ```
 
 ### [La'cryma]
+
 ```
 - fortissimo EXA//Akkord：Bsusvier
   /HSN-1C@41C3A2 /kf
@@ -1812,28 +2054,33 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Lala]
+
 ```
 - 6月の天使
   /HB-4*0@419527 /kf
 ```
 
 ### [Lapis Blue]
+
 ```
 - BIFRONTE～公界島奇譚～: /HB-4*0@42CA50 or /HB10*0@42CA50
 ```
 
 ### [Lapis lazuli]
+
 ```
 - Areas～恋する乙女の3H: /HA-10:58@4ABD58
 ```
 
 ### [Laplacian (ラプラシアン)]
+
 ```
 - キミトユメミシ[Kimi to Yumemishi]
   Note: (Links to sakuradite images were provided, but no H-code here. H-code needs to be found to make this entry useful.)
 ```
 
 ### [Leaf]
+
 ```
 - WHITE ALBUM 2～introductory chapter + closing chapter～ SET版
   /HS0@438604 (ver 1.01)
@@ -1855,18 +2102,21 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Le Chocolat]
+
 ```
 - Answer Dead: (use update patch) /HA-4@40F530 /FDialogue@424CAB /KS /KF
 - あやつりブルマー: /HBC*0@4042B0 /KF
 ```
 
 ### [Liebe]
+
 ```
 - 人妻旅館: /HS-4*0@45BC40 /KF
 - 先生！アエがせて♪: /HS-4*0@45BC40 /KF
 ```
 
 ### [Light] (light)
+
 ```
 - カスタムＳＥＸＤＯＬＬ
   /HAN-20:C@415BFC
@@ -1909,6 +2159,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [LiLiM] (Lilim)
+
 ```
 - 魔法神姫リリカ
   /HA-C@40F2D0 /KS1
@@ -1923,7 +2174,9 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - とらぶるっ！: (Ver. 1.00) /HB8*0@413550 /KS or /HA-4@413550 /KS | (Ver. 1.01) /HB8*0@413590 /KS
 - True Blue: /HS100C@42FF4E /W1
 ```
+
 ### [LiLiM DARKNESS] (Lilim Darkness)
+
 ```
 - ☀ Dearest Blue [DearestBlue]
   /HB8*0@FB40:DearestBlue.exe
@@ -1933,17 +2186,22 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - とらいあんぐるBLUE: /HB8*0@413230 | UPDATE 1.05: /HB8*0@413610
 - White Blue: /HB8*0@FEB0:WhiteBlue.exe
 ```
+
 ### [LiLiM生] (LiLiM Nama)
+
 ```
 - 医辱
   /HA4:-14@4105C0
 ```
+
 ### [Lilim/Choir]
+
 ```
 - Aion Garden: /HB8*0@413790 /KS | (AG_up11) /HA-4@413790 /KS or /HA4@413790 /KS
 ```
 
 ### [Lillian]
+
 ```
 - ティンクル☆くるせいだーす -Passion Star Stream-
   Note: version 1.01
@@ -1957,6 +2215,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Lime]
+
 ```
 - Royal Duty
   /HB18*0@4D3F18
@@ -1973,6 +2232,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [little cheese]
+
 ```
 - 黒と金の開かない鍵
   /HAN-C@43E95C /Ftext@1 (1.01)
@@ -1980,11 +2240,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Little Princess]
+
 ```
 - ふるふる☆フルムーン: /HB4*0@430F80 /KF or /HB-1C*0@430F80
 ```
 
 ### [Little Witch]
+
 ```
 - シュガーコートフリークス
   /HBN-8*4@4ACEE1 /Ftext@1
@@ -1996,13 +2258,16 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - 少女魔法学 リトルウィッチロマネスク: /HA-C@426430
 - 少女魔法学 リトルウィッチロマネスク Editio Perfecta: /HBN4*0@4B2D7C
 ```
+
 ### [Littlewitch velvet]
+
 ```
 - 聖剣のフェアリース
   /HB+48@4AC1B0
 ```
 
 ### [Lose]
+
 ```
 - ゴスデリ -GOTHIC DELUSION-
   Note: 文字表示(C) - > フォント(F) change the font to ＭＳ ゴシック select the kirikiri
@@ -2010,6 +2275,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Love Cherry]
+
 ```
 - 姉はグラビアアイドル: /HSNC@413AE0
 - 堕淫巫女: /HB-18*0@40FDF0
@@ -2018,6 +2284,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Love Juice] (LoveJuice)
+
 ```
 - オレの姉ちゃん。～オレは姉ちゃんのオモチャじゃないっ！
   /HB-4*0@4331ED
@@ -2030,17 +2297,21 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - 辱島-じょくじま-: /HB-4*0@4326AD
 - トナリの世界－踏み外した淫靡な日常－: /HB-4*0@432A1D
 ```
+
 ### [Love Juice/Lilim]
+
 ```
 - 辱アナ: /HB-4*0@42E1AC
 ```
 
 ### [Lucca]
+
 ```
 - ママさんバレー((乳ゆれまんせー)) : (Ver 1.2.0.0) /HA-C@4250E0
 ```
 
 ### [Lump of Sugar] (Lump of sugar)
+
 ```
 - ねこツク、さくら。体験版 /HS-8:8@A0620:Nekotsuku_Trial.exe
 - 花色ヘプタグラム
@@ -2060,11 +2331,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Luna Soft] (ルナソフト)
+
 ```
 - [121214] 深淵のレコンキスタ /HBN-C*0@2484D:lus001.exe
 ```
 
 ### [Lune] (ルネ)
+
 ```
 - 悪の女幹部「この私にオシオキだと!? ふざけるなっ！」
   /HA-C@419A3C
@@ -2086,7 +2359,9 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - 音速飛翔ソニックメルセデス～双子ヒロイン調教指令！～ (onsoku hishou sonikku merusedesu~futago hiroin choukyou shirei!~) : /HA-C@4196C8
 - 少女戦機 ソウルイーター「どんなに穢されても…私の復讐は終わらない！！」 : /HA-C@418FA7#1 or /HA-C@418DA0
 ```
+
 ### [Lune Team Bitters] (ルネ Team Bitters)
+
 ```
 - マリッジブルー「婚約者がいるのに、どうしてこんな男に……」
   /HSN0:24@470061 /KF /Fdialogue@1:420BC2;speaker@1:42178E;choices@1:421909
@@ -2099,16 +2374,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Lusterise]
+
 ```
 - 触区～学園妖触譚～: /PNshock.000 /HA-C@418E34 /w4193AA (read above for info on the /PN parameter - refers to original wiki context)
 ```
 
 ### [M ni Aqua]
+
 ```
 - 南の島に降る雪: /HB10*0@4234D0
 ```
 
 ### [M-O]
+
 ```
 - 少女迷宮 ～淫猥姉妹の男性調教支配録～
   /hw18:-14@148a0:siglusengine.exe
@@ -2116,11 +2394,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Madosoft]
+
 ```
 - ラズベリーキューブ /HSN4@10C24B:raspberrycube.exe (Works with VNR)
 ```
 
 ### [Makura] (枕)
+
 ```
 - しゅぷれ～むキャンディ～王道には王道たる理由があるんです！～
   /HAC@421000
@@ -2129,18 +2409,21 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [mana]
+
 ```
 - メアメアメアSP（Sister Plus）
   /HW8@4C5C40 /KF
 ```
 
 ### [Marble CandySoft] (マーブルCandySoft)
+
 ```
 - 甘園ぼ ～二人だけのヒミツの遊び～
   /HSN0:7C@555ED:amaenbo.exe
 ```
 
 ### [Marine]
+
 ```
 - びんかんアスリート「そ、そこダメっ！……おしお噴いちゃうっ！」 : /HB-C*0@419BAC
 - 人妻搾乳飯店: /HA-C@418CF4
@@ -2151,21 +2434,25 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [MarryBell]
+
 ```
 - 姦獄水泳部～競泳水着に食い込む淫靡な肢体～: /HSC@4044C0 /KF
 ```
 
 ### [Marshmallow Soft] (ましゅまろそふと)
+
 ```
 - シスターレッスン: /HQ4@74780:sisterlesson.exe
 ```
 
 ### [Masurao]
+
 ```
 - 鈴夏のメロディー: /HAN-C@F81BC /Ftext@1
 ```
 
 ### [May-Be SOFT]
+
 ```
 - へんし～ん!!!～ パンツになってクンクンペロペロ ～
   /HA8@766EA50A
@@ -2174,6 +2461,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [MBS TRUTH] (MBS Truth)
+
 ```
 - OH！ステルス紳士 ～隠密ザーメン公開中出し学園～
   Note: You need to turn off the voice/text in sync option.
@@ -2185,6 +2473,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Mekujura] (めくじら)
+
 ```
 - 彼女の浮気現場
   /HA-C@F8D98
@@ -2195,17 +2484,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Meteor]
+
 ```
 - 神樹の館: /HBN*@41567D (to filter out furigana)
 ```
 
 ### [Micro]
+
 ```
 - CooL!! ～強娘純恋歌～ : /HAC@47E66E
 - ソルティアンジュ魔法倶楽部:(sortie_patch101) /HB18*0@4A6780
 ```
 
 ### [Mignonne]
+
 ```
 - MISTAKE×MISCAST カコトミライノコイモノガタリ
   /kf /HBN10@4293:MISTAKE_X_MISCAST.EXE /pnMISTAKE_X_MISCAST.EXE
@@ -2213,18 +2505,21 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Milk Crown]
+
 ```
 - 姉ニモマケズ～お姉ちゃんズは刺激的！: /HSN-1C@414527
 - らぶKiss！アンカー～あなたのキスでつかまえて～: /HBN24*0@4174C4 or /HSNC@413AC0
 ```
 
 ### [Milk Pai] (milk-pai)
+
 ```
 - でれスク
   /HAN4@41A2F8 /Ftext@1
 ```
 
 ### [Milk Soft] (milksoft)
+
 ```
 - 恥辱の渦～狙われた二人の新妻～
   /HAN-C@F3D54 /Ftext@1
@@ -2235,12 +2530,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Milimili]
+
 ```
 - エロいもハリケーン！　～アイドルの妹がエロくてエロくてオレの理性に嵐の予感！？～
   /HB-C@4397E6
 ```
 
 ### [Mini] (mini)
+
 ```
 - 夏菓子～なつかし～
   /HB-4@4C971F
@@ -2250,12 +2547,15 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - Kissy Kissy ～わたしのたまご～: /HAC@47B53E or /HB18*0@47B448
 - 姉妹教師丼: /HA-8@48FA42
 ```
+
 ### [mini-mam]
+
 ```
 - 女将・静香～熟れた果実が堕ちる刻～: /HB-C*0@4C9958
 ```
 
 ### [Mink] (ミンク)
+
 ```
 - あまふたサンドイッチ！！！ -AMA-AMA-FUTA-MATA-SANDWICH!!!-
   /HB-10*0@40712F
@@ -2273,15 +2573,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Minori]
+
 ```
 - はるのあしおと: /HA-1C@4395C0
 ```
+
 ### [Minori/Aeris]
+
 ```
 - ANGEL TYPE: /HA-1C@434BB0
 ```
 
 ### [Minato Carnival] (みなとカーニバル)
+
 ```
 - 辻堂さんの純愛ロード
   /HAC@7D240:辻堂さんの純愛ロード.exe (v1.03-1.04)
@@ -2298,6 +2602,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Minato Soft]
+
 ```
 - 真剣で私に恋しなさい! A 猟犬ルートアフター
   /HAC@62F30:真剣で私に恋しなさい！Ａ猟犬ルートアフター.exe
@@ -2311,6 +2616,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Mirai] (Mirai-soft)
+
 ```
 - 宿星のガールフレンド ALLSTAR / Shukusei no Girlfriend ALLSTAR
   /HAC@61A60:宿星のガールフレンド.exe
@@ -2322,44 +2628,52 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [mirage]
+
 ```
 - アノニマス/Anonymous: (rUGP Ver 5.70.25) /HA4@1002B080 | (rUGP Ver 5.72.25) /HA4@1002B080
 ```
 
 ### [Mixwill Soft]
+
 ```
 - おねパパ～Onegai PaPa!～: /HS-1C@403171
 ```
 
 ### [Moco Pro]
+
 ```
 - 訪問犯売～大人のおもちゃいりませんか？～: /HBN-8*0:838@45A715 /w1:4263FE
 ```
 
 ### [Moe-Hina]
+
 ```
 - ご奉仕します！コスロイド: /HSC@4044C0 /KF
 - 魔女っ娘とりこロール: /HSC@4044C0 /KF
 ```
 
 ### [Moedan Project]
+
 ```
 - もえだん: /HS4@420F30 /KF
 ```
 
 ### [Momo-Hina]
+
 ```
 - たっぷん☆ビーチ: /HBC*0@4044C0 /KF
 - たっぷん☆お姉チャー: /HBC*0@4044B0 /KF
 ```
 
 ### [Monista Rush / a Matures] (モニスタラッシュ / a Matures)
+
 ```
 - 人妻AV嬢 瑤子
   Note: rename the main exe file to bruns, once that is done run latest ith
 ```
 
 ### [Moonstone]
+
 ```
 - Gift～ギフト～
   /HA18:-1C@4053E0
@@ -2369,6 +2683,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [more/pure more/天ノ葉/monako]
+
 ```
 - [more]ヒマワリと恋の記憶 /HS8@28A59C:himakoi.exe
 - [pure more]少女アクティビティ /HS8@2814F4:shoujo.exe
@@ -2380,17 +2695,22 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Morning] (morning)
+
 ```
 - 堕トセ…　嫌がるあの娘を媚薬で堕トセ！: /HBN-C*0@40FB17
 - 監禁陵辱調教 葉月＆美緒: /HB14*0:-4*A0@409B:KanKin.exe
 - 性奴交換指導 ～とある学園長の欲望劇
   /HBN-C*0@41A6B4 /Ftext@1
 ```
+
 ### [Morning Light]
+
 ```
 - 敏感 えっち～二人のおやつは特濃ミルク～: /HB18*0@40FE98
 ```
+
 ### [Morning Star]
+
 ```
 - 処女姦～初体験を陵辱された乙女たち～: /HW4@0:msvcp80.dll:#2631
 - 淑女の告白 ～豊乳熟妻、白昼の蜜会: /HW4@0:msvcp80.dll:#2631
@@ -2399,6 +2719,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [MSIZE]
+
 ```
 - 超私立！女の子様学園: /C0 /HAN-C@F3AC0 /W1:0 /NH
 - 変態性癖ドミナンス: /HAN-C@FBF1C /Ftext@1 domina.exe
@@ -2406,12 +2727,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Mu]
+
 ```
 - 蒼色輪廻: /HBC*0@41EF63
 - 喪失郷: /HBN-1C*0@42422E
 ```
 
 ### [Muscadet]
+
 ```
 - Rakuen no Rukia
   /HBC*0@4044F0 /KF
@@ -2428,12 +2751,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [NanaWind (ナナウィンド)]
+
 ```
 - 春音アリス＊グラム (Haruoto Alice Gram)
   Note: 使用新修正补丁 (Use new correction patch) (H-code needs to be found to make this entry useful.)
 ```
 
 ### [Navel] (NAVEL)
+
 ```
 - 月に寄りそう乙女の作法
   /HB18*0@4D3E60 (v1.01)
@@ -2453,6 +2778,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [NekoNekoSoft] (ねこねこソフト)
+
 ```
 - ねこねこファンディスク3
   Note: /x3 is OK. Will find in one _mbsinc thread.
@@ -2463,6 +2789,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [NEL]
+
 ```
 - なりきりバカップル！「本当は、アンタとなんてイチャイチャしたくないんだからねっ！」: /HBN-8*0@44B684
 - 薺ヶ好（なずながすき） なずなと若葉の物語: /HA-C@417658
@@ -2470,11 +2797,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Nigred]
+
 ```
 - Calling: Use .exe found here and /HBN-4*0@42770F /KF (Note: "found here" refers to original wiki context)
 ```
 
 ### [Nitroplus] (Nitro+)
+
 ```
 - Soukou Akki Muramasa Janen Hen (装甲悪鬼村正 邪念編)
   /HA-8@470160
@@ -2494,23 +2823,27 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Nomad]
+
 ```
 - 外道勇者: /HA-C@418C9C
 - ニセ教師～性活指導ADV～: /HAN-20@4119B9
 ```
 
 ### [Ohgetsu]
+
 ```
 - Palmyra（パルミュラ）～熱砂の海と美なる戦姫～: /HBN-8*0@410E5E | (Ver. 1.1) /HBN-8*0@4108BB | (Ver. 1.2) /HA-4@410830 or /HA4@410830 (use /pn)
 - Silvery White ～君と出逢った理由～: /HSN-8@41495F
 ```
 
 ### [OLE-M]
+
 ```
 - おっぱいの王者48～何も考えず目の前のおっぱい全部しゃぶれ！: /HAN4:-4@40924F
 ```
 
 ### [Onomatope*Raspberry]
+
 ```
 - Sis△Camp /HS18*50:18*14@0:GDI32.dll:GetTextMetricsA
 - ビッチ学園が清純なはずがないっ！！？
@@ -2518,16 +2851,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Otomate]
+
 ```
 - 蛇香のライラ～Allure of MUSK～第一夜 ヨーロピアン・ナイト /HQN-10@9D1F2:JyakounoLylaVol1.exe
 ```
 
 ### [Overdress]
+
 ```
 - 汗濡れ少女美咲「アナタのニオイでイッちゃう！」: /HB-4*0@43297D
 ```
 
 ### [Overdose] (オーバードーズ )
+
 ```
 - 母乳が染み出る愛娘 愛美 /HBN-1C*0@415e57
   Note: Text speed must be normal or slow.
@@ -2536,6 +2872,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [OVERDRIVE] (Overdrive)
+
 ```
 - DEARDROPS
   /HAC@423790
@@ -2548,11 +2885,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Oz Project]
+
 ```
 - 無差別恋愛～ボクって玩具？～: /HAN-C:-14@445578 (use /pn)
 ```
 
 ### [P-Factory] (P-factory)
+
 ```
 - 甘い刻 - Sweet Time -
   /HS4@424BD0 or /HAC@0041F178#1(AGTH 2008.05.04)
@@ -2560,6 +2899,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Pajama Soft] (ぱじゃまソフト)
+
 ```
 - プリズム☆ま～じカル！ AFTER STORYS 迷える子羊といけにえの山
   /HSN-1C@46493E
@@ -2574,7 +2914,9 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - PURE MAID～着せかえしてね～: /HBC@43B060
 - テレサとハート: /HBC@444940
 ```
+
 ### [Pajamas EX]
+
 ```
 - もみちゅぱティーチャー!～巨乳姉妹と三角関係～
   /HBC@452390
@@ -2583,6 +2925,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Palette]
+
 ```
 - もしも明日が晴れならば
   /HSNC@164A:system.dll /PN
@@ -2595,6 +2938,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Parfum Soft] (ぱるふぁんそふと)
+
 ```
 - 一緒にちゃぷちゃぷたいむ！～お風呂でいちゃいちゃ生活～
   /HSN4@4413B0
@@ -2602,6 +2946,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Patissiere] (ぱてぃしえ)
+
 ```
 - まじかる☆ている
   /HSN10@414E6A
@@ -2610,6 +2955,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [PeasSoft]
+
 ```
 - 君を仰ぎ乙女は姫に
   /HB-20*0:-14@442755
@@ -2619,16 +2965,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Petit Ferret]
+
 ```
 - ぽぽたん DVD Version: /HAN4:48@4180A0
 ```
 
 ### [Petit Pajama]
+
 ```
 - Puppet Princess～傀儡姫。わたしは、操り人形～: /HBC@43CFF0
 ```
 
 ### [PIL]
+
 ```
 - 仏蘭西少女 ～Une fille blanche～
   /HAN8:54@42BB30 or /HAN-10@42BB3B or /HA-4@42BB30
@@ -2636,6 +2985,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Pink Tissue]
+
 ```
 - 人妻ンション2～うるわしの巨乳人妻三姉妹～
   /HSN-4@541E4:hitozuma2.exe
@@ -2643,33 +2993,39 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Plas+tic]
+
 ```
 - きすみみ! ~Kiss! Me! Me!~: /HB10*0@411D5B
 ```
 
 ### [Ponyori Densetsu]
+
 ```
 - 姫騎士壊妊～子宮征服計画～: /HWN-4*0@5DD906 /Ftext@1
 ```
 
 ### [Powerful Soft] (ぱわふるソフト)
+
 ```
 - よう∽ガク～妖学園の未来は会長次第!～
   /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A
 ```
 
 ### [Praline] (プラリネ)
+
 ```
 - デュエリスト×エンゲージ
   /HA-1C@415C49
 ```
 
 ### [PrimRose]
+
 ```
 - 超時空爆恋物語 ～door☆pi☆chu～ /HS4@424BD0
 ```
 
 ### [Princess Sugar]
+
 ```
 - プリンセスキッス！ ～少女1000年紀物語～
   /HBN-C*0@4F3CC:プリンセスキッス！.exe
@@ -2681,6 +3037,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [PULLTOP] (Pulltop)
+
 ```
 - 神聖にして侵すべからず
   /HS20@415F00
@@ -2697,6 +3054,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Purple Software] (パープルソフトウェア)
+
 ```
 - 青春フラジャイル 体験版第一弾 /HS-20:-8@63896:cmvs32.exe
 - 初恋サクラメント：/HA-4@440540
@@ -2717,17 +3075,22 @@ This page contains hook code information for Visual Novels. Feel free to add you
 - ハピメア
   /ha-c@448FF0 or /HAC@48FF3:cmvs32.exe
 ```
+
 ### [Purplesoftware delight]
+
 ```
 - Orange Memories：/HSN-4@41F4FE
 ```
+
 ### [purple heart]
+
 ```
 - Polygon Love 2 Okawari
   /HS-C@403A62 /KF
 ```
 
 ### [Puzzlebox]
+
 ```
 - 誘惑女教師 ～熟れた蜜の味～
   /HSN-4@CE68:ags.exe
@@ -2737,6 +3100,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Q-X]
+
 ```
 - 幻月のパンドオラ
   /HW-4*0@5D313E
@@ -2744,12 +3108,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Qureate]
+
 ```
 - Fantasy Tavern Sextet -Vol.1 New World Days- (By Chasekilleen): /HS65001#-1C@614C60:fts1.exe
 - TroubleDays (By Chasekilleen): /HS65001#-1C@6146B0:TroubleDays.exe
 ```
 
 ### [Rabbit]
+
 ```
 - フローライトメモリーズ
   /HA8:-14@422DF0
@@ -2757,16 +3123,19 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Raccoon]
+
 ```
 - こいじばし: /HA14@404EEC
 ```
 
 ### [raiL-soft]
+
 ```
 - 霞外籠逗留記: /HA4@45FD60
 ```
 
 ### [Rasen]
+
 ```
 - 突撃天使かのん: /HA-C@412F60 /Ftext@4139B1
 - Cafe-Aqua: /HA-C@4143C4
@@ -2779,12 +3148,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Raspberry]
+
 ```
 - ご奉仕喫茶～天使達におまかせ～ あいり編: /HS-4*0@45BC40 /KF
 - ご奉仕喫茶～天使達におまかせ～ かおり編: /HS-4*0@45BC40 /KF
 ```
 
 ### [Red Label] (レッドレーベル / redlabel)
+
 ```
 - JK家政婦はミタ肛門
   /HB-C*0@4290:RL09.exe /kf
@@ -2800,6 +3171,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Rio]
+
 ```
 - 絶対領域っ！
   /HAN14@49E690 (names and dialogue separated)
@@ -2807,6 +3179,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [RococoWorks]
+
 ```
 - ヴァニタスの羊
   /HSN-4@41F4F9
@@ -2815,6 +3188,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Roll]
+
 ```
 - おしかけおさなづま3: /HA-8@48C220
 - School Festa－スクールフェスタ－: /HA-8@48FBB4
@@ -2822,12 +3196,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [ROOT]
+
 ```
 - PARA-SOL
   /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A
 ```
 
 ### [Rose Tiara] (ローズティアラ)
+
 ```
 - 姉妻～姉弟相姦遊戯～
   /HA-C@4192E0
@@ -2843,6 +3219,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [ruf]
+
 ```
 - セイレムの魔女たち
   /HA-C@426408
@@ -2851,6 +3228,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [RUNE]
+
 ```
 - ANGEL-CORE
   /HS14@43eab8 /PNanglcore.bin /Ftext@0
@@ -2868,17 +3246,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [RUNRUNSOFT]
+
 ```
 - まんきつ！～コミックカフェへようこそ！～ : /HA-C@412AAC
 - 映研企画: /HA-8@4157C5
 ```
 
 ### [S Soft]
+
 ```
 - キミのちんちん、写メらせて: /HA-C@F8088 or /HA-C@E8088:キミのちんちん、写メらせてb 34;.exe
 ```
 
 ### [SAGA PLANETS]
+
 ```
 - キサラギGOLD★STAR
   /KF /HW8@439690 /pnSiglusEngine.exe
@@ -2891,17 +3272,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Saint Ascaron]
+
 ```
 - Dungeon Crusaderz 2
   /HB28@4101B8 | patch 1002: /HB28@4103B8 | patch 1003: /HB28@4103E8
 ```
 
 ### [Sakuradog]
+
 ```
 - 綾瀬家のオンナ～淫華の血脈～: /HAN-1C:E4@41F519
 ```
 
 ### [Sanctuary]
+
 ```
 - 雅恋～MIYAKO～月詠の夢
   /HB38:14@420DC0
@@ -2909,17 +3293,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Sega]
+
 ```
 - 樱花大战2 XP Version: (sakura2xp_ver101.exe) /HANC@5BF20:TITLE2_D.BIN: /C400
 ```
 
 ### [Serene]
+
 ```
 - 凌辱家庭狂師: /HS4*0@40d128 /KF1:100
 - ユリ色の少女: /HS-4*0@45BC08 /KF
 ```
 
 ### [SEVEN WONDER]
+
 ```
 - 太陽のプロミア
   /HBN18@6b12e:promia.exe
@@ -2927,6 +3314,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Shakunage]
+
 ```
 - みみをすませば
   /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A (1.01)
@@ -2937,11 +3325,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Shall Luck Plus]
+
 ```
 - インタールード: /HA14@40AA60
 ```
 
 ### [Shallot]
+
 ```
 - Happy Wardrobe (ハッピーワードローブ)
   /HW8*0:D4@0:GDI32.dll:GetTextExtentPoint32W /KS /pnhwr.exe
@@ -2949,12 +3339,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Shiba Soft] (しばそふと)
+
 ```
 - ラブコーディネーション！
   /HBN-1C*0@27D60:LoVeCoOrDiNaTiOn.exe
 ```
 
 ### [Shiratama]
+
 ```
 - はぴほす! ～お世話されます入院生活～: /HAN-1C@40F563 or /HSN1C@40F270
 - 虹色あるけミカン～Magic of alchemy～: /HA4@44F9B6
@@ -2962,12 +3354,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [ShiruZaru]
+
 ```
 - 美人妻の痴態～兄の妻は俺の嫁～
   /HA-C@41A10C
 ```
 
 ### [SIESTA]
+
 ```
 - あるぺじお～きみいろのメロディ～: /HB10*0@411D5B or /HB-18*0@40FCE0
 - MOON CHILDe: /HB10*0@41104B
@@ -2975,6 +3369,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Silky's] (シルキーズ)
+
 ```
 - 女系家族III ～秘密HIMITSU卑蜜～ /HBNC@4CE6E6
 - ベロちゅー！ ～コスプレメイドをエロメロしちゃう魔法の舌戯～
@@ -2994,23 +3389,27 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [SKUNKWORKS]
+
 ```
 - なりもの♪: /HB-18*0@40FDF0
 ```
 
 ### [SkyFish]
+
 ```
 - よついろパッショナート！
   /HA8:-4@2E7BB:gdi32.dll
 ```
 
 ### [skysphere]
+
 ```
 - 翼をください
   /HWN8:20@0:GDI32.dll:GetCharABCWidthsW
 ```
 
 ### [SMEE]
+
 ```
 - Hajirabu -Making*Lovers- - Promotional Edition /HW8:4@A030:ハジラブ.exe
 - Hajirabu -Making*Lovers- /HW8:4@A1C0:ハジラブ.exe
@@ -3034,6 +3433,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Softhouse Chara] (ソフトハウスキャラ / SHChara)
+
 ```
 - 門を守るお仕事
   /HW-8*0@AFD0:PgsvTd.dll
@@ -3051,12 +3451,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [softhouse-seal]
+
 ```
 - 変態勇者の中出し英雄記
   /HS-8*4@46F7F7 /KF
 ```
 
 ### [Sol-fa-soft]
+
 ```
 - プールのじかん スク水不要論2
   /HA4@62AE10
@@ -3064,11 +3466,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [SORAHANE]
+
 ```
 - AQUA：/HW-4*14:-4*0@513804 /KS
 ```
 
 ### [speed]
+
 ```
 - 藍色ノ狂詩曲～Deep Blue Rhapsody～
   /HAN-18@40611A
@@ -3076,12 +3480,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Sphere]
+
 ```
 - Yosuga no Sora
   /HWN4:-4@4B23ED
 ```
 
 ### [sprite (スプライト)]
+
 ```
 - 恋と選挙とチョコレート
   /HSN-4@B14B4:dirapi.dll /PN
@@ -3092,22 +3498,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [SQUEEZ]
+
 ```
 - 凌辱制服女学園～恥蜜に濡れた制服～: /HA-C@4AE97C
 ```
 
 ### [STREGA]
+
 ```
 - 木洩れ陽のノスタルジーカ -Raggio di sole nostalgico
   /HB18*0@4D3F18
 ```
 
 ### [Studio Air]
+
 ```
 - 紅月－くれないつき－: /HAC@404BA0
 ```
 
 ### [Studio e.go!]
+
 ```
 - トキノ戦華
   /X /kf5:200 /W5e62b7 or /X /kf1:200 /W5DDCD7
@@ -3116,6 +3526,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Studio Mebius] (StudioMebius)
+
 ```
 - 悪夢 絶望～青い果実の散花～Twin Pack Edition
   /HAN14@4A1630 /Ftext@1
@@ -3124,12 +3535,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Studio Ring]
+
 ```
 - ななみとこのみのおしえてA・B・C HDワイドスクリーン版
   /HW8:-4@433560 /KF /pnSiglusEngine.exe
 ```
 
 ### [Studio Ryokucha] (すたじお緑茶 / studio ryokucha)
+
 ```
 - 祝福の鐘の音は、桜色の風と共に
   /HA-4@94D62:shukufuku_main.exe
@@ -3152,6 +3565,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [STUDIO邪恋] (Studio邪恋)
+
 ```
 - 操心術0 /HA-8@428623 or /HAC@425880
 - 操心術 外伝 (Soushinjutsu Gaiden) /HAN-10@0049254A
@@ -3159,11 +3573,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Success]
+
 ```
 - アオイシロfor Windows: /HA-4:-18@44FDF2
 ```
 
 ### [Sugar Pot] (Sugarpot)
+
 ```
 - ツクモノツキ
   /HA-C@40EEB0 /KS
@@ -3173,13 +3589,16 @@ This page contains hook code information for Visual Novels. Feel free to add you
   Note: (game File menu) システム-> 設定 -> フォント->アンチエイリアスあり <(Uncheck)
   // start game again with agth and should hook all text normally
 ```
+
 ### [Sugar pot+]
+
 ```
 - お嫁さん候補があらわれた！ コマンドは？
   Note: You just need to disable antialiasing. It's in upper menu (System) -7th - 3rd - 1st options.
 ```
 
 ### [Sukaradog]
+
 ```
 - 家出ギャルを拾ったので育ててみた
   /HW-C*0:3C@3349C53:iedeg.exe (Textractor)
@@ -3187,6 +3606,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Sumikko] (すみっこ)
+
 ```
 - 絶対可憐！お嬢様っ
   /HW-4*0@5D331E
@@ -3194,6 +3614,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Sweet HEART]
+
 ```
 - アイドルクリニック ～恋の薬でHな処方～
   特殊码：/HQ18@18B7A:GDI32.dll (Note: Chinese text: "Special code:")
@@ -3209,17 +3630,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Syuntada]
+
 ```
 - 高慢な奥さんは好きですか？～傲慢人妻教師の堕とし方～
   /HAN8@56D620 /Ftext@1
 ```
 
 ### [Tabibito no Heya]
+
 ```
 - 辱・奴隷妻～息子の友達に犯されつづけた3日間: /HSN14:10@4121BE
 ```
 
 ### [TAIL WIND]
+
 ```
 - Trample on Schatten!!～かげふみのうた～
   /HB-1C*14@29170:schatten.exe
@@ -3228,6 +3652,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [TakeOut]
+
 ```
 - 誘惑っぽい！
   /HBN-1C*0@414766
@@ -3236,12 +3661,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Tama Soft] (たまソフト)
+
 ```
 - 永遠の終わりに: /HA-C@419F9C
 - LOST CHILD：/HAN-10@444F8F (v1.0.0) | /HAN-10@41EFFF (v1.2.0)
 ```
 
 ### [Tamamo Studio] (玉藻スタジオ)
+
 ```
 - 冒険者の町を作ろう!
   /HAN-18@485AA9 /KF (v1.12)
@@ -3251,6 +3678,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Tanuki Soft] (たぬきそふと)
+
 ```
 - 隣りのぷ～さん
   /HSN-8@200FE7:tonarino.exe
@@ -3259,6 +3687,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Tarte]
+
 ```
 - スクールぱにっく！
   /HSN38@404E7B
@@ -3269,6 +3698,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Teatime]
+
 ```
 - エロ医
   /HSN4:C*44@4ED953 /KF
@@ -3276,6 +3706,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Tenko] (天狐)
+
 ```
 - 英雄＊戦姫
   /HBN-8*4@ADA17:英雄＊戦姫.exe (v1.05 or v1.06)
@@ -3286,6 +3717,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Terios]
+
 ```
 - はっぴぃプリンセス: /HSNC@413AC0
 - はっぴぃプリンセス ~Another Fairytale~: /HSNC@414100
@@ -3293,6 +3725,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [TerraLunar]
+
 ```
 - らくえん ～あいかわらずなぼく。の場合～
   /HS-4@41E48A
@@ -3301,6 +3734,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Tiara Mode] (ティアラモード)
+
 ```
 - バトラーズ～召しませお嬢様～
   /HA8:-14@15570:BGI.exe
@@ -3310,6 +3744,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [TinkerBell] (Tinkerbell)
+
 ```
 - 籠女の繭
   /HAN-4@66DA7:kagome.exe
@@ -3335,22 +3770,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [TOMATO]
+
 ```
 - 姫武者
   /HSN-20@434ec4
 ```
 
 ### [TOP]
+
 ```
 - 萌えろDownhill Night－峠最速伝説－: /HA-4@40B0A4 /kf
 ```
 
 ### [TranceSoft]
+
 ```
 - Nightmare Knight～淫辱のレジスタンス～: /HSN1C@40E9E0
 ```
 
 ### [Triangle]
+
 ```
 - 魔法戦士フェアリーメイズ
   /HS4@4383C0 /pnFMS.exe
@@ -3362,12 +3801,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Troy]
+
 ```
 - Reverse desire～裏返る欲望～
   /HBNC*0@2120:sfe.dll /PN
 ```
 
 ### [Twinkle]
+
 ```
 - D-EVE in you
   /HBN14*0@40CC68
@@ -3377,11 +3818,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [U-Dash]
+
 ```
 - 生徒会長は真性露出狂：/HAN-C@FC20C
 ```
 
 ### [Uiro Soft] (ういろうそふと)
+
 ```
 - お母さんがいっぱい!! 限定ママBOX
   /HBN10*0@401476 /KS (v1.03)
@@ -3390,12 +3833,14 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Ume Soft]
+
 ```
 - 野獸戰隊シバルカン
   /HAN-8@47AD30 /R
 ```
 
 ### [Undermoon]
+
 ```
 - 甘い生活 -最高の義母と最高の義姉妹-
   /HA-C@419DDC /Ftext@41A352
@@ -3406,6 +3851,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [unicorn-a／げーせん18]
+
 ```
 - 三極姫2 ～天地大乱・乱世に煌く新たな覇龍～ 遊戯強化版
   /HB-C*0@465E10
@@ -3415,39 +3861,48 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Unisonshift]
+
 ```
 - Peace＠Pieces（ピース・ア・ピーシーズ）: /HB-4*0@402DE3 /KF
 - Peace＠Piecesファンディスク　わんもあ＠ぴぃしぃず: /HB-4*0@402E63 /KF
 - WAGA魔々かぷりちお: /HB-4*0@4030F0 /KF
 ```
+
 ### [Unisonshift Accent]
+
 ```
 - おしえて Re：メイド: /HBC@43E6E0
 ```
+
 ### [Unisonshift Blossom]
+
 ```
 - ALICE♥ぱれーど～ふたりのアリスと不思議の乙女たち～: /HB4*0@401D31
 - ななついろ★ドロップス: (Before patch) /HBC@43FE50 | (After patch) /HBC@43FCC0
 ```
 
 ### [Us：track]
+
 ```
 - 恋×シンアイ彼女
   Note: 改字体为ゴシック (Change font to Gothic)
 ```
 
 ### [VEGA]
+
 ```
 - Chin Manai Tsuki /HB-4*0@404F23 use with game.exe
 ```
 
 ### [Vitamin Soft]
+
 ```
 - どうして？いじってプリンセス Final Road～もう！またこんなところで3～: /HBC*0@44DC70
 - ねとって女神 NEO: /HSN4@459E10
 ```
 
 ### [Waffle] (WAFFLE)
+
 ```
 - エデンズリッター 第2章外伝 煉獄の魔王バルベリト編 /HB-4*0:48@12D75F:er2_ss.exe
 - エデンズリッター 第2章外伝 煉獄の魔王バルベリト編 /HB-4*0:48@12D75F:er2_ss.exe
@@ -3478,18 +3933,21 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Wheel]
+
 ```
 - ぶら ぶら
   /HW-4*14@5B9B1A
 ```
 
 ### [WhiteSoft]
+
 ```
 - りとるらびっつ－わがままツインテール
   /HB8*0:2@0:GDI32.dll:GetTextExtentPoint32A
 ```
 
 ### [Willow] (Willowsoft)
+
 ```
 - お母さんがいっぱい!!
   /HBN10*0@401526 (1.07)
@@ -3501,11 +3959,13 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Windmill]
+
 ```
 - はぴねす！: /HA4@45D860
 ```
 
 ### [Winters]
+
 ```
 - KISS×400
   /HSN14:A8@00427F79
@@ -3516,6 +3976,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [WitchFlame]
+
 ```
 - 蠱蝶の夢
   /HB-1C*0@415b1c, set text speed to slow or normal
@@ -3524,6 +3985,7 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Wonder Fool]
+
 ```
 - ユキイロサイン v1.00 : /HW8:14@526520
 - 夏の魔女のパレード /HSN4@142580:WitchParade.exe
@@ -3531,23 +3993,28 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [ωstar]
+
 ```
 - 彼女×彼女×彼女 ドキドキ フルスロットル
   /HSC@4044F0 /KF
 - 美少女万華鏡 -理と迷宮の少女-
   /HW-1C*0:-20@100C20:美少女万華鏡.exe
 ```
+
 ### [w star]
+
 ```
 - 彼女×彼女×彼女～三姉妹とのドキドキ共同生活～: /HS-4@4044D0 /KF | (kano3_Patch_ver101) /HSC@4044D0 /KF
 ```
 
 ### [X-BANGBANG]
+
 ```
 - さわさわ絵にっき～妹と××編～: /X3
 ```
 
 ### [Xuse] (XUSE)
+
 ```
 - 詩乃先生の誘惑授業
   /HAN-20:C@422796
@@ -3562,17 +4029,20 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [Yeti]
+
 ```
 - ルートダブル
   /hsn-c@be00:rw.exe /pnrw.exe
 ```
 
 ### [Yumemiru]
+
 ```
 - Girls Book Maker -Shiawase no Libretto-/HS-1C@C647:gbm.exe
 ```
 
 ### [Yuzu Soft] (ゆずソフト)
+
 ```
 - 天神乱漫 LUCKY or UNLUCKY！？
   /HW-4*0@5D331E
@@ -3580,24 +4050,26 @@ This page contains hook code information for Visual Novels. Feel free to add you
 ```
 
 ### [yuukari] (ゆ～かりそふと)
+
 ```
 - Black-Teacher-Core～ブラック ティーチャー コア～
   /HB8*0:D4@0:GDI32.dll:GetTextExtentPoint32A
 ```
 
 ### [ZERO]
+
 ```
 - オレの妹のエロさが有頂天でとどまる事を知らない: /HA-10:50@4ABD58
 - 許嫁: /HA8:14@407AC0
 ```
 
 ### [ZyX]
+
 ```
 - 雷の戦士ライディComplete Pack (use this AlphaROM patch first - refers to original wiki context):
   雷の戦士ライディ～破邪の雷光～= /HB14*0@40B2A0
   雷の戦士ライディII～邪淫の神殿～= /HB14*0@40C7E0
 ```
-
 
 ### [Unknown Developer]
 

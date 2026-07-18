@@ -1,5 +1,5 @@
 ---
-title : 'CDEmu'
+title: "CDEmu"
 ---
 
 # CDEmu
@@ -26,7 +26,8 @@ If you make a mistake, simply press **CTRL + C** to cancel the command.
 
 :::tabs
 == SteamOS 3.6+
-```sh
+
+````sh
 # run these two commands if the below doesn't work
 pacman-key --init
 pacman-key --populate
@@ -45,7 +46,7 @@ pacman-key --populate
 sudo pacman -S linux-neptune-61-headers libmirage libao cdemu-client cdemu-daemon vhba-module-dkms
 
 sudo modprobe vhba
-```
+````
 
 == SteamOS 3.4 or before
 
@@ -58,6 +59,7 @@ sudo pacman -S linux-neptune-headers libmirage libao cdemu-client cdemu-daemon v
 
 sudo modprobe vhba
 ```
+
 :::
 
 When that’s finished running, and you’ve pressed **y** to everything, you’ll get a new menu to **Open with CDEmu client** when you right click certain files, or double click to open.
@@ -69,10 +71,10 @@ When that’s finished running, and you’ve pressed **y** to everything, you’
 
 ## Usage
 
-* Mount a disc image: `cdemu load 0 ~/image.iso`
-* Unmount a disc image: `cdemu unload 0`
+- Mount a disc image: `cdemu load 0 ~/image.iso`
+- Unmount a disc image: `cdemu unload 0`
 
-For multi-disc games: 
+For multi-disc games:
 
 1. `cdemu add-device` to create a 2nd device if one doesn't exist already
 2. `cdemu load 0 "path/to/disc1.iso"`
@@ -83,4 +85,3 @@ For multi-disc games:
 Or you can just copy the content of each disc into the same folder and then run the installer if it doesn't recognize the disc.
 
 More information on the [CDEmu ArchWiki page](https://wiki.archlinux.org/title/CDemu)
-

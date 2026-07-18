@@ -1,5 +1,5 @@
 ---
-title: 'Special Codecs'
+title: "Special Codecs"
 ---
 
 # Special Codecs
@@ -10,20 +10,21 @@ When you see `special: (codec)` on the Visual Novel compatibility page, use this
 
 ## Supported Codecs
 
-| Codec | Description |
-|-------|-------------|
-| `wmp11` | Windows Media Player 11 |
-| `lavfilters` | LAV Filters |
-| `xaudio29` | XAudio 2.9 |
-| `quartz2` | DirectShow Quartz |
-| `mf` | Media Foundation |
-| `mciqtz32` | MCI QuickTime |
-| `quartz_dx` | DirectShow Quartz DirectX |
+| Codec        | Description               |
+| ------------ | ------------------------- |
+| `wmp11`      | Windows Media Player 11   |
+| `lavfilters` | LAV Filters               |
+| `xaudio29`   | XAudio 2.9                |
+| `quartz2`    | DirectShow Quartz         |
+| `mf`         | Media Foundation          |
+| `mciqtz32`   | MCI QuickTime             |
+| `quartz_dx`  | DirectShow Quartz DirectX |
 
 ## Prerequisites
 
 > [!IMPORTANT]
 > Before using this script, ensure you have:
+>
 > 1. **Downloaded the script**: Get the zip file from the [GitHub repository](https://github.com/b-fission/vn_winestuff/)
 > 2. **Extracted the files** to a folder (typically Downloads)
 > 3. **Created a wineprefix** if you haven't already ([guide here](/linux/wineprefixes))
@@ -33,17 +34,21 @@ When you see `special: (codec)` on the Visual Novel compatibility page, use this
 ### Lutris
 
 1. **Open Wine terminal**
+
    - Click the 🍷 Wine Bottle
    - Select **Bash Terminal**
 
 2. **Navigate to script folder**
+
    ```bash
    cd <path-to-script-folder>
    # Example: cd ~/Downloads/vn_winestuff
    ```
+
    > **Tip**: Right-click folder → "Copy Location" to get the correct path
 
 3. **Install codecs**
+
    ```bash
    sh codec.sh <codec1> <codec2> <codec3>
    ```
@@ -51,20 +56,24 @@ When you see `special: (codec)` on the Visual Novel compatibility page, use this
 ### Bottles
 
 1. **Open terminal in script directory**
+
    ```bash
    cd <path-to-script-folder>
    # Example: cd ~/Downloads/vn_winestuff
    ```
 
 2. **Generate standalone script**
+
    ```bash
    bottles-cli standalone -b BOTTLE_NAME
    ```
+
    See [Bottles CLI documentation](https://docs.usebottles.com/advanced/cli) for details.
 
 3. **Move standalone script** to the codec script folder
 
 4. **Run installation**
+
    ```bash
    ./standalone ./codec.sh <codec1> <codec2>
    ```
@@ -72,10 +81,12 @@ When you see `special: (codec)` on the Visual Novel compatibility page, use this
 ### Steam (Proton)
 
 1. **Install protontricks**
+
    - Desktop: Install via package manager
    - Steam Deck: Available in Discover store
 
 2. **Select your game** in protontricks
+
    - Non-Steam games show as: `GameName.exe: RandomID`
 
 3. **Choose default wineprefix**
@@ -83,6 +94,7 @@ When you see `special: (codec)` on the Visual Novel compatibility page, use this
 4. **Run commandline shell** (for debugging)
 
 5. **Install codecs**
+
    ```bash
    sh /path/to/vn_winestuff/codec.sh <codec1> <codec2>
    ```
@@ -90,21 +102,25 @@ When you see `special: (codec)` on the Visual Novel compatibility page, use this
 ## Common Codec Combinations
 
 ### Leyline Series + Kirikiri VNs
+
 ```bash
 sh codec.sh wmp11 quartz2
 ```
 
 ### Full Metal Daemon: Muramasa (JAST)
+
 ```bash
 sh codec.sh mf xaudio29
 ```
 
 ### Artemis Engine VNs (SakuToki, MWA: Badge&Dagger)
+
 ```bash
 sh codec.sh mf quartz2 lavfilters
 ```
 
 ### Rail-soft / Liar-soft Games
+
 ```bash
 sh codec.sh mciqtz32
 ```
@@ -119,7 +135,7 @@ sh codec.sh mciqtz32
 
 ## Credits
 
-<script setup> 
+<script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
 const developers = [{

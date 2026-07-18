@@ -1,5 +1,5 @@
 ---
-title: 'Flash Games'
+title: "Flash Games"
 ---
 
 # Flash Games

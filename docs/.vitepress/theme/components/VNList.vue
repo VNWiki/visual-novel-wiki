@@ -1,9 +1,9 @@
 <!--
   Minimal DataTable component for displaying JSON data.
-  
+
   Usage:
-  <VNList 
-    jsonPath="vn_list.json" 
+  <VNList
+    jsonPath="vn_list.json"
     :columns="[
       { field: 'visual novel', header: 'Visual Novel', sortable: true },
       { field: 'windows', header: 'Windows', sortable: true },
