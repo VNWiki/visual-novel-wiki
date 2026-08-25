@@ -1171,12 +1171,13 @@
     "Visual Novel Link": null,
     "Windows": "✅",
     "Mac": "❓",
-    "Linux": "✅",
+    "Linux": "❓",
     "Steam Deck": "❓",
     "Game engine": "nps",
     "Wineprefix": "wmp11quartz_dx",
-    "Wine version": "Lutris 7.2",
-    "Notes": "[18], [44]"
+    "Wine version": "wine 11.13 (NOT wow64)",
+    "Notes": "[18], [44]",
+    "Update Date": "08-25-2026"
   },
   {
     "Visual Novel": "NUKITASHI",
@@ -1325,16 +1326,17 @@
     "Notes": "[53], [54], [55]"
   },
   {
-    "Visual Novel": "Mahou Tsukai no Yoru/Witch on the Holy Night",
+    "Visual Novel": "Mahou Tsukai no Yoru/Witch on the Holy Night Remaster",
     "Visual Novel Link": null,
     "Windows": "✅",
     "Mac": "❓",
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "HuneX",
-    "Wineprefix": "any",
-    "Wine version": "Proton 9+",
-    "Notes": "[18], [56]"
+    "Wineprefix": "proton-ge",
+    "Wine version": "Proton-ge 11.3",
+    "Notes": "[18]",
+    "Update Date": "08-25-2026"
   },
   {
     "Visual Novel": "Mahoutsukai no Yoru",
@@ -2325,5 +2327,83 @@
     "Wine version": "Proton-ge 10.24",
     "Notes": "[5], [27]",
     "Update Date": "04-24-2026"
+  },
+  {
+    "Visual Novel": "Rakuen ~Ai Kawarazu na Boku. no Baai~",
+    "Visual Novel Link": "/visual-novels/rakuen",
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "⚠️",
+    "Game engine": "DAI System",
+    "Wineprefix": "Proton-ge",
+    "Wine version": "Proton-ge 11.3 and 32 bit prefix",
+    "Notes": "[20]",
+    "Update Date": "08-25-2026"
+  },
+  {
+    "Visual Novel": "Tsuyukusa Euphoria",
+    "Visual Novel Link": "/visual-novels/tsuyukusa-euphoria",
+    "Windows": "❓",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "Proton-ge",
+    "Wine version": "Proton-ge 10.34",
+    "Notes": "[20]",
+    "Update Date": "08-25-2026"
+  },
+  {
+    "Visual Novel": "Magalumina",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "Proton-ge",
+    "Wine version": "Proton-ge 11.3+",
+    "Notes": "[5]",
+    "Update Date": "08-25-2026"
+  },
+  {
+    "Visual Novel": "For the Ghosts",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❌",
+    "Game engine": "",
+    "Wineprefix": "",
+    "Wine version": "Proton-ge 10.34",
+    "Notes": "",
+    "Update Date": "08-25-2026"
+  },
+  {
+    "Visual Novel": "Dimension Totsu Lovers!!",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "⚠️",
+    "Game engine": "",
+    "Wineprefix": "vanilla",
+    "Wine version": "wine 11.2 wow64",
+    "Notes": "[124]",
+    "Update Date": "08-25-2026"
+  },
+  {
+    "Visual Novel": "Neko Kawaigari!",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "vanilla",
+    "Wine version": "wine 10.4 wow64",
+    "Notes": "",
+    "Update Date": "08-25-2026"
   }
 ]

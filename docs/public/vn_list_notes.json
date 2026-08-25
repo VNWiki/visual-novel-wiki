@@ -121,5 +121,6 @@
   "120": "Install gecko in the prefix",
   "121": "Install faudio in the prefix",
   "122": "Add PROTON_MEDIA_USE_GST=1 as environment variable/launch command for video playback with proton-ge.",
-  "123": "Change movie settings to MCI in the settings inside the game."
+  "123": "Change movie settings to MCI in the settings inside the game.",
+  "124": "Gaming Mode in Steam Deck Won't work. Needs to be played in Desktop Mode as gamescope drm and sdl backends crash the game."
 }
