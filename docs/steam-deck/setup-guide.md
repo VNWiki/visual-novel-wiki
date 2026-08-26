@@ -47,7 +47,7 @@ If your Steam Deck isn't distributed by Valve you may also need to manually enab
 1. Open **ProtonUp-Qt**
 2. Select **Lutris** from the dropdown
 3. Click **Add version**
-4. Select **Kron4ek Wine-Builds Vanilla Version 10.X** wow64 build (latest available) or manually install from [Kron4ek releases](https://github.com/Kron4ek/Wine-Builds/releases/) into `/home/deck/.var/app/net.lutris.Lutris/data/lutris/runners/wine/`
+4. Select **Kron4ek Wine-Builds Vanilla Version 10.4** wow64 build or manually install from [Kron4ek releases](https://github.com/Kron4ek/Wine-Builds/releases/) into `/home/deck/.var/app/net.lutris.Lutris/data/lutris/runners/wine/`
    ![protonup_add_kron4ek](https://i.imgur.com/Ns14EDG.png)
 5. Press **Install** and wait for completion
 
@@ -55,7 +55,7 @@ If your Steam Deck isn't distributed by Valve you may also need to manually enab
 
 1. Select **Steam** from the dropdown
 2. Click **Add Version**
-3. Select **GE-Proton Version 10.X** (latest available)
+3. Select **GE-Proton Version 10.34**  and **GE-Proton Version 11.5** (or latest available)
    ![protonup_add_protonGE](https://i.imgur.com/cgOM6m5.png)
 4. Press **Install** and wait for completion
 
@@ -89,7 +89,7 @@ Configure the following settings:
 
 **Runner Options:**
 
-- Wine version: `wine-10.X-amd64-wow64` (Latest version available)
+- Wine version: `wine-10.4-amd64-wow64` or `wine-11.X-amd64-wow64` (latest available)
 - Enable DXVK: `Disable` (Enable it if you have rendering issues)
 
 **System Options:**
@@ -131,16 +131,11 @@ Configure the following settings:
 
 **Runner Options:**
 
-- Wine version: `GE-Proton 9.27` or `GE-Proton 10.X` (Latest version available)
+- Wine version: `GE-Proton 10.34` or `GE-Proton 11.5+` (Latest version available)
 - Enable DXVK: `Enable` (Disable it if you have rendering issues)
 
 **System Options:**
-
-- Environment options:
-  - Key: `PROTON_VERB`
-  - Value: `waitforexitandrun`
 - Locale: Select **Japanese**
--
 
 Click **Play** to create the prefix and open the game.
 
@@ -149,7 +144,12 @@ From GE-Proton 10.20+ if you have video playback issues you can also try the old
 
 - Key: `PROTON_MEDIA_USE_GST`
 - Value: `1`
-  :::
+:::
+::: tip
+If you have issues with games booting into a black screen with only sound, add in Environment options:
+  - Key: `PROTON_VERB`
+  - Value: `waitforexitandrun`
+:::
 
 ## Step 7: Install Japanese Fonts
 

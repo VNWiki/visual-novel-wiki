@@ -104,11 +104,11 @@ In Lutris, visit any game's config and enter these settings:
 
 Based on the prefix type, select the appropriate Wine runner:
 
-| Prefix Type   | Recommended Runner | Installation Source                                                                        | Notes                                                                              |
-| ------------- | ------------------ | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| **vanilla**   | Wine 10            | [protonUp-qt](protonup) [Kron4ek Builds](https://github.com/Kron4ek/Wine-Builds/releases/) | It has fullscreen issues with some VNs, can use gamescope as a workaround          |
-| **proton_ge** | Proton-GE 10.25    | [protonUp-qt](protonup)                                                                    | -                                                                                  |
-| **Others**    | Lutris 7.2         | Default                                                                                    | Do NOT use Lutris 7.2.2 (video playback issues)<br>Disable DXVK for these prefixes |
+| Prefix Type   | Recommended Runner        | Installation Source                                                                                      | Notes                                                                              |
+| ------------- | ------------------        | ------------------------------------------------------------------------------------------               | ---------------------------------------------------------------------------------- |
+| **vanilla**   | Wine 10.4-amd64-wow64     | [protonUp-qt](protonup) [Kron4ek Builds](https://github.com/Kron4ek/Wine-Builds/releases/)               | It has fullscreen issues with some VNs, can use gamescope as a workaround          |
+| **proton_ge** | Proton-GE 11.5+           | [protonUp-qt](protonup) [Official github](https://github.com/GloriousEggroll/proton-ge-custom/releases)  | Use 10.34 has a fallback                                                           |
+| **Others**    | wine 11-amd64             | [protonUp-qt](protonup) [Kron4ek Builds](https://github.com/Kron4ek/Wine-Builds/releases/)               | Disable DXVK for these prefixes                                                    |
 
 ### 4. Install components (optional)
 
@@ -144,6 +144,7 @@ Needs GStreamer libraries for video playback.
   ```
 
 - **Flatpak Lutris or Steam Deck**: No need to install anything as these come bundled in.
+- Some VNs with heavy special effects may lag with wine 10 wow64 builds, in this case try newer wine 11 wow64 builds or another prefix.
 
 #### proton GE (64bit)
 
@@ -151,7 +152,7 @@ No extra video components needed; should work out of the box.
 
 - If using outside Steam (like Lutris), install `umu-launcher`.
 - Flatpak/Steam Deck Lutris bundles `umu-launcher` so no need to install it.
-- If you have video playback issues try to add Environment variable PROTON_MEDIA_USE_GST=1 (It runs the old proton-ge 9 video playback implementation).
+- If you have video playback issues try between proton-ge 11+ and 10.34. With proton-ge 10.34 can also add Environment variable PROTON_MEDIA_USE_GST=1 to the old proton-ge 9 video playback implementation.
 
 ### Media Prefixes
 
